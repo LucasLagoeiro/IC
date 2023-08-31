@@ -1,0 +1,1607 @@
+#VRML_SIM R2023b utf8
+# license: Apache License 2.0
+# license url: http://www.apache.org/licenses/LICENSE-2.0
+# This is a proto file for Webots for the Onshape
+# Extracted from: /home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/robot.urdf
+
+PROTO Onshape [
+  field  SFVec3f     translation     0 0 0
+  field  SFRotation  rotation        0 0 1 0
+  field  SFString    name            "Onshape"  # Is `Robot.name`.
+  field  SFString    controller      "void"     # Is `Robot.controller`.
+  field  MFString    controllerArgs  []         # Is `Robot.controllerArgs`.
+  field  SFString    customData      ""         # Is `Robot.customData`.
+  field  SFBool      supervisor      FALSE      # Is `Robot.supervisor`.
+  field  SFBool      synchronization TRUE       # Is `Robot.synchronization`.
+  field  SFBool      selfCollision   FALSE      # Is `Robot.selfCollision`.
+]
+{
+  Robot {
+    translation IS translation
+    rotation IS rotation
+    controller IS controller
+    controllerArgs IS controllerArgs
+    customData IS customData
+    supervisor IS supervisor
+    synchronization IS synchronization
+    selfCollision IS selfCollision
+    children [
+      Shape {
+        appearance DEF peito_material PBRAppearance {
+          baseColor 0.683880 0.701788 0.706749
+          roughness 1.000000
+          metalness 0
+        }
+        geometry DEF peito_visual Mesh {
+          url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/peito_visual.stl"
+        }
+      }
+      HingeJoint {
+        jointParameters HingeJointParameters {
+          axis 1.000000 -0.000000 0.000000
+          anchor -0.083213 0.070969 0.149205
+        }
+        device [
+          RotationalMotor {
+            name "ombro_direito_3"
+            maxVelocity 6.0
+            minPosition -2.7
+            maxPosition 2.7
+            maxTorque 10.0
+          }
+          PositionSensor {
+            name "ombro_direito_3_sensor"
+          }
+        ]
+        endPoint Solid {
+          translation -0.083213 0.070969 0.149205
+          rotation 0.577350 0.577350 0.577350 2.094395
+          children [
+            Shape {
+              appearance DEF ombro_material PBRAppearance {
+                baseColor 0.596078 0.666667 0.686275
+                roughness 1.000000
+                metalness 0
+              }
+              geometry DEF ombro_visual Mesh {
+                url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/ombro_visual.stl"
+              }
+            }
+            HingeJoint {
+              jointParameters HingeJointParameters {
+                axis -1.000000 0.000000 0.000000
+                anchor -0.024750 -0.000000 -0.042000
+              }
+              device [
+                RotationalMotor {
+                  name "ombro_direito_1"
+                  maxVelocity 6.0
+                  minPosition -2.7
+                  maxPosition 2.7
+                  maxTorque 10.0
+                }
+                PositionSensor {
+                  name "ombro_direito_1_sensor"
+                }
+              ]
+              endPoint Solid {
+                translation -0.024750 -0.000000 -0.042000
+                rotation -0.000000 -1.000000 -0.000000 1.570796
+                children [
+                  Shape {
+                    appearance DEF braco_material PBRAppearance {
+                      baseColor 0.593536 0.669368 0.676264
+                      roughness 1.000000
+                      metalness 0
+                    }
+                    geometry DEF braco_visual Mesh {
+                      url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/braco_visual.stl"
+                    }
+                  }
+                  HingeJoint {
+                    jointParameters HingeJointParameters {
+                      axis -1.000000 0.000000 0.000000
+                      anchor -0.024500 -0.141000 -0.024500
+                    }
+                    device [
+                      RotationalMotor {
+                        name "cotovelo_direito_5"
+                        maxVelocity 6.0
+                        minPosition -2.7
+                        maxPosition 2.7
+                        maxTorque 10.0
+                      }
+                      PositionSensor {
+                        name "cotovelo_direito_5_sensor"
+                      }
+                    ]
+                    endPoint Solid {
+                      translation -0.024500 -0.141000 -0.024500
+                      rotation -0.000000 -1.000000 -0.000000 1.570796
+                      children [
+                        Shape {
+                          appearance DEF mao_material PBRAppearance {
+                            baseColor 0.611617 0.675033 0.692649
+                            roughness 1.000000
+                            metalness 0
+                          }
+                          geometry DEF mao_visual Mesh {
+                            url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/mao_visual.stl"
+                          }
+                        }
+                      ]
+                      name "mao"
+                      boundingObject Group {
+                        children [
+                          Pose {
+                            translation 0.022000 -0.052000 -0.043500
+                            rotation -0.707107 0.707107 -0.000000 3.141593
+                            children [
+                              DEF mao Mesh {
+                                url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/mao.stl"
+                              }
+                            ]
+                          }
+                          Pose {
+                            translation -0.018750 -0.001000 -0.011500
+                            rotation 0.000000 -0.000000 -1.000000 1.570796
+                            children [
+                              DEF apoio_mao Mesh {
+                                url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/apoio_mao.stl"
+                              }
+                            ]
+                          }
+                          Pose {
+                            translation 0.000000 0.000000 -0.024500
+                            children [
+                              DEF xm_540 Mesh {
+                                url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/xm_540.stl"
+                              }
+                            ]
+                          }
+                          Pose {
+                            translation 0.016750 -0.001000 -0.011500
+                            rotation 0.000000 0.000000 -1.000000 1.570796
+                            children [
+                              USE apoio_mao
+                            ]
+                          }
+                        ]
+                      }
+                      physics Physics {
+                        density -1
+                        mass 0.739120
+                        centerOfMass [ 0.000000 -0.024983 -0.023852 ]
+                        inertiaMatrix [
+                          1.162408e-03 2.045212e-04 1.129553e-03
+                          -1.064272e-12 2.598116e-12 -5.966537e-06
+                        ]
+                      }
+                    }
+                  }
+                ]
+                name "braco"
+                boundingObject Group {
+                  children [
+                    Pose {
+                      translation 0.024500 -0.041000 -0.036500
+                      rotation 0.000000 -1.000000 0.000000 1.570796
+                      children [
+                        DEF junta_ombro Mesh {
+                          url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/junta_ombro.stl"
+                        }
+                      ]
+                    }
+                    Pose {
+                      translation 0.026500 -0.156000 -0.024500
+                      rotation 0.000000 -1.000000 0.000000 1.570796
+                      children [
+                        DEF braco Mesh {
+                          url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/braco.stl"
+                        }
+                      ]
+                    }
+                    Pose {
+                      translation -0.026500 -0.156000 -0.024500
+                      rotation -0.000000 1.000000 0.000000 1.570796
+                      children [
+                        USE braco
+                      ]
+                    }
+                    Pose {
+                      translation -0.016750 -0.041000 -0.036500
+                      rotation 0.000000 -1.000000 0.000000 1.570796
+                      children [
+                        USE junta_ombro
+                      ]
+                    }
+                    Pose {
+                      translation 0.000000 0.000000 -0.024500
+                      children [
+                        USE xm_540
+                      ]
+                    }
+                  ]
+                }
+                physics Physics {
+                  density -1
+                  mass 0.744906
+                  centerOfMass [ 0.000000 -0.017970 -0.023652 ]
+                  inertiaMatrix [
+                    4.798990e-04 2.159248e-04 4.641409e-04
+                    9.200601e-14 6.527320e-11 -1.882433e-06
+                  ]
+                }
+              }
+            }
+          ]
+          name "ombro"
+          boundingObject Pose {
+            rotation 0.577350 0.577350 -0.577350 2.094395
+            children [
+              DEF ombro Mesh {
+                url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/ombro.stl"
+              }
+            ]
+          }
+          physics Physics {
+            density -1
+            mass 0.059819
+            centerOfMass [ 0.000000 -0.000000 -0.013873 ]
+            inertiaMatrix [
+              1.606092e-05 4.170447e-05 3.516622e-05
+              -1.305860e-41 8.830912e-37 -2.825173e-10
+            ]
+          }
+        }
+      }
+      HingeJoint {
+        jointParameters HingeJointParameters {
+          axis -1.000000 0.000000 0.000000
+          anchor 0.087787 0.070969 0.149205
+        }
+        device [
+          RotationalMotor {
+            name "ombro_esquerdo_4"
+            maxVelocity 6.0
+            minPosition -2.7
+            maxPosition 2.7
+            maxTorque 10.0
+          }
+          PositionSensor {
+            name "ombro_esquerdo_4_sensor"
+          }
+        ]
+        endPoint Solid {
+          translation 0.087787 0.070969 0.149205
+          rotation -0.577350 -0.577350 0.577350 2.094395
+          children [
+            Shape {
+              appearance DEF ombro_2_material PBRAppearance {
+                baseColor 0.596078 0.666667 0.686275
+                roughness 1.000000
+                metalness 0
+              }
+              geometry DEF ombro_2_visual Mesh {
+                url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/ombro_2_visual.stl"
+              }
+            }
+            HingeJoint {
+              jointParameters HingeJointParameters {
+                axis -1.000000 0.000000 -0.000000
+                anchor -0.026750 0.000000 -0.042000
+              }
+              device [
+                RotationalMotor {
+                  name "ombro_esquerdo_2"
+                  maxVelocity 6.0
+                  minPosition -2.7
+                  maxPosition 2.7
+                  maxTorque 10.0
+                }
+                PositionSensor {
+                  name "ombro_esquerdo_2_sensor"
+                }
+              ]
+              endPoint Solid {
+                translation -0.026750 0.000000 -0.042000
+                rotation -0.707107 0.000000 0.707107 3.141593
+                children [
+                  Shape {
+                    appearance DEF braco_2_material PBRAppearance {
+                      baseColor 0.593536 0.669368 0.676264
+                      roughness 1.000000
+                      metalness 0
+                    }
+                    geometry DEF braco_2_visual Mesh {
+                      url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/braco_2_visual.stl"
+                    }
+                  }
+                  HingeJoint {
+                    jointParameters HingeJointParameters {
+                      axis 1.000000 0.000000 0.000000
+                      anchor 0.024500 -0.141000 -0.024500
+                    }
+                    device [
+                      RotationalMotor {
+                        name "cotovelo_esquerdo_6"
+                        maxVelocity 6.0
+                        minPosition -2.7
+                        maxPosition 2.7
+                        maxTorque 10.0
+                      }
+                      PositionSensor {
+                        name "cotovelo_esquerdo_6_sensor"
+                      }
+                    ]
+                    endPoint Solid {
+                      translation 0.024500 -0.141000 -0.024500
+                      rotation -0.000000 1.000000 0.000000 1.570796
+                      children [
+                        Shape {
+                          appearance DEF mao_2_material PBRAppearance {
+                            baseColor 0.611617 0.675033 0.692649
+                            roughness 1.000000
+                            metalness 0
+                          }
+                          geometry DEF mao_2_visual Mesh {
+                            url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/mao_2_visual.stl"
+                          }
+                        }
+                      ]
+                      name "mao_2"
+                      boundingObject Group {
+                        children [
+                          Pose {
+                            translation -0.018750 -0.001000 -0.011500
+                            rotation -0.000000 0.000000 -1.000000 1.570796
+                            children [
+                              USE apoio_mao
+                            ]
+                          }
+                          Pose {
+                            translation 0.000000 0.000000 -0.024500
+                            children [
+                              USE xm_540
+                            ]
+                          }
+                          Pose {
+                            translation 0.022000 -0.052000 -0.043500
+                            rotation 0.707107 -0.707107 0.000000 3.141593
+                            children [
+                              USE mao
+                            ]
+                          }
+                          Pose {
+                            translation 0.016750 -0.001000 -0.011500
+                            rotation -0.000000 0.000000 -1.000000 1.570796
+                            children [
+                              USE apoio_mao
+                            ]
+                          }
+                        ]
+                      }
+                      physics Physics {
+                        density -1
+                        mass 0.739120
+                        centerOfMass [ 0.000000 -0.024983 -0.023852 ]
+                        inertiaMatrix [
+                          1.162408e-03 2.045212e-04 1.129553e-03
+                          -1.064268e-12 2.598116e-12 -5.966537e-06
+                        ]
+                      }
+                    }
+                  }
+                ]
+                name "braco_2"
+                boundingObject Group {
+                  children [
+                    Pose {
+                      translation 0.024500 -0.041000 -0.036500
+                      rotation 0.000000 -1.000000 0.000000 1.570796
+                      children [
+                        USE junta_ombro
+                      ]
+                    }
+                    Pose {
+                      translation 0.000000 -0.000000 -0.024500
+                      children [
+                        USE xm_540
+                      ]
+                    }
+                    Pose {
+                      translation -0.016750 -0.041000 -0.036500
+                      rotation 0.000000 -1.000000 0.000000 1.570796
+                      children [
+                        USE junta_ombro
+                      ]
+                    }
+                    Pose {
+                      translation 0.026500 -0.156000 -0.024500
+                      rotation 0.000000 -1.000000 0.000000 1.570796
+                      children [
+                        USE braco
+                      ]
+                    }
+                    Pose {
+                      translation -0.026500 -0.156000 -0.024500
+                      rotation -0.000000 1.000000 0.000000 1.570796
+                      children [
+                        USE braco
+                      ]
+                    }
+                  ]
+                }
+                physics Physics {
+                  density -1
+                  mass 0.744906
+                  centerOfMass [ 0.000000 -0.017970 -0.023652 ]
+                  inertiaMatrix [
+                    4.798990e-04 2.159248e-04 4.641409e-04
+                    9.200554e-14 6.527320e-11 -1.882433e-06
+                  ]
+                }
+              }
+            }
+          ]
+          name "ombro_2"
+          boundingObject Pose {
+            rotation 0.577350 0.577350 -0.577350 2.094395
+            children [
+              USE ombro
+            ]
+          }
+          physics Physics {
+            density -1
+            mass 0.059819
+            centerOfMass [ 0.000000 -0.000000 -0.013873 ]
+            inertiaMatrix [
+              1.606092e-05 4.170447e-05 3.516622e-05
+              1.828204e-41 -1.236328e-36 -2.825173e-10
+            ]
+          }
+        }
+      }
+      HingeJoint {
+        jointParameters HingeJointParameters {
+          axis 0.000000 -0.000000 -1.000000
+          anchor 0.002498 0.048469 0.167955
+        }
+        device [
+          RotationalMotor {
+            name "pescoço_19"
+            maxVelocity 6.0
+            minPosition -2.7
+            maxPosition 2.7
+            maxTorque 10.0
+          }
+          PositionSensor {
+            name "pescoço_19_sensor"
+          }
+        ]
+        endPoint Solid {
+          translation 0.002498 0.048469 0.167955
+          rotation -0.707107 0.707107 -0.000000 3.141593
+          children [
+            Shape {
+              appearance DEF pescoco_material PBRAppearance {
+                baseColor 0.144352 0.144352 0.144352
+                roughness 1.000000
+                metalness 0
+              }
+              geometry DEF pescoco_visual Mesh {
+                url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/pescoco_visual.stl"
+              }
+            }
+            HingeJoint {
+              jointParameters HingeJointParameters {
+                axis -0.000000 1.000000 0.000000
+                anchor -0.000750 0.019000 -0.060750
+              }
+              device [
+                RotationalMotor {
+                  name "pescoço_20"
+                  maxVelocity 6.0
+                  minPosition -2.7
+                  maxPosition 2.7
+                  maxTorque 10.0
+                }
+                PositionSensor {
+                  name "pescoço_20_sensor"
+                }
+              ]
+              endPoint Solid {
+                translation -0.000750 0.019000 -0.060750
+                rotation -1.000000 -0.000000 0.000000 1.570796
+                children [
+                  Shape {
+                    appearance DEF capacete_material PBRAppearance {
+                      baseColor 0.787536 0.812047 0.913591
+                      roughness 1.000000
+                      metalness 0
+                    }
+                    geometry DEF capacete_visual Mesh {
+                      url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/capacete_visual.stl"
+                    }
+                  }
+                ]
+                name "capacete"
+                boundingObject Group {
+                  children [
+                    Pose {
+                      translation 0.019657 0.027657 -0.069500
+                      rotation -0.000000 -1.000000 -0.000000 1.570796
+                      children [
+                        DEF webcam Mesh {
+                          url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/webcam.stl"
+                        }
+                      ]
+                    }
+                    Pose {
+                      translation 0.006657 0.005657 -0.000500
+                      children [
+                        DEF capacete Mesh {
+                          url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/capacete.stl"
+                        }
+                      ]
+                    }
+                    Pose {
+                      translation 0.029657 0.057657 -0.040500
+                      rotation -1.000000 0.000000 -0.000000 3.141593
+                      children [
+                        DEF tampa_capacete Mesh {
+                          url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/tampa_capacete.stl"
+                        }
+                      ]
+                    }
+                  ]
+                }
+                physics Physics {
+                  density -1
+                  mass 0.413474
+                  centerOfMass [ 0.006937 0.041371 -0.019493 ]
+                  inertiaMatrix [
+                    2.893456e-04 2.819696e-04 5.738237e-05
+                    4.382665e-07 5.023613e-08 1.739618e-08
+                  ]
+                }
+              }
+            }
+          ]
+          name "pescoco"
+          boundingObject Group {
+            children [
+              Pose {
+                translation -0.000750 0.000000 -0.060750
+                rotation -1.000000 -0.000000 0.000000 1.570796
+                children [
+                  DEF xm_430 Mesh {
+                    url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/xm_430.stl"
+                  }
+                ]
+              }
+              Pose {
+                translation -0.015000 0.019000 0.000000
+                rotation -1.000000 0.000000 -0.000000 1.570796
+                children [
+                  DEF pescoco Mesh {
+                    url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/pescoco.stl"
+                  }
+                ]
+              }
+            ]
+          }
+          physics Physics {
+            density -1
+            mass 0.394812
+            centerOfMass [ -0.000753 0.000625 -0.045915 ]
+            inertiaMatrix [
+              1.609230e-04 1.389210e-04 7.366453e-05
+              -6.590875e-10 4.735301e-08 8.185670e-07
+            ]
+          }
+        }
+      }
+      HingeJoint {
+        jointParameters HingeJointParameters {
+          axis 0.000000 -0.000000 1.000000
+          anchor -0.040713 0.057719 -0.046045
+        }
+        device [
+          RotationalMotor {
+            name "junta_peito_pernaD_7"
+            maxVelocity 6.0
+            minPosition -2.7
+            maxPosition 2.7
+            maxTorque 10.0
+          }
+          PositionSensor {
+            name "junta_peito_pernaD_7_sensor"
+          }
+        ]
+        endPoint Solid {
+          translation -0.040713 0.057719 -0.046045
+          rotation 0.000000 0.000000 1.000000 1.570796
+          children [
+            Shape {
+              appearance DEF conector_calcanhar_material PBRAppearance {
+                baseColor 0.600000 0.600000 0.600000
+                roughness 1.000000
+                metalness 0
+              }
+              geometry DEF conector_calcanhar_visual Mesh {
+                url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/conector_calcanhar_visual.stl"
+              }
+            }
+            HingeJoint {
+              jointParameters HingeJointParameters {
+                axis 1.000000 -0.000000 -0.000000
+                anchor 0.078700 0.000000 -0.033000
+              }
+              device [
+                RotationalMotor {
+                  name "perna_direita_9"
+                  maxVelocity 6.0
+                  minPosition -2.7
+                  maxPosition 2.7
+                  maxTorque 10.0
+                }
+                PositionSensor {
+                  name "perna_direita_9_sensor"
+                }
+              ]
+              endPoint Solid {
+                translation 0.078700 0.000000 -0.033000
+                rotation 0.577350 0.577350 0.577350 2.094395
+                children [
+                  Shape {
+                    appearance DEF motores_duplos_material PBRAppearance {
+                      baseColor 0.642580 0.703747 0.720738
+                      roughness 1.000000
+                      metalness 0
+                    }
+                    geometry DEF motores_duplos_visual Mesh {
+                      url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/motores_duplos_visual.stl"
+                    }
+                  }
+                  HingeJoint {
+                    jointParameters HingeJointParameters {
+                      axis -1.000000 -0.000000 0.000000
+                      anchor 0.025000 -0.031000 -0.074100
+                    }
+                    device [
+                      RotationalMotor {
+                        name "coxa_direita_11"
+                        maxVelocity 6.0
+                        minPosition -2.7
+                        maxPosition 2.7
+                        maxTorque 10.0
+                      }
+                      PositionSensor {
+                        name "coxa_direita_11_sensor"
+                      }
+                    ]
+                    endPoint Solid {
+                      translation 0.025000 -0.031000 -0.074100
+                      rotation 0.000000 -1.000000 0.000000 1.570796
+                      children [
+                        Shape {
+                          appearance DEF joelho_material PBRAppearance {
+                            baseColor 0.596078 0.666667 0.686275
+                            roughness 1.000000
+                            metalness 0
+                          }
+                          geometry DEF joelho_visual Mesh {
+                            url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/joelho_visual.stl"
+                          }
+                        }
+                        HingeJoint {
+                          jointParameters HingeJointParameters {
+                            axis 0.000000 0.000000 1.000000
+                            anchor 0.000000 -0.130500 0.000500
+                          }
+                          device [
+                            RotationalMotor {
+                              name "joelho_direito_13"
+                              maxVelocity 6.0
+                              minPosition -2.7
+                              maxPosition 2.7
+                              maxTorque 10.0
+                            }
+                            PositionSensor {
+                              name "joelho_direito_13_sensor"
+                            }
+                          ]
+                          endPoint Solid {
+                            translation 0.000000 -0.130500 0.000500
+                            children [
+                              Shape {
+                                appearance DEF canela_material PBRAppearance {
+                                  baseColor 0.596078 0.666667 0.686275
+                                  roughness 1.000000
+                                  metalness 0
+                                }
+                                geometry DEF canela_visual Mesh {
+                                  url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/canela_visual.stl"
+                                }
+                              }
+                              HingeJoint {
+                                jointParameters HingeJointParameters {
+                                  axis 0.000000 0.000000 1.000000
+                                  anchor 0.000000 -0.130000 0.050000
+                                }
+                                device [
+                                  RotationalMotor {
+                                    name "pe_direito_15"
+                                    maxVelocity 6.0
+                                    minPosition -2.7
+                                    maxPosition 2.7
+                                    maxTorque 10.0
+                                  }
+                                  PositionSensor {
+                                    name "pe_direito_15_sensor"
+                                  }
+                                ]
+                                endPoint Solid {
+                                  translation 0.000000 -0.130000 0.050000
+                                  children [
+                                    Shape {
+                                      appearance DEF motores_duplos_2_material PBRAppearance {
+                                        baseColor 0.642580 0.703747 0.720738
+                                        roughness 1.000000
+                                        metalness 0
+                                      }
+                                      geometry DEF motores_duplos_2_visual Mesh {
+                                        url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/motores_duplos_2_visual.stl"
+                                      }
+                                    }
+                                    HingeJoint {
+                                      jointParameters HingeJointParameters {
+                                        axis -1.000000 0.000000 0.000000
+                                        anchor 0.074100 -0.031000 -0.025000
+                                      }
+                                      device [
+                                        RotationalMotor {
+                                          name "pe_direito_17"
+                                          maxVelocity 6.0
+                                          minPosition -2.7
+                                          maxPosition 2.7
+                                          maxTorque 10.0
+                                        }
+                                        PositionSensor {
+                                          name "pe_direito_17_sensor"
+                                        }
+                                      ]
+                                      endPoint Solid {
+                                        translation 0.074100 -0.031000 -0.025000
+                                        rotation -0.577350 -0.577350 0.577350 2.094395
+                                        children [
+                                          Shape {
+                                            appearance DEF pe_direito_material PBRAppearance {
+                                              baseColor 0.598579 0.624151 0.631254
+                                              roughness 1.000000
+                                              metalness 0
+                                            }
+                                            geometry DEF pe_direito_visual Mesh {
+                                              url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/pe_direito_visual.stl"
+                                            }
+                                          }
+                                        ]
+                                        name "pe_direito"
+                                        boundingObject Group {
+                                          children [
+                                            Pose {
+                                              translation -0.033000 -0.020200 0.057500
+                                              rotation 0.577350 0.577350 -0.577350 2.094395
+                                              children [
+                                                DEF conector_calcanhar Mesh {
+                                                  url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/conector_calcanhar.stl"
+                                                }
+                                              ]
+                                            }
+                                            Pose {
+                                              translation -0.033000 0.063800 0.201000
+                                              rotation -0.707107 0.000000 0.707107 3.141593
+                                              children [
+                                                DEF pe Mesh {
+                                                  url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/pe.stl"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                        physics Physics {
+                                          density -1
+                                          mass 0.239194
+                                          centerOfMass [ -0.029588 0.003976 0.071403 ]
+                                          inertiaMatrix [
+                                            8.333298e-04 7.303742e-04 1.321754e-04
+                                            4.672117e-06 2.009087e-05 -3.230040e-05
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  ]
+                                  name "motores_duplos_2"
+                                  boundingObject Group {
+                                    children [
+                                      Pose {
+                                        translation 0.000000 -0.000000 -0.024500
+                                        children [
+                                          USE xm_540
+                                        ]
+                                      }
+                                      Pose {
+                                        translation -0.035000 -0.031000 -0.024430
+                                        rotation -0.577350 0.577350 0.577350 2.094395
+                                        children [
+                                          DEF rolamento Mesh {
+                                            url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/rolamento.stl"
+                                          }
+                                        ]
+                                      }
+                                      Pose {
+                                        translation -0.035000 -0.031000 -0.024430
+                                        rotation -0.577350 0.577350 0.577350 2.094395
+                                        children [
+                                          DEF peca_rolamento Mesh {
+                                            url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/peca_rolamento.stl"
+                                          }
+                                        ]
+                                      }
+                                      Pose {
+                                        translation 0.049600 -0.031000 -0.025000
+                                        rotation -0.707107 -0.000000 -0.707107 3.141593
+                                        children [
+                                          USE xm_540
+                                        ]
+                                      }
+                                      Pose {
+                                        translation -0.029700 0.009800 0.000000
+                                        rotation -0.577350 0.577350 0.577350 2.094395
+                                        children [
+                                          DEF rolamento_motor Mesh {
+                                            url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/rolamento_motor.stl"
+                                          }
+                                        ]
+                                      }
+                                      Pose {
+                                        translation 0.016750 -0.044750 -0.002500
+                                        rotation -0.000000 1.000000 0.000000 1.570796
+                                        children [
+                                          DEF junta_motores Mesh {
+                                            url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/junta_motores.stl"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                  physics Physics {
+                                    density -1
+                                    mass 1.532598
+                                    centerOfMass [ 0.024014 -0.015763 -0.024413 ]
+                                    inertiaMatrix [
+                                      6.473235e-04 1.393334e-03 1.610811e-03
+                                      -9.715833e-06 2.015010e-05 -1.585238e-06
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                            name "canela"
+                            boundingObject Pose {
+                              translation -0.016750 -0.146500 -0.002000
+                              rotation -0.577350 -0.577350 -0.577350 2.094395
+                              children [
+                                DEF canela Mesh {
+                                  url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/canela.stl"
+                                }
+                              ]
+                            }
+                            physics Physics {
+                              density -1
+                              mass 0.192578
+                              centerOfMass [ 0.000000 -0.065000 0.025000 ]
+                              inertiaMatrix [
+                                4.464264e-04 1.319352e-04 3.451714e-04
+                                4.235297e-27 1.095901e-13 -1.739556e-11
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                      name "joelho"
+                      boundingObject Group {
+                        children [
+                          Pose {
+                            translation 0.000000 -0.130500 0.025000
+                            rotation -1.000000 0.000000 -0.000000 3.141593
+                            children [
+                              USE xm_540
+                            ]
+                          }
+                          Pose {
+                            translation -0.016750 -0.085750 0.052000
+                            rotation -1.000000 0.000000 0.000000 1.570796
+                            children [
+                              DEF coxa Mesh {
+                                url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/coxa.stl"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                      physics Physics {
+                        density -1
+                        mass 0.866918
+                        centerOfMass [ 0.000000 -0.098997 0.024478 ]
+                        inertiaMatrix [
+                          1.311283e-03 2.860721e-04 1.180637e-03
+                          2.139290e-12 -2.577287e-12 -8.727699e-06
+                        ]
+                      }
+                    }
+                  }
+                ]
+                name "motores_duplos"
+                boundingObject Group {
+                  children [
+                    Pose {
+                      translation 0.000000 0.000000 -0.024500
+                      children [
+                        USE xm_540
+                      ]
+                    }
+                    Pose {
+                      translation 0.000570 0.000000 -0.109100
+                      rotation -0.000000 0.707107 -0.707107 3.141593
+                      children [
+                        USE peca_rolamento
+                      ]
+                    }
+                    Pose {
+                      translation 0.025000 -0.040800 -0.103800
+                      rotation 0.000000 0.707107 -0.707107 3.141593
+                      children [
+                        USE rolamento_motor
+                      ]
+                    }
+                    Pose {
+                      translation 0.000570 0.000000 -0.109100
+                      rotation -0.000000 0.707107 -0.707107 3.141593
+                      children [
+                        USE rolamento
+                      ]
+                    }
+                    Pose {
+                      translation 0.022500 0.013750 -0.057350
+                      rotation -0.000000 0.000000 -1.000000 3.141593
+                      children [
+                        USE junta_motores
+                      ]
+                    }
+                    Pose {
+                      translation 0.000500 -0.031000 -0.074100
+                      rotation -0.707107 -0.000000 -0.707107 3.141593
+                      children [
+                        USE xm_540
+                      ]
+                    }
+                  ]
+                }
+                physics Physics {
+                  density -1
+                  mass 1.532598
+                  centerOfMass [ 0.000586 -0.015237 -0.050086 ]
+                  inertiaMatrix [
+                    1.610811e-03 1.393334e-03 6.473235e-04
+                    1.585238e-06 2.015010e-05 9.715833e-06
+                  ]
+                }
+              }
+            }
+          ]
+          name "conector_calcanhar"
+          boundingObject Pose {
+            translation 0.021200 0.020200 0.000000
+            rotation -1.000000 0.000000 0.000000 1.570796
+            children [
+              USE conector_calcanhar
+            ]
+          }
+          physics Physics {
+            density -1
+            mass 0.152543
+            centerOfMass [ 0.024705 -0.000000 -0.006202 ]
+            inertiaMatrix [
+              3.117182e-05 2.757415e-04 2.843804e-04
+              3.806312e-13 -3.620273e-07 -2.157674e-13
+            ]
+          }
+        }
+      }
+      HingeJoint {
+        jointParameters HingeJointParameters {
+          axis 0.000000 -0.000000 1.000000
+          anchor 0.045287 0.057719 -0.046045
+        }
+        device [
+          RotationalMotor {
+            name "junta_peito_pernaE_8"
+            maxVelocity 6.0
+            minPosition -2.7
+            maxPosition 2.7
+            maxTorque 10.0
+          }
+          PositionSensor {
+            name "junta_peito_pernaE_8_sensor"
+          }
+        ]
+        endPoint Solid {
+          translation 0.045287 0.057719 -0.046045
+          rotation 0.000000 0.000000 1.000000 1.570796
+          children [
+            Shape {
+              appearance DEF conector_calcanhar_2_material PBRAppearance {
+                baseColor 0.600000 0.600000 0.600000
+                roughness 1.000000
+                metalness 0
+              }
+              geometry DEF conector_calcanhar_2_visual Mesh {
+                url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/conector_calcanhar_2_visual.stl"
+              }
+            }
+            HingeJoint {
+              jointParameters HingeJointParameters {
+                axis 1.000000 -0.000000 -0.000000
+                anchor 0.078700 -0.000000 -0.033000
+              }
+              device [
+                RotationalMotor {
+                  name "perna_esquerda_10"
+                  maxVelocity 6.0
+                  minPosition -2.7
+                  maxPosition 2.7
+                  maxTorque 10.0
+                }
+                PositionSensor {
+                  name "perna_esquerda_10_sensor"
+                }
+              ]
+              endPoint Solid {
+                translation 0.078700 -0.000000 -0.033000
+                rotation 0.577350 0.577350 0.577350 2.094395
+                children [
+                  Shape {
+                    appearance DEF motores_duplos_3_material PBRAppearance {
+                      baseColor 0.642580 0.703747 0.720738
+                      roughness 1.000000
+                      metalness 0
+                    }
+                    geometry DEF motores_duplos_3_visual Mesh {
+                      url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/motores_duplos_3_visual.stl"
+                    }
+                  }
+                  HingeJoint {
+                    jointParameters HingeJointParameters {
+                      axis -1.000000 -0.000000 -0.000000
+                      anchor 0.025000 -0.031000 -0.074100
+                    }
+                    device [
+                      RotationalMotor {
+                        name "coxa_esquerda_12"
+                        maxVelocity 6.0
+                        minPosition -2.7
+                        maxPosition 2.7
+                        maxTorque 10.0
+                      }
+                      PositionSensor {
+                        name "coxa_esquerda_12_sensor"
+                      }
+                    ]
+                    endPoint Solid {
+                      translation 0.025000 -0.031000 -0.074100
+                      rotation 0.707107 0.000000 -0.707107 3.141593
+                      children [
+                        Shape {
+                          appearance DEF joelho_2_material PBRAppearance {
+                            baseColor 0.596078 0.666667 0.686275
+                            roughness 1.000000
+                            metalness 0
+                          }
+                          geometry DEF joelho_2_visual Mesh {
+                            url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/joelho_2_visual.stl"
+                          }
+                        }
+                        HingeJoint {
+                          jointParameters HingeJointParameters {
+                            axis -0.000000 0.000000 -1.000000
+                            anchor -0.000000 0.130500 0.049500
+                          }
+                          device [
+                            RotationalMotor {
+                              name "joelho_esquerdo_14"
+                              maxVelocity 6.0
+                              minPosition -2.7
+                              maxPosition 2.7
+                              maxTorque 10.0
+                            }
+                            PositionSensor {
+                              name "joelho_esquerdo_14_sensor"
+                            }
+                          ]
+                          endPoint Solid {
+                            translation -0.000000 0.130500 0.049500
+                            rotation 0.000000 -1.000000 -0.000000 3.141593
+                            children [
+                              Shape {
+                                appearance DEF canela_2_material PBRAppearance {
+                                  baseColor 0.596078 0.666667 0.686275
+                                  roughness 1.000000
+                                  metalness 0
+                                }
+                                geometry DEF canela_2_visual Mesh {
+                                  url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/canela_2_visual.stl"
+                                }
+                              }
+                              HingeJoint {
+                                jointParameters HingeJointParameters {
+                                  axis 0.000000 0.000000 -1.000000
+                                  anchor -0.000000 0.130000 -0.000000
+                                }
+                                device [
+                                  RotationalMotor {
+                                    name "pe_esquerdo_16"
+                                    maxVelocity 6.0
+                                    minPosition -2.7
+                                    maxPosition 2.7
+                                    maxTorque 10.0
+                                  }
+                                  PositionSensor {
+                                    name "pe_esquerdo_16_sensor"
+                                  }
+                                ]
+                                endPoint Solid {
+                                  translation -0.000000 0.130000 -0.000000
+                                  rotation -1.000000 -0.000000 -0.000000 3.141593
+                                  children [
+                                    Shape {
+                                      appearance DEF motores_duplos_4_material PBRAppearance {
+                                        baseColor 0.642580 0.703747 0.720738
+                                        roughness 1.000000
+                                        metalness 0
+                                      }
+                                      geometry DEF motores_duplos_4_visual Mesh {
+                                        url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/motores_duplos_4_visual.stl"
+                                      }
+                                    }
+                                    HingeJoint {
+                                      jointParameters HingeJointParameters {
+                                        axis -1.000000 -0.000000 0.000000
+                                        anchor 0.074100 -0.031000 -0.025000
+                                      }
+                                      device [
+                                        RotationalMotor {
+                                          name "pe_esquerdo_18"
+                                          maxVelocity 6.0
+                                          minPosition -2.7
+                                          maxPosition 2.7
+                                          maxTorque 10.0
+                                        }
+                                        PositionSensor {
+                                          name "pe_esquerdo_18_sensor"
+                                        }
+                                      ]
+                                      endPoint Solid {
+                                        translation 0.074100 -0.031000 -0.025000
+                                        rotation -0.577350 -0.577350 0.577350 2.094395
+                                        children [
+                                          Shape {
+                                            appearance DEF pe_esquerdo_material PBRAppearance {
+                                              baseColor 0.598579 0.624151 0.631254
+                                              roughness 1.000000
+                                              metalness 0
+                                            }
+                                            geometry DEF pe_esquerdo_visual Mesh {
+                                              url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/pe_esquerdo_visual.stl"
+                                            }
+                                          }
+                                        ]
+                                        name "pe_esquerdo"
+                                        boundingObject Group {
+                                          children [
+                                            Pose {
+                                              translation -0.036000 -0.063800 0.201000
+                                              rotation 0.000000 1.000000 -0.000000 1.570796
+                                              children [
+                                                USE pe
+                                              ]
+                                            }
+                                            Pose {
+                                              translation -0.033000 -0.020200 0.057500
+                                              rotation 0.577350 0.577350 -0.577350 2.094395
+                                              children [
+                                                USE conector_calcanhar
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                        physics Physics {
+                                          density -1
+                                          mass 0.239194
+                                          centerOfMass [ -0.029588 -0.003976 0.071403 ]
+                                          inertiaMatrix [
+                                            8.333298e-04 7.303742e-04 1.321754e-04
+                                            -4.672117e-06 2.009087e-05 3.230040e-05
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  ]
+                                  name "motores_duplos_4"
+                                  boundingObject Group {
+                                    children [
+                                      Pose {
+                                        translation 0.049600 -0.031000 -0.025000
+                                        rotation -0.707107 -0.000000 -0.707107 3.141593
+                                        children [
+                                          USE xm_540
+                                        ]
+                                      }
+                                      Pose {
+                                        translation -0.035000 -0.031000 -0.024430
+                                        rotation -0.577350 0.577350 0.577350 2.094395
+                                        children [
+                                          USE rolamento
+                                        ]
+                                      }
+                                      Pose {
+                                        translation 0.000000 0.000000 -0.024500
+                                        children [
+                                          USE xm_540
+                                        ]
+                                      }
+                                      Pose {
+                                        translation -0.029700 0.009800 0.000000
+                                        rotation -0.577350 0.577350 0.577350 2.094395
+                                        children [
+                                          USE rolamento_motor
+                                        ]
+                                      }
+                                      Pose {
+                                        translation 0.016750 -0.044750 -0.002500
+                                        rotation 0.000000 1.000000 -0.000000 1.570796
+                                        children [
+                                          USE junta_motores
+                                        ]
+                                      }
+                                      Pose {
+                                        translation -0.035000 -0.031000 -0.024430
+                                        rotation -0.577350 0.577350 0.577350 2.094395
+                                        children [
+                                          USE peca_rolamento
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                  physics Physics {
+                                    density -1
+                                    mass 1.532598
+                                    centerOfMass [ 0.024014 -0.015763 -0.024413 ]
+                                    inertiaMatrix [
+                                      6.473235e-04 1.393334e-03 1.610811e-03
+                                      -9.715833e-06 2.015010e-05 -1.585238e-06
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                            name "canela_2"
+                            boundingObject Pose {
+                              translation -0.016750 0.146500 0.052000
+                              rotation 0.577350 0.577350 -0.577350 2.094395
+                              children [
+                                USE canela
+                              ]
+                            }
+                            physics Physics {
+                              density -1
+                              mass 0.192578
+                              centerOfMass [ 0.000000 0.065000 0.025000 ]
+                              inertiaMatrix [
+                                4.464264e-04 1.319352e-04 3.451714e-04
+                                2.345912e-49 -1.095901e-13 -1.739556e-11
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                      name "joelho_2"
+                      boundingObject Group {
+                        children [
+                          Pose {
+                            translation -0.016750 0.085750 -0.002000
+                            rotation 1.000000 0.000000 -0.000000 1.570796
+                            children [
+                              USE coxa
+                            ]
+                          }
+                          Pose {
+                            translation -0.000000 0.130500 0.025000
+                            children [
+                              USE xm_540
+                            ]
+                          }
+                        ]
+                      }
+                      physics Physics {
+                        density -1
+                        mass 0.866918
+                        centerOfMass [ 0.000000 0.098997 0.025522 ]
+                        inertiaMatrix [
+                          1.311283e-03 2.860721e-04 1.180637e-03
+                          -2.139290e-12 2.577287e-12 -8.727699e-06
+                        ]
+                      }
+                    }
+                  }
+                ]
+                name "motores_duplos_3"
+                boundingObject Group {
+                  children [
+                    Pose {
+                      translation 0.022500 0.013750 -0.057350
+                      rotation -0.000000 -0.000000 -1.000000 3.141593
+                      children [
+                        USE junta_motores
+                      ]
+                    }
+                    Pose {
+                      translation 0.025000 -0.040800 -0.103800
+                      rotation 0.000000 0.707107 -0.707107 3.141593
+                      children [
+                        USE rolamento_motor
+                      ]
+                    }
+                    Pose {
+                      translation 0.000000 0.000000 -0.024500
+                      children [
+                        USE xm_540
+                      ]
+                    }
+                    Pose {
+                      translation 0.000570 -0.000000 -0.109100
+                      rotation -0.000000 0.707107 -0.707107 3.141593
+                      children [
+                        USE peca_rolamento
+                      ]
+                    }
+                    Pose {
+                      translation 0.000500 -0.031000 -0.074100
+                      rotation -0.707107 -0.000000 -0.707107 3.141593
+                      children [
+                        USE xm_540
+                      ]
+                    }
+                    Pose {
+                      translation 0.000570 -0.000000 -0.109100
+                      rotation -0.000000 0.707107 -0.707107 3.141593
+                      children [
+                        USE rolamento
+                      ]
+                    }
+                  ]
+                }
+                physics Physics {
+                  density -1
+                  mass 1.532598
+                  centerOfMass [ 0.000586 -0.015237 -0.050086 ]
+                  inertiaMatrix [
+                    1.610811e-03 1.393334e-03 6.473235e-04
+                    1.585238e-06 2.015010e-05 9.715833e-06
+                  ]
+                }
+              }
+            }
+          ]
+          name "conector_calcanhar_2"
+          boundingObject Pose {
+            translation 0.021200 0.020200 0.000000
+            rotation -1.000000 0.000000 0.000000 1.570796
+            children [
+              USE conector_calcanhar
+            ]
+          }
+          physics Physics {
+            density -1
+            mass 0.152543
+            centerOfMass [ 0.024705 -0.000000 -0.006202 ]
+            inertiaMatrix [
+              3.117182e-05 2.757415e-04 2.843804e-04
+              3.806312e-13 -3.620273e-07 -2.157674e-13
+            ]
+          }
+        }
+      }
+    ]
+    name IS name
+    boundingObject Group {
+      children [
+        Pose {
+          translation -0.058713 0.070969 0.149205
+          rotation -0.707107 0.000000 0.707107 3.141593
+          children [
+            USE xm_540
+          ]
+        }
+        Pose {
+          translation 0.087287 0.013219 0.000455
+          rotation -0.000000 -1.000000 0.000000 3.141593
+          children [
+            DEF tampa_peito Mesh {
+              url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/tampa_peito.stl"
+            }
+          ]
+        }
+        Pose {
+          translation -0.040713 0.057719 -0.021545
+          rotation 1.000000 -0.000000 -0.000000 3.141593
+          children [
+            USE xm_540
+          ]
+        }
+        Pose {
+          translation 0.045287 0.057719 -0.021545
+          rotation 1.000000 -0.000000 -0.000000 3.141593
+          children [
+            USE xm_540
+          ]
+        }
+        Pose {
+          translation 0.053752 0.176500 -0.003545
+          rotation -0.577350 0.577350 -0.577350 2.094395
+          children [
+            DEF tampa_bateria Mesh {
+              url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/tampa_bateria.stl"
+            }
+          ]
+        }
+        Pose {
+          translation -0.052713 0.087219 0.067455
+          children [
+            DEF peito_esquerda Mesh {
+              url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/peito_esquerda.stl"
+            }
+          ]
+        }
+        Pose {
+          translation -0.009713 0.097219 0.002455
+          rotation 0.000000 0.000000 1.000000 3.141593
+          children [
+            DEF peito_base Mesh {
+              url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/peito_base.stl"
+            }
+          ]
+        }
+        Pose {
+          translation 0.063287 0.070969 0.149205
+          rotation 0.707107 -0.000000 0.707107 3.141593
+          children [
+            USE xm_540
+          ]
+        }
+        Pose {
+          translation -0.047213 0.102776 0.103955
+          rotation 0.577350 -0.577350 -0.577350 2.094395
+          children [
+            DEF hub Mesh {
+              url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/hub.stl"
+            }
+          ]
+        }
+        Pose {
+          translation -0.082713 0.087219 0.067455
+          children [
+            DEF peito_direita Mesh {
+              url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/peito_direita.stl"
+            }
+          ]
+        }
+        Pose {
+          translation 0.067287 0.150219 0.007455
+          rotation 0.000000 0.707107 0.707107 3.141593
+          children [
+            DEF placa_eletrica Mesh {
+              url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/placa_eletrica.stl"
+            }
+          ]
+        }
+        Pose {
+          translation 0.002498 0.048469 0.148955
+          rotation -0.000000 0.000000 1.000000 3.141593
+          children [
+            USE xm_430
+          ]
+        }
+        Pose {
+          translation 0.027752 0.000000 0.000455
+          rotation -0.577350 -0.577350 0.577350 2.094395
+          children [
+            DEF bateria1 Mesh {
+              url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/bateria1.stl"
+            }
+          ]
+        }
+        Pose {
+          translation 0.064787 0.152219 0.002455
+          rotation 0.000000 0.707107 0.707107 3.141593
+          children [
+            DEF suporte_interno Mesh {
+              url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/suporte_interno.stl"
+            }
+          ]
+        }
+        Pose {
+          translation 0.040252 0.169000 -0.012545
+          rotation -0.000000 -0.707107 0.707107 3.141593
+          children [
+            DEF bateria2 Mesh {
+              url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/bateria2.stl"
+            }
+          ]
+        }
+        Pose {
+          translation 0.002498 0.090969 0.168455
+          rotation -1.000000 0.000000 -0.000000 3.141593
+          children [
+            DEF porta_botao Mesh {
+              url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/porta_botao.stl"
+            }
+          ]
+        }
+        Pose {
+          translation 0.002287 0.029000 -0.045545
+          children [
+            DEF base_baterias Mesh {
+              url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/base_baterias.stl"
+            }
+          ]
+        }
+        Pose {
+          translation -0.054213 0.140219 0.102455
+          rotation -1.000000 0.000000 -0.000000 1.570796
+          children [
+            DEF nuc Mesh {
+              url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/nuc.stl"
+            }
+          ]
+        }
+        Pose {
+          translation -0.011713 0.034319 0.121455
+          rotation 1.000000 -0.000000 -0.000000 1.570796
+          children [
+            DEF imu Mesh {
+              url "/home/lucas/Desktop/RoboFEI/IC/onshape-to-robot-examples/prometheus/imu.stl"
+            }
+          ]
+        }
+        Pose {
+          translation -0.082713 0.161219 0.000455
+          rotation 1.000000 -0.000000 -0.000000 3.141593
+          children [
+            USE tampa_peito
+          ]
+        }
+      ]
+    }
+    physics Physics {
+      density -1
+      mass 12.978787
+      centerOfMass [ 0.002344 0.081932 0.051331 ]
+      inertiaMatrix [
+        6.956325e-02 6.916417e-02 3.601352e-02
+        -1.782284e-05 -3.142994e-05 -3.043309e-05
+      ]
+    }
+  }
+}

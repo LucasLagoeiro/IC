@@ -1,0 +1,2863 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/floors/protos/RectangleArena.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.005624916510021807 -0.004374754464054819 0.9999746105965065 4.4636143722082045
+  position 0.0019488624644796032 1.4860720926982638 0.38721213282611305
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0 0 -0.02
+}
+Robot {
+  translation -0.2974631281875978 -0.11464594502522586 0.3629984428613945
+  rotation -3.504439961254638e-05 -0.0004208145209032413 0.9999999108435106 2.976880422590834
+  children [
+    Pose {
+      translation -0.031 -0.054127 0.0909
+      children [
+        Shape {
+          appearance DEF pillar_tube_material PBRAppearance {
+            baseColor 0.501961 0.486275 0.439216
+            roughness 1
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.086
+            radius 0.004
+          }
+        }
+      ]
+    }
+    Pose {
+      translation -0.046375 -0.026254 0.02
+      rotation 1e-06 -1 -1e-06 3.141593
+      children [
+        Shape {
+          appearance DEF mx64_material PBRAppearance {
+            baseColor 0.211765 0.211765 0.211765
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.029 0.05 0.04
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0.05 -0.017127 0.1609
+      rotation -0.7071052811840065 -1.0000003976552372e-06 -0.7071082811851994 3.141591
+      children [
+        Shape {
+          appearance USE mx64_material
+          geometry Box {
+            size 0.029 0.05 0.04
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0.046375 -0.026254 0.02
+      rotation 1e-06 -1 -1e-06 3.141593
+      children [
+        Shape {
+          appearance USE mx64_material
+          geometry Box {
+            size 0.029 0.05 0.04
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0 0.071323 0.1899
+      rotation 0.5773496025226482 0.5773496025226482 -0.5773516025212713 2.094399
+      children [
+        Shape {
+          appearance DEF handle_material PBRAppearance {
+            baseColor 0.701961 0.682353 0.623529
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.01 0.13 0.003
+          }
+        }
+      ]
+    }
+    Pose {
+      translation -0.06 0.071323 0.1649
+      rotation 0.5773496025226482 0.5773496025226482 -0.5773516025212713 2.094399
+      children [
+        Shape {
+          appearance USE handle_material
+          geometry Box {
+            size 0.04 0.01 0.003
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0.06 0.071323 0.1649
+      rotation 0.5773496025226482 0.5773496025226482 -0.5773516025212713 2.094399
+      children [
+        Shape {
+          appearance USE handle_material
+          geometry Box {
+            size 0.04 0.01 0.003
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0.0625 0.037873 0.0909
+      rotation -1 0 0 3.14159
+      children [
+        Shape {
+          appearance USE pillar_tube_material
+          geometry Cylinder {
+            height 0.086
+            radius 0.004
+          }
+        }
+      ]
+    }
+    Pose {
+      translation -0.050587 -0.017127 0.1609
+      rotation 0.7071052811840065 1.0000003976552372e-06 -0.7071082811851994 3.141591
+      children [
+        Shape {
+          appearance USE mx64_material
+          geometry Box {
+            size 0.029 0.05 0.04
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0 -0.019127 0.1354
+      rotation 1e-06 -1 -1e-06 3.141593
+      children [
+        Shape {
+          appearance DEF torso_top_plate_nuc_material PBRAppearance {
+            baseColor 0.301961 0.301961 0.301961
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.13 0.08 0.003
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0 0.010373 0.0469
+      children [
+        Shape {
+          appearance DEF torso_middle_plate_nuc_material PBRAppearance {
+            baseColor 0.301961 0.301961 0.301961
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.13 0.08 0.003
+          }
+        }
+      ]
+    }
+    Pose {
+      translation -0.0625 0.037873 0.0909
+      children [
+        Shape {
+          appearance USE pillar_tube_material
+          geometry Cylinder {
+            height 0.086
+            radius 0.004
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0 0.035873 0.10615
+      rotation 1.0000003976552372e-06 -0.7071082811851994 -0.7071052811840065 3.141591
+      children [
+        Shape {
+          appearance DEF nuc_material PBRAppearance {
+            baseColor 0.301961 0.290196 0.262745
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.11 0.11 0.033
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0 0.031123 0.0015
+      children [
+        Shape {
+          appearance DEF torso_bottom_plate_nuc_material PBRAppearance {
+            baseColor 0.4 0.4 0.4
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.13 0.044 0.003
+          }
+        }
+      ]
+    }
+    Pose {
+      translation -0.03 -0.007877 0.0015
+      children [
+        Shape {
+          appearance USE torso_bottom_plate_nuc_material
+          geometry Box {
+            size 0.01 0.035 0.003
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0.03 -0.007877 0.0015
+      children [
+        Shape {
+          appearance USE torso_bottom_plate_nuc_material
+          geometry Box {
+            size 0.01 0.035 0.003
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0 0.059373 0.1384
+      rotation -0.7071052811840065 0.7071082811851994 -1.0000003976552372e-06 3.141591
+      children [
+        Shape {
+          appearance DEF nuc_fix_material PBRAppearance {
+            baseColor 0.301961 0.301961 0.301961
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.01 0.135 0.003
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0 -0.022127 0.1623
+      rotation 0 0 -1 3.14159
+      children [
+        Shape {
+          appearance USE mx64_material
+          geometry Box {
+            size 0.029 0.05 0.04
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0.031 -0.054127 0.0914
+      children [
+        Shape {
+          appearance USE pillar_tube_material
+          geometry Cylinder {
+            height 0.086
+            radius 0.004
+          }
+        }
+      ]
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position -5.469164578946289e-07
+        axis -3e-06 0 1
+        anchor -0.046375 -0.011254 -0.0035
+      }
+      device [
+        RotationalMotor {
+          name "right_hip_yaw"
+          maxVelocity 6
+        }
+        PositionSensor {
+          name "right_hip_yaw_sensor"
+        }
+      ]
+      endPoint Solid {
+        translation -0.04637500000001533 -0.0112541 -0.00349999
+        rotation 0.7070867257750367 -0.7071268341235414 -5.1914888119403525e-05 3.141485307187867
+        children [
+          Pose {
+            translation -0.00494 0 0.003
+            children [
+              Shape {
+                appearance DEF u_base_motors_blocs_material PBRAppearance {
+                  baseColor 0.301961 0.301961 0.301961
+                  roughness 1
+                  metalness 0
+                }
+                geometry Box {
+                  size 0.05 0.03 0.006
+                }
+              }
+            ]
+          }
+          Pose {
+            translation -0.03144 0 0.023
+            rotation 0.5773496025226483 0.5773516025212714 0.5773496025226483 2.094399
+            children [
+              Shape {
+                appearance DEF u_side_small_material PBRAppearance {
+                  baseColor 0.301961 0.301961 0.301961
+                  roughness 1
+                  metalness 0
+                }
+                geometry Box {
+                  size 0.025 0.044 0.003
+                }
+              }
+            ]
+          }
+          Pose {
+            translation 0.0219 0 0.023
+            rotation 0.5773496025226483 -0.5773516025212714 -0.5773496025226483 2.094399
+            children [
+              Shape {
+                appearance DEF u_side_small_with_trace_material PBRAppearance {
+                  baseColor 0.301961 0.301961 0.301961
+                  roughness 1
+                  metalness 0
+                }
+                geometry Box {
+                  size 0.027 0.042 0.003
+                }
+              }
+            ]
+          }
+          HingeJoint {
+            jointParameters HingeJointParameters {
+              position 5.192130877071731e-07
+              axis -1 -4e-06 -4e-06
+              anchor 0.0234 0 0.04
+            }
+            device [
+              RotationalMotor {
+                name "right_hip_roll"
+                maxVelocity 6
+              }
+              PositionSensor {
+                name "right_hip_roll_sensor"
+              }
+            ]
+            endPoint Solid {
+              translation -0.026599999999999988 -1.999998961573824e-07 0.04
+              rotation -0.5773497024460925 -0.5773514026764008 0.577349702444715 2.094399299767496
+              children [
+                Pose {
+                  translation 0 -0.015 0.0234
+                  rotation 0 -1 0 1.5708
+                  children [
+                    Shape {
+                      appearance DEF mx106_material PBRAppearance {
+                        baseColor 0.301961 0.301961 0.301961
+                        roughness 1
+                        metalness 0
+                      }
+                      geometry Box {
+                        size 0.03 0.055 0.04
+                      }
+                    }
+                  ]
+                }
+                Pose {
+                  translation 0 -0.015 -0.026
+                  children [
+                    Shape {
+                      appearance USE mx106_material
+                      geometry Box {
+                        size 0.03 0.055 0.04
+                      }
+                    }
+                  ]
+                }
+                HingeJoint {
+                  jointParameters HingeJointParameters {
+                    position 9.453005053668611e-07
+                    axis 1 0 -4e-06
+                    anchor -0.026 0 0.0234
+                  }
+                  device [
+                    RotationalMotor {
+                      name "right_hip_pitch"
+                      maxVelocity 6
+                    }
+                    PositionSensor {
+                      name "right_hip_pitch_sensor"
+                    }
+                  ]
+                  endPoint Solid {
+                    translation 0.026 3.7007858324055937e-08 -0.01700009999998307
+                    rotation 2.207101352441452e-06 -0.9999999999948608 -2.3253321432827424e-06 1.5707900000018626
+                    children [
+                      Pose {
+                        translation 0 -0.0395 0.0535
+                        children [
+                          Shape {
+                            appearance DEF u_side_femur_mir_material PBRAppearance {
+                              baseColor 0.301961 0.301961 0.301961
+                              roughness 1
+                              metalness 0
+                            }
+                            geometry Box {
+                              size 0.04 0.09 0.003
+                            }
+                          }
+                        ]
+                      }
+                      Pose {
+                        translation 0 -0.125 0.026
+                        rotation -1 0 0 3.14159
+                        children [
+                          Shape {
+                            appearance USE mx106_material
+                            geometry Box {
+                              size 0.03 0.055 0.04
+                            }
+                          }
+                        ]
+                      }
+                      Pose {
+                        translation 0 -0.0395 -0.0015
+                        children [
+                          Shape {
+                            appearance DEF u_side_femur_material PBRAppearance {
+                              baseColor 0.301961 0.301961 0.301961
+                              roughness 1
+                              metalness 0
+                            }
+                            geometry Box {
+                              size 0.04 0.09 0.003
+                            }
+                          }
+                        ]
+                      }
+                      Pose {
+                        translation 0 -0.0825 0.026
+                        rotation -0.5773496025226482 0.5773496025226482 0.5773516025212713 2.094399
+                        children [
+                          Shape {
+                            appearance DEF u_base_64_material PBRAppearance {
+                              baseColor 0.301961 0.301961 0.301961
+                              roughness 1
+                              metalness 0
+                            }
+                            geometry Box {
+                              size 0.047 0.0275 0.006
+                            }
+                          }
+                        ]
+                      }
+                      HingeJoint {
+                        jointParameters HingeJointParameters {
+                          position 7.405557656567703e-07
+                          axis 0 -3e-06 1
+                          anchor 0 -0.14 0
+                        }
+                        device [
+                          RotationalMotor {
+                            name "right_knee"
+                            maxVelocity 6
+                          }
+                          PositionSensor {
+                            name "right_knee_sensor"
+                          }
+                        ]
+                        endPoint Solid {
+                          translation 0 -0.14 0
+                          rotation 1.3702778828263826e-06 -0.9999999999985614 -1.0000000641318394e-06 3.141593000001481
+                          children [
+                            Pose {
+                              translation 0 -0.067 0.0015
+                              children [
+                                Shape {
+                                  appearance DEF tibia_plate_material PBRAppearance {
+                                    baseColor 0.301961 0.301961 0.301961
+                                    roughness 1
+                                    metalness 0
+                                  }
+                                  geometry Box {
+                                    size 0.03 0.165 0.003
+                                  }
+                                }
+                              ]
+                            }
+                            Pose {
+                              translation 0 -0.067 -0.0535
+                              children [
+                                Shape {
+                                  appearance USE tibia_plate_material
+                                  geometry Box {
+                                    size 0.03 0.165 0.003
+                                  }
+                                }
+                              ]
+                            }
+                            HingeJoint {
+                              jointParameters HingeJointParameters {
+                                position -7.880375391987002e-07
+                                axis 0 0 -1
+                                anchor 0 -0.14 0
+                              }
+                              device [
+                                RotationalMotor {
+                                  name "right_ankle_pitch"
+                                  maxVelocity 6
+                                }
+                                PositionSensor {
+                                  name "right_ankle_pitch_sensor"
+                                }
+                              ]
+                              endPoint Solid {
+                                translation 0 -0.14 0
+                                rotation 0 0 1 3.141590788037539
+                                children [
+                                  Pose {
+                                    translation 0 -0.015 -0.026
+                                    children [
+                                      Shape {
+                                        appearance USE mx106_material
+                                        geometry Box {
+                                          size 0.03 0.055 0.04
+                                        }
+                                      }
+                                    ]
+                                  }
+                                  Pose {
+                                    translation 0.0494 -0.015 -0.026
+                                    rotation 0 -1 0 1.5708
+                                    children [
+                                      Shape {
+                                        appearance USE mx106_material
+                                        geometry Box {
+                                          size 0.03 0.055 0.04
+                                        }
+                                      }
+                                    ]
+                                  }
+                                  HingeJoint {
+                                    jointParameters HingeJointParameters {
+                                      position -1.0019824576512967e-06
+                                      axis -1 -3e-06 4e-06
+                                      anchor 0.0234 0 -0.026
+                                    }
+                                    device [
+                                      RotationalMotor {
+                                        name "right_ankle_roll"
+                                        maxVelocity 6
+                                      }
+                                      PositionSensor {
+                                        name "right_ankle_roll_sensor"
+                                      }
+                                    ]
+                                    endPoint Solid {
+                                      translation 0.0234 0 -0.026
+                                      rotation 0.7071052811831066 1.3542540273411903e-06 -0.7071082811855097 3.1415917085099214
+                                      children [
+                                        Pose {
+                                          translation -0.0435 -0.05 -0.03213
+                                          rotation -0.07067301865421641 -0.705340186175272 0.7053371861744802 3.282702
+                                          children [
+                                            Shape {
+                                              appearance DEF cleat_material PBRAppearance {
+                                                baseColor 0.301961 0.290196 0.262745
+                                                roughness 1
+                                                metalness 0
+                                              }
+                                              geometry Cylinder {
+                                                height 0.02
+                                                radius 0.008
+                                              }
+                                            }
+                                          ]
+                                        }
+                                        Pose {
+                                          translation -0.0435 -0.05 0.10947
+                                          rotation -0.07067301865421641 -0.705340186175272 0.7053371861744802 3.282702
+                                          children [
+                                            Shape {
+                                              appearance USE cleat_material
+                                              geometry Cylinder {
+                                                height 0.02
+                                                radius 0.008
+                                              }
+                                            }
+                                          ]
+                                        }
+                                        Pose {
+                                          translation 0 -0.017 0.05484
+                                          rotation -1e-06 -1 1e-06 3.141593
+                                          children [
+                                            Shape {
+                                              appearance USE u_side_small_material
+                                              geometry Box {
+                                                size 0.025 0.044 0.003
+                                              }
+                                            }
+                                          ]
+                                        }
+                                        Pose {
+                                          translation 0.0325 -0.05 0.10947
+                                          rotation 0.92751216314523 0.26431104649112774 -0.26431204649130363 1.645979
+                                          children [
+                                            Shape {
+                                              appearance USE cleat_material
+                                              geometry Cylinder {
+                                                height 0.02
+                                                radius 0.008
+                                              }
+                                            }
+                                          ]
+                                        }
+                                        Pose {
+                                          translation -0.0055 -0.0415 0.03867
+                                          rotation 1.0000003976552372e-06 0.7071082811851994 0.7071052811840065 3.141591
+                                          children [
+                                            Shape {
+                                              appearance DEF foot_plate_material PBRAppearance {
+                                                baseColor 0.301961 0.301961 0.301961
+                                                roughness 1
+                                                metalness 0
+                                              }
+                                              geometry Box {
+                                                size 0.09 0.155 0.003
+                                              }
+                                            }
+                                          ]
+                                        }
+                                        Pose {
+                                          translation 0 -0.017 0.0015
+                                          children [
+                                            Shape {
+                                              appearance USE u_side_small_with_trace_material
+                                              geometry Box {
+                                                size 0.027 0.042 0.003
+                                              }
+                                            }
+                                          ]
+                                        }
+                                        Pose {
+                                          translation 0.0325 -0.05 -0.03213
+                                          rotation 0.9762266572922753 -0.15326694619511155 0.15326694619511155 1.594858
+                                          children [
+                                            Shape {
+                                              appearance USE cleat_material
+                                              geometry Cylinder {
+                                                height 0.02
+                                                radius 0.008
+                                              }
+                                            }
+                                          ]
+                                        }
+                                        Pose {
+                                          translation -0.0055 -0.0275 0.12247
+                                          rotation 0.6785972482190434 -0.6785992482197749 -0.28108510281603044 3.68962
+                                          children [
+                                            Shape {
+                                              appearance DEF foot_protection_material PBRAppearance {
+                                                baseColor 0.301961 0.290196 0.262745
+                                                roughness 1
+                                                metalness 0
+                                              }
+                                              geometry Box {
+                                                size 0.01 0.09 0.01
+                                              }
+                                            }
+                                          ]
+                                        }
+                                        Pose {
+                                          translation 0 -0.037 0.02834
+                                          rotation -0.5773496025226482 0.5773496025226482 0.5773516025212713 2.094399
+                                          children [
+                                            Shape {
+                                              appearance USE u_base_motors_blocs_material
+                                              geometry Box {
+                                                size 0.05 0.03 0.006
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                      name "right_foot_cleat_back_left"
+                                      boundingObject Group {
+                                        children [
+                                          Pose {
+                                            translation -0.0435 -0.05 -0.03213
+                                            rotation -0.07067301865421641 -0.705340186175272 0.7053371861744802 3.282702
+                                            children [
+                                              Cylinder {
+                                                height 0.02
+                                                radius 0.008
+                                              }
+                                            ]
+                                          }
+                                          Pose {
+                                            translation -0.0435 -0.05 0.10947
+                                            rotation -0.07067301865421641 -0.705340186175272 0.7053371861744802 3.282702
+                                            children [
+                                              Cylinder {
+                                                height 0.02
+                                                radius 0.008
+                                              }
+                                            ]
+                                          }
+                                          Pose {
+                                            translation 0 -0.017 0.05484
+                                            rotation -1e-06 -1 1e-06 3.141593
+                                            children [
+                                              Box {
+                                                size 0.025 0.044 0.003
+                                              }
+                                            ]
+                                          }
+                                          Pose {
+                                            translation 0.0325 -0.05 0.10947
+                                            rotation 0.92751216314523 0.26431104649112774 -0.26431204649130363 1.645979
+                                            children [
+                                              Cylinder {
+                                                height 0.02
+                                                radius 0.008
+                                              }
+                                            ]
+                                          }
+                                          Pose {
+                                            translation -0.0055 -0.0415 0.03867
+                                            rotation 1.0000003976552372e-06 0.7071082811851994 0.7071052811840065 3.141591
+                                            children [
+                                              Box {
+                                                size 0.09 0.155 0.003
+                                              }
+                                            ]
+                                          }
+                                          Pose {
+                                            translation 0 -0.017 0.0015
+                                            children [
+                                              Box {
+                                                size 0.027 0.042 0.003
+                                              }
+                                            ]
+                                          }
+                                          Pose {
+                                            translation 0.0325 -0.05 -0.03213
+                                            rotation 0.9762266572922753 -0.15326694619511155 0.15326694619511155 1.594858
+                                            children [
+                                              Cylinder {
+                                                height 0.02
+                                                radius 0.008
+                                              }
+                                            ]
+                                          }
+                                          Pose {
+                                            translation -0.0055 -0.0275 0.12247
+                                            rotation 0.6785972482190434 -0.6785992482197749 -0.28108510281603044 3.68962
+                                            children [
+                                              Box {
+                                                size 0.01 0.09 0.01
+                                              }
+                                            ]
+                                          }
+                                          Pose {
+                                            translation 0 -0.037 0.02834
+                                            rotation -0.5773496025226482 0.5773496025226482 0.5773516025212713 2.094399
+                                            children [
+                                              Box {
+                                                size 0.05 0.03 0.006
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                      physics Physics {
+                                        density -1
+                                        mass 0.239067
+                                        centerOfMass [
+                                          -0.004685 -0.036578 0.051153
+                                        ]
+                                        inertiaMatrix [
+                                          0.000644736 0.000780875 0.000195711
+                                          -2.73076e-06 4.22638e-06 -2.65367e-05
+                                        ]
+                                      }
+                                      linearVelocity -2.2248592526069577e-08 -3.087113211569512e-08 8.047788991306204e-06
+                                      angularVelocity -2.048330517079479e-06 -2.409536822902452e-06 7.155557088469588e-07
+                                    }
+                                  }
+                                ]
+                                name "mx106_block_1"
+                                boundingObject Group {
+                                  children [
+                                    Pose {
+                                      translation 0 -0.015 -0.026
+                                      children [
+                                        Box {
+                                          size 0.03 0.055 0.04
+                                        }
+                                      ]
+                                    }
+                                    Pose {
+                                      translation 0.0494 -0.015 -0.026
+                                      rotation 0 -1 0 1.5708
+                                      children [
+                                        Box {
+                                          size 0.03 0.055 0.04
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                                physics Physics {
+                                  density -1
+                                  mass 0.427481
+                                  centerOfMass [
+                                    0.019588 -0.018098 -0.025825
+                                  ]
+                                  inertiaMatrix [
+                                    0.000194682 0.000410191 0.000485925
+                                    1.88861e-05 4.22317e-07 -2.22493e-06
+                                  ]
+                                }
+                                linearVelocity -2.2916007820716588e-07 -6.835124689507922e-08 8.081264808092388e-06
+                                angularVelocity -3.014484929953174e-07 8.170410235165584e-06 7.648808065083252e-07
+                              }
+                            }
+                          ]
+                          name "tibia_1"
+                          boundingObject Group {
+                            children [
+                              Pose {
+                                translation 0 -0.067 0.0015
+                                children [
+                                  Box {
+                                    size 0.03 0.165 0.003
+                                  }
+                                ]
+                              }
+                              Pose {
+                                translation 0 -0.067 -0.0535
+                                children [
+                                  Box {
+                                    size 0.03 0.165 0.003
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                          physics Physics {
+                            density -1
+                            mass 0.088844
+                            centerOfMass [
+                              -0.003422 -0.064607 -0.026
+                            ]
+                            inertiaMatrix [
+                              0.000245247 7.67255e-05 0.000187463
+                              6.12719e-06 -1.44286e-11 3.8066e-11
+                            ]
+                          }
+                          linearVelocity 2.7370266594595846e-08 4.3565483488943285e-07 8.0572795183629e-06
+                          angularVelocity -8.195798593045945e-06 9.498671891774463e-06 8.015536484792773e-07
+                        }
+                      }
+                    ]
+                    name "right_knee_1"
+                    boundingObject Group {
+                      children [
+                        Pose {
+                          translation 0 -0.0395 0.0535
+                          children [
+                            Box {
+                              size 0.04 0.09 0.003
+                            }
+                          ]
+                        }
+                        Pose {
+                          translation 0 -0.125 0.026
+                          rotation -1 0 0 3.14159
+                          children [
+                            Box {
+                              size 0.03 0.055 0.04
+                            }
+                          ]
+                        }
+                        Pose {
+                          translation 0 -0.0395 -0.0015
+                          children [
+                            Box {
+                              size 0.04 0.09 0.003
+                            }
+                          ]
+                        }
+                        Pose {
+                          translation 0 -0.0825 0.026
+                          rotation -0.5773496025226482 0.5773496025226482 0.5773516025212713 2.094399
+                          children [
+                            Box {
+                              size 0.047 0.0275 0.006
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                    physics Physics {
+                      density -1
+                      mass 0.269758
+                      centerOfMass [
+                        0.000224 -0.098034 0.025713
+                      ]
+                      inertiaMatrix [
+                        0.000503595 0.000109941 0.000438644
+                        9.05865e-07 -4.56779e-07 -5.72119e-06
+                      ]
+                    }
+                    linearVelocity 6.911940118992562e-07 9.070478295884985e-07 7.997550776525822e-06
+                    angularVelocity -1.225677860219752e-06 8.394784917048114e-06 8.405644135956067e-07
+                  }
+                }
+              ]
+              name "mx106_block_mir_1"
+              boundingObject Group {
+                children [
+                  Pose {
+                    translation 0 -0.015 0.0234
+                    rotation 0 -1 0 1.5708
+                    children [
+                      Box {
+                        size 0.03 0.055 0.04
+                      }
+                    ]
+                  }
+                  Pose {
+                    translation 0 -0.015 -0.026
+                    children [
+                      Box {
+                        size 0.03 0.055 0.04
+                      }
+                    ]
+                  }
+                ]
+              }
+              physics Physics {
+                density -1
+                mass 0.427481
+                centerOfMass [
+                  -0.000304 -0.018098 0.003917
+                ]
+                inertiaMatrix [
+                  0.000482208 0.000408392 0.000203671
+                  -1.57792e-05 3.50396e-06 -3.68837e-05
+                ]
+              }
+              linearVelocity 1.0798924902268393e-06 9.086153046409389e-07 8.043752554795047e-06
+              angularVelocity -4.089612303676269e-07 8.35480542387751e-06 8.816968578759041e-07
+            }
+          }
+        ]
+        name "u_block_1"
+        boundingObject Group {
+          children [
+            Pose {
+              translation -0.00494 0 0.003
+              children [
+                Box {
+                  size 0.05 0.03 0.006
+                }
+              ]
+            }
+            Pose {
+              translation -0.03144 0 0.023
+              rotation 0.5773496025226483 0.5773516025212714 0.5773496025226483 2.094399
+              children [
+                Box {
+                  size 0.025 0.044 0.003
+                }
+              ]
+            }
+            Pose {
+              translation 0.0219 0 0.023
+              rotation 0.5773496025226483 -0.5773516025212714 -0.5773496025226483 2.094399
+              children [
+                Box {
+                  size 0.027 0.042 0.003
+                }
+              ]
+            }
+          ]
+        }
+        physics Physics {
+          density -1
+          mass 0.03544
+          centerOfMass [
+            -0.00607 0 0.011765
+          ]
+          inertiaMatrix [
+            6.0236e-06 2.4343e-05 2.1328e-05
+            -2.05966e-08 7.97442e-07 -8.88603e-13
+          ]
+        }
+        linearVelocity 1.0244804519580983e-06 8.443820657486109e-07 7.976021024788416e-06
+        angularVelocity -1.1894681312445383e-06 3.9946729553701935e-06 9.026208894224135e-07
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position -1.2099826834539032e-06
+        axis 3e-06 0 1
+        anchor 0.046375 -0.011254 -0.0035
+      }
+      device [
+        RotationalMotor {
+          name "left_hip_yaw"
+          maxVelocity 6
+        }
+        PositionSensor {
+          name "left_hip_yaw_sensor"
+        }
+      ]
+      endPoint Solid {
+        translation 0.046375 -0.011254 -0.0035
+        rotation -0.7071053594713402 -0.7071082028981894 1.00000054097883e-06 3.1415910000002483
+        children [
+          Pose {
+            translation -0.00494 0 0.003
+            children [
+              Shape {
+                appearance USE u_base_motors_blocs_material
+                geometry Box {
+                  size 0.05 0.03 0.006
+                }
+              }
+            ]
+          }
+          Pose {
+            translation 0.0219 0 0.023
+            rotation 0.5773496025226483 -0.5773516025212714 -0.5773496025226483 2.094399
+            children [
+              Shape {
+                appearance USE u_side_small_with_trace_material
+                geometry Box {
+                  size 0.027 0.042 0.003
+                }
+              }
+            ]
+          }
+          Pose {
+            translation -0.03144 0 0.023
+            rotation 0.5773496025226483 0.5773516025212714 0.5773496025226483 2.094399
+            children [
+              Shape {
+                appearance USE u_side_small_material
+                geometry Box {
+                  size 0.025 0.044 0.003
+                }
+              }
+            ]
+          }
+          HingeJoint {
+            jointParameters HingeJointParameters {
+              position -6.898277336020442e-07
+              axis -1 -4e-06 -4e-06
+              anchor 0.0234 0 0.04
+            }
+            device [
+              RotationalMotor {
+                name "left_hip_roll"
+                maxVelocity 6
+              }
+              PositionSensor {
+                name "left_hip_roll_sensor"
+              }
+            ]
+            endPoint Solid {
+              translation 0.0234 0 0.04
+              rotation -0.5773494697640443 -0.5773518680356376 0.5773494697658744 2.0943986017282783
+              children [
+                Pose {
+                  translation 0 -0.015 -0.026
+                  children [
+                    Shape {
+                      appearance USE mx106_material
+                      geometry Box {
+                        size 0.03 0.055 0.04
+                      }
+                    }
+                  ]
+                }
+                Pose {
+                  translation 0 -0.015 0.0234
+                  rotation 0 1 0 1.5708
+                  children [
+                    Shape {
+                      appearance USE mx106_material
+                      geometry Box {
+                        size 0.03 0.055 0.04
+                      }
+                    }
+                  ]
+                }
+                HingeJoint {
+                  jointParameters HingeJointParameters {
+                    position -6.233029878899288e-07
+                    axis 1 0 4e-06
+                    anchor 0.026 0 0.0234
+                  }
+                  device [
+                    RotationalMotor {
+                      name "left_hip_pitch"
+                      maxVelocity 6
+                    }
+                    PositionSensor {
+                      name "left_hip_pitch_sensor"
+                    }
+                  ]
+                  endPoint Solid {
+                    translation 0.026 0 0.0234
+                    rotation -3.1165159579067125e-07 -0.9999999999999031 3.1165024734105433e-07 1.570800000000097
+                    children [
+                      Pose {
+                        translation 0 -0.0825 0.026
+                        rotation -0.5773496025226482 0.5773496025226482 0.5773516025212713 2.094399
+                        children [
+                          Shape {
+                            appearance USE u_base_64_material
+                            geometry Box {
+                              size 0.047 0.0275 0.006
+                            }
+                          }
+                        ]
+                      }
+                      Pose {
+                        translation 0 -0.0395 -0.0015
+                        children [
+                          Shape {
+                            appearance USE u_side_femur_material
+                            geometry Box {
+                              size 0.04 0.09 0.003
+                            }
+                          }
+                        ]
+                      }
+                      Pose {
+                        translation 0 -0.0395 0.0535
+                        children [
+                          Shape {
+                            appearance USE u_side_femur_mir_material
+                            geometry Box {
+                              size 0.04 0.09 0.003
+                            }
+                          }
+                        ]
+                      }
+                      Pose {
+                        translation 0 -0.125 0.026
+                        rotation -1 0 0 3.14159
+                        children [
+                          Shape {
+                            appearance USE mx106_material
+                            geometry Box {
+                              size 0.03 0.055 0.04
+                            }
+                          }
+                        ]
+                      }
+                      HingeJoint {
+                        jointParameters HingeJointParameters {
+                          position 6.928006774970215e-07
+                          axis 0 0 -1
+                          anchor 0 -0.14 0
+                        }
+                        device [
+                          RotationalMotor {
+                            name "left_knee"
+                            maxVelocity 6
+                          }
+                          PositionSensor {
+                            name "left_knee_sensor"
+                          }
+                        ]
+                        endPoint Solid {
+                          translation 0 -0.14 0
+                          rotation 0 0 -1 6.925433897150939e-07
+                          children [
+                            Pose {
+                              translation 0 -0.067 -0.0015
+                              children [
+                                Shape {
+                                  appearance USE tibia_plate_material
+                                  geometry Box {
+                                    size 0.03 0.165 0.003
+                                  }
+                                }
+                              ]
+                            }
+                            Pose {
+                              translation 0 -0.067 0.0535
+                              children [
+                                Shape {
+                                  appearance USE tibia_plate_material
+                                  geometry Box {
+                                    size 0.03 0.165 0.003
+                                  }
+                                }
+                              ]
+                            }
+                            HingeJoint {
+                              jointParameters HingeJointParameters {
+                                position -7.278126453643802e-07
+                                axis 0 -3e-06 -1
+                                anchor 0 -0.14 0
+                              }
+                              device [
+                                RotationalMotor {
+                                  name "left_ankle_pitch"
+                                  maxVelocity 6
+                                }
+                                PositionSensor {
+                                  name "left_ankle_pitch_sensor"
+                                }
+                              ]
+                              endPoint Solid {
+                                translation 0 -0.14 0
+                                rotation 0.9999999999999338 3.6390632268199295e-07 -6.088899162399747e-13 3.14159
+                                children [
+                                  Pose {
+                                    translation 0 -0.015 -0.026
+                                    children [
+                                      Shape {
+                                        appearance USE mx106_material
+                                        geometry Box {
+                                          size 0.03 0.055 0.04
+                                        }
+                                      }
+                                    ]
+                                  }
+                                  Pose {
+                                    translation -0.0494 -0.015 -0.026
+                                    rotation 0 1 0 1.5708
+                                    children [
+                                      Shape {
+                                        appearance USE mx106_material
+                                        geometry Box {
+                                          size 0.03 0.055 0.04
+                                        }
+                                      }
+                                    ]
+                                  }
+                                  HingeJoint {
+                                    jointParameters HingeJointParameters {
+                                      position -9.060768793034413e-07
+                                      axis 1 3e-06 4e-06
+                                      anchor -0.0234 0 -0.026
+                                    }
+                                    device [
+                                      RotationalMotor {
+                                        name "left_ankle_roll"
+                                        maxVelocity 6
+                                      }
+                                      PositionSensor {
+                                        name "left_ankle_roll_sensor"
+                                      }
+                                    ]
+                                    endPoint Solid {
+                                      translation -0.0234 0 -0.026
+                                      rotation -0.7071052811831966 -1.320346348641421e-06 -0.7071082811854839 3.141591640694309
+                                      children [
+                                        Pose {
+                                          translation 0.0055 -0.0275 0.12247
+                                          rotation -0.6785971692089039 0.6786001692096519 0.28108307008835337 2.593562
+                                          children [
+                                            Shape {
+                                              appearance USE foot_protection_material
+                                              geometry Box {
+                                                size 0.01 0.09 0.01
+                                              }
+                                            }
+                                          ]
+                                        }
+                                        Pose {
+                                          translation 0.0435 -0.05 -0.03213
+                                          rotation -0.17069990706382648 -0.6967296206712351 0.696727620672324 3.47973
+                                          children [
+                                            Shape {
+                                              appearance USE cleat_material
+                                              geometry Cylinder {
+                                                height 0.02
+                                                radius 0.008
+                                              }
+                                            }
+                                          ]
+                                        }
+                                        Pose {
+                                          translation 0 -0.017 0.05484
+                                          rotation -1e-06 1 -1e-06 3.141593
+                                          children [
+                                            Shape {
+                                              appearance USE u_side_small_material
+                                              geometry Box {
+                                                size 0.025 0.044 0.003
+                                              }
+                                            }
+                                          ]
+                                        }
+                                        Pose {
+                                          translation 0.0435 -0.05 0.10947
+                                          rotation -0.17069990706382648 -0.6967296206712351 0.696727620672324 3.47973
+                                          children [
+                                            Shape {
+                                              appearance USE cleat_material
+                                              geometry Cylinder {
+                                                height 0.02
+                                                radius 0.008
+                                              }
+                                            }
+                                          ]
+                                        }
+                                        Pose {
+                                          translation 0 -0.037 0.02834
+                                          rotation -0.5773496025226482 0.5773496025226482 0.5773516025212713 2.094399
+                                          children [
+                                            Shape {
+                                              appearance USE u_base_motors_blocs_material
+                                              geometry Box {
+                                                size 0.05 0.03 0.006
+                                              }
+                                            }
+                                          ]
+                                        }
+                                        Pose {
+                                          translation -0.0325 -0.05 0.10947
+                                          rotation -0.17069990706382648 -0.6967296206712351 0.696727620672324 3.47973
+                                          children [
+                                            Shape {
+                                              appearance USE cleat_material
+                                              geometry Cylinder {
+                                                height 0.02
+                                                radius 0.008
+                                              }
+                                            }
+                                          ]
+                                        }
+                                        Pose {
+                                          translation -0.0325 -0.05 -0.03213
+                                          rotation 0.17069808427084848 0.6967303439643596 -0.6967273439628786 2.803451
+                                          children [
+                                            Shape {
+                                              appearance USE cleat_material
+                                              geometry Cylinder {
+                                                height 0.02
+                                                radius 0.008
+                                              }
+                                            }
+                                          ]
+                                        }
+                                        Pose {
+                                          translation 0 -0.017 0.0015
+                                          children [
+                                            Shape {
+                                              appearance USE u_side_small_with_trace_material
+                                              geometry Box {
+                                                size 0.027 0.042 0.003
+                                              }
+                                            }
+                                          ]
+                                        }
+                                        Pose {
+                                          translation 0.0055 -0.0415 0.03867
+                                          rotation 1.0000003976552372e-06 -0.7071082811851994 -0.7071052811840065 3.141591
+                                          children [
+                                            Shape {
+                                              appearance USE foot_plate_material
+                                              geometry Box {
+                                                size 0.09 0.155 0.003
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                      name "left_foot_cleat_front_right"
+                                      boundingObject Group {
+                                        children [
+                                          Pose {
+                                            translation 0.0055 -0.0275 0.12247
+                                            rotation -0.6785971692089039 0.6786001692096519 0.28108307008835337 2.593562
+                                            children [
+                                              Box {
+                                                size 0.01 0.09 0.01
+                                              }
+                                            ]
+                                          }
+                                          Pose {
+                                            translation 0.0435 -0.05 -0.03213
+                                            rotation -0.17069990706382648 -0.6967296206712351 0.696727620672324 3.47973
+                                            children [
+                                              Cylinder {
+                                                height 0.02
+                                                radius 0.008
+                                              }
+                                            ]
+                                          }
+                                          Pose {
+                                            translation 0 -0.017 0.05484
+                                            rotation -1e-06 1 -1e-06 3.141593
+                                            children [
+                                              Box {
+                                                size 0.025 0.044 0.003
+                                              }
+                                            ]
+                                          }
+                                          Pose {
+                                            translation 0.0435 -0.05 0.10947
+                                            rotation -0.17069990706382648 -0.6967296206712351 0.696727620672324 3.47973
+                                            children [
+                                              Cylinder {
+                                                height 0.02
+                                                radius 0.008
+                                              }
+                                            ]
+                                          }
+                                          Pose {
+                                            translation 0 -0.037 0.02834
+                                            rotation -0.5773496025226482 0.5773496025226482 0.5773516025212713 2.094399
+                                            children [
+                                              Box {
+                                                size 0.05 0.03 0.006
+                                              }
+                                            ]
+                                          }
+                                          Pose {
+                                            translation -0.0325 -0.05 0.10947
+                                            rotation -0.17069990706382648 -0.6967296206712351 0.696727620672324 3.47973
+                                            children [
+                                              Cylinder {
+                                                height 0.02
+                                                radius 0.008
+                                              }
+                                            ]
+                                          }
+                                          Pose {
+                                            translation -0.0325 -0.05 -0.03213
+                                            rotation 0.17069808427084848 0.6967303439643596 -0.6967273439628786 2.803451
+                                            children [
+                                              Cylinder {
+                                                height 0.02
+                                                radius 0.008
+                                              }
+                                            ]
+                                          }
+                                          Pose {
+                                            translation 0 -0.017 0.0015
+                                            children [
+                                              Box {
+                                                size 0.027 0.042 0.003
+                                              }
+                                            ]
+                                          }
+                                          Pose {
+                                            translation 0.0055 -0.0415 0.03867
+                                            rotation 1.0000003976552372e-06 -0.7071082811851994 -0.7071052811840065 3.141591
+                                            children [
+                                              Box {
+                                                size 0.09 0.155 0.003
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                      physics Physics {
+                                        density -1
+                                        mass 0.239067
+                                        centerOfMass [
+                                          0.004685 -0.036578 0.051153
+                                        ]
+                                        inertiaMatrix [
+                                          0.000644736 0.000780874 0.000195711
+                                          5.21256e-07 -4.22638e-06 -2.65367e-05
+                                        ]
+                                      }
+                                      linearVelocity -2.9130059164356986e-07 1.7487363908841017e-08 8.331024908901427e-06
+                                      angularVelocity 2.6910675629540134e-06 -1.0412347326235824e-05 3.323068699244959e-07
+                                    }
+                                  }
+                                ]
+                                name "mx106_block_mir_2"
+                                boundingObject Group {
+                                  children [
+                                    Pose {
+                                      translation 0 -0.015 -0.026
+                                      children [
+                                        Box {
+                                          size 0.03 0.055 0.04
+                                        }
+                                      ]
+                                    }
+                                    Pose {
+                                      translation -0.0494 -0.015 -0.026
+                                      rotation 0 1 0 1.5708
+                                      children [
+                                        Box {
+                                          size 0.03 0.055 0.04
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                                physics Physics {
+                                  density -1
+                                  mass 0.427481
+                                  centerOfMass [
+                                    -0.019483 -0.018098 -0.025696
+                                  ]
+                                  inertiaMatrix [
+                                    0.000194261 0.000412323 0.000487688
+                                    -2.04803e-05 -3.71621e-06 -3.98084e-06
+                                  ]
+                                }
+                                linearVelocity -4.0551804219409324e-07 -4.734012440000591e-08 8.173060968746315e-06
+                                angularVelocity 4.009789912030728e-06 -2.555242874482015e-06 3.158720735179225e-07
+                              }
+                            }
+                          ]
+                          name "tibia_2"
+                          boundingObject Group {
+                            children [
+                              Pose {
+                                translation 0 -0.067 -0.0015
+                                children [
+                                  Box {
+                                    size 0.03 0.165 0.003
+                                  }
+                                ]
+                              }
+                              Pose {
+                                translation 0 -0.067 0.0535
+                                children [
+                                  Box {
+                                    size 0.03 0.165 0.003
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                          physics Physics {
+                            density -1
+                            mass 0.088844
+                            centerOfMass [
+                              -0.003422 -0.064607 0.026
+                            ]
+                            inertiaMatrix [
+                              0.000245247 7.67255e-05 0.000187463
+                              6.12719e-06 -1.44286e-11 3.8066e-11
+                            ]
+                          }
+                          linearVelocity -1.7143923766171595e-07 3.7527311301235357e-07 8.274492352892525e-06
+                          angularVelocity -3.217494601550405e-06 -1.3731216623360053e-06 3.030893179772448e-07
+                        }
+                      }
+                    ]
+                    name "left_knee_1"
+                    boundingObject Group {
+                      children [
+                        Pose {
+                          translation 0 -0.0825 0.026
+                          rotation -0.5773496025226482 0.5773496025226482 0.5773516025212713 2.094399
+                          children [
+                            Box {
+                              size 0.047 0.0275 0.006
+                            }
+                          ]
+                        }
+                        Pose {
+                          translation 0 -0.0395 -0.0015
+                          children [
+                            Box {
+                              size 0.04 0.09 0.003
+                            }
+                          ]
+                        }
+                        Pose {
+                          translation 0 -0.0395 0.0535
+                          children [
+                            Box {
+                              size 0.04 0.09 0.003
+                            }
+                          ]
+                        }
+                        Pose {
+                          translation 0 -0.125 0.026
+                          rotation -1 0 0 3.14159
+                          children [
+                            Box {
+                              size 0.03 0.055 0.04
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                    physics Physics {
+                      density -1
+                      mass 0.269758
+                      centerOfMass [
+                        -5.7e-05 -0.098034 0.025527
+                      ]
+                      inertiaMatrix [
+                        0.000503557 0.000109916 0.000438656
+                        1.64719e-06 -5.01987e-07 -5.37384e-06
+                      ]
+                    }
+                    linearVelocity -7.37783574606335e-08 5.30322963483427e-07 8.269781657334841e-06
+                    angularVelocity 3.8017506288557208e-06 -2.598105567027639e-06 2.9035405301273926e-07
+                  }
+                }
+              ]
+              name "mx106_block_2"
+              boundingObject Group {
+                children [
+                  Pose {
+                    translation 0 -0.015 -0.026
+                    children [
+                      Box {
+                        size 0.03 0.055 0.04
+                      }
+                    ]
+                  }
+                  Pose {
+                    translation 0 -0.015 0.0234
+                    rotation 0 1 0 1.5708
+                    children [
+                      Box {
+                        size 0.03 0.055 0.04
+                      }
+                    ]
+                  }
+                ]
+              }
+              physics Physics {
+                density -1
+                mass 0.427481
+                centerOfMass [
+                  0.000175 -0.018098 0.003812
+                ]
+                inertiaMatrix [
+                  0.000480875 0.000406226 0.000203698
+                  1.44566e-05 -4.949e-07 -3.86323e-05
+                ]
+              }
+              linearVelocity 3.725675169135503e-09 2.2177687327257997e-07 8.318483029742847e-06
+              angularVelocity -2.314006308283417e-06 -1.6788219340745856e-06 2.775447766630457e-07
+            }
+          }
+        ]
+        name "u_block_2"
+        boundingObject Group {
+          children [
+            Pose {
+              translation -0.00494 0 0.003
+              children [
+                Box {
+                  size 0.05 0.03 0.006
+                }
+              ]
+            }
+            Pose {
+              translation 0.0219 0 0.023
+              rotation 0.5773496025226483 -0.5773516025212714 -0.5773496025226483 2.094399
+              children [
+                Box {
+                  size 0.027 0.042 0.003
+                }
+              ]
+            }
+            Pose {
+              translation -0.03144 0 0.023
+              rotation 0.5773496025226483 0.5773516025212714 0.5773496025226483 2.094399
+              children [
+                Box {
+                  size 0.025 0.044 0.003
+                }
+              ]
+            }
+          ]
+        }
+        physics Physics {
+          density -1
+          mass 0.03544
+          centerOfMass [
+            -0.00607 0 0.011765
+          ]
+          inertiaMatrix [
+            6.0236e-06 2.4343e-05 2.1328e-05
+            -2.05966e-08 7.97442e-07 -8.88603e-13
+          ]
+        }
+        linearVelocity 3.8267492535395045e-07 4.079343847922737e-07 8.277772590488867e-06
+        angularVelocity -1.2762598102306831e-06 4.224343373583405e-06 2.5946600079182533e-07
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position -0.22583653328780015
+        axis 1 -4e-06 -4e-06
+        anchor 0.0735 -0.032127 0.1609
+      }
+      device [
+        RotationalMotor {
+          name "left_shoulder_pitch"
+          maxVelocity 6
+        }
+        PositionSensor {
+          name "left_shoulder_pitch_sensor"
+        }
+      ]
+      endPoint Solid {
+        translation 0.0735 -0.032127 0.1609
+        rotation -0.5773496484303278 0.5773515107068522 -0.5773496484296949 2.0943991377217093
+        children [
+          Pose {
+            translation 0 0 0.003
+            children [
+              Shape {
+                appearance USE u_base_64_material
+                geometry Box {
+                  size 0.047 0.0275 0.006
+                }
+              }
+            ]
+          }
+          HingeJoint {
+            jointParameters HingeJointParameters {
+              position 1.0099917341331646e-07
+              axis 1 3e-06 4e-06
+              anchor 0.0225 0.03 0.035
+            }
+            device [
+              RotationalMotor {
+                name "left_shoulder_roll"
+                maxVelocity 6
+              }
+              PositionSensor {
+                name "left_shoulder_roll_sensor"
+              }
+            ]
+            endPoint Solid {
+              translation 0.0225 0.03 0.035
+              rotation -0.7071052811840923 -9.642918645329757e-07 -0.7071082811851632 3.1415909285826653
+              children [
+                Pose {
+                  translation 0 -0.015 -0.0235
+                  children [
+                    Shape {
+                      appearance USE mx64_material
+                      geometry Box {
+                        size 0.029 0.05 0.04
+                      }
+                    }
+                  ]
+                }
+                Pose {
+                  translation 0 -0.092 -0.039174
+                  rotation 0 -1 0 1.5708
+                  children [
+                    Shape {
+                      appearance DEF humerus_plate_material PBRAppearance {
+                        baseColor 0.301961 0.301961 0.301961
+                        roughness 1
+                        metalness 0
+                      }
+                      geometry Box {
+                        size 0.003 0.07 0.03
+                      }
+                    }
+                  ]
+                }
+                Pose {
+                  translation 0 -0.054 -0.023174
+                  rotation 0 -1 0 1.5708
+                  children [
+                    Shape {
+                      appearance USE humerus_plate_material
+                      geometry Box {
+                        size 0.03 0.003 0.03
+                      }
+                    }
+                  ]
+                }
+                HingeJoint {
+                  jointParameters HingeJointParameters {
+                    position 8.057935085383812e-08
+                    axis 1 0 -4e-06
+                    anchor 0.0235 -0.112 -0.001674
+                  }
+                  device [
+                    RotationalMotor {
+                      name "left_elbow"
+                      maxVelocity 6
+                    }
+                    PositionSensor {
+                      name "left_elbow_sensor"
+                    }
+                  ]
+                  endPoint Solid {
+                    translation 0.0235 -0.112 -0.001674
+                    rotation 4.0289688593328824e-08 0.9999999999999984 4.028951426848697e-08 1.5708000000000015
+                    children [
+                      Pose {
+                        translation 0 -0.015 -0.0235
+                        children [
+                          Shape {
+                            appearance USE mx64_material
+                            geometry Box {
+                              size 0.029 0.05 0.04
+                            }
+                          }
+                        ]
+                      }
+                      Pose {
+                        translation 0.018 -0.0985 -0.0235
+                        rotation -1e-06 -1 1e-06 3.141593
+                        children [
+                          Shape {
+                            appearance DEF radius_plate_material PBRAppearance {
+                              baseColor 0.301961 0.301961 0.301961
+                              roughness 1
+                              metalness 0
+                            }
+                            geometry Box {
+                              size 0.003 0.085 0.03
+                            }
+                          }
+                        ]
+                      }
+                      Pose {
+                        translation 0.0075 -0.141 -0.0235
+                        rotation -1e-06 -1 1e-06 3.141593
+                        children [
+                          Shape {
+                            appearance USE radius_plate_material
+                            geometry Cylinder {
+                              height 0.03
+                              radius 0.012
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                    name "left_radius_1"
+                    boundingObject Group {
+                      children [
+                        Pose {
+                          translation 0 -0.015 -0.0235
+                          children [
+                            Box {
+                              size 0.029 0.05 0.04
+                            }
+                          ]
+                        }
+                        Pose {
+                          translation 0.018 -0.0985 -0.0235
+                          rotation -1e-06 -1 1e-06 3.141593
+                          children [
+                            Box {
+                              size 0.003 0.085 0.03
+                            }
+                          ]
+                        }
+                        Pose {
+                          translation 0.0075 -0.141 -0.0235
+                          rotation -1e-06 -1 1e-06 3.141593
+                          children [
+                            Cylinder {
+                              height 0.03
+                              radius 0.012
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                    physics Physics {
+                      density -1
+                      mass 0.20688
+                      centerOfMass [
+                        0.002534 -0.03704 -0.023878
+                      ]
+                      inertiaMatrix [
+                        0.00037903 5.36268e-05 0.00036378
+                        3.04226e-05 4.20803e-07 -4.7904e-07
+                      ]
+                    }
+                    linearVelocity 4.648097571413664e-07 7.571220939685649e-07 8.497887252162625e-06
+                    angularVelocity 3.349172641571616e-07 4.853103619555852e-06 2.4116013089803996e-06
+                  }
+                }
+              ]
+              name "left_humerus_1"
+              boundingObject Group {
+                children [
+                  Pose {
+                    translation 0 -0.015 -0.0235
+                    children [
+                      Box {
+                        size 0.029 0.05 0.04
+                      }
+                    ]
+                  }
+                  Pose {
+                    translation 0 -0.092 -0.039174
+                    rotation 0 -1 0 1.5708
+                    children [
+                      Box {
+                        size 0.003 0.07 0.03
+                      }
+                    ]
+                  }
+                  Pose {
+                    translation 0 -0.054 -0.023174
+                    rotation 0 -1 0 1.5708
+                    children [
+                      Box {
+                        size 0.03 0.003 0.03
+                      }
+                    ]
+                  }
+                ]
+              }
+              physics Physics {
+                density -1
+                mass 0.214223
+                centerOfMass [
+                  -0.000853 -0.03764 -0.024852
+                ]
+                inertiaMatrix [
+                  0.000347701 6.51166e-05 0.000333302
+                  -1.37313e-05 2.97277e-06 -8.64098e-06
+                ]
+              }
+              linearVelocity 1.046149956451884e-06 6.598157458030085e-07 8.4889921300182e-06
+              angularVelocity 1.0497398403056325e-06 4.734263985127347e-06 2.4116083784939282e-06
+            }
+          }
+        ]
+        name "u_shoulder_1"
+        boundingObject Pose {
+          translation 0 0 0.003
+          children [
+            Box {
+              size 0.047 0.0275 0.006
+            }
+          ]
+        }
+        physics Physics {
+          density -1
+          mass 0.042898
+          centerOfMass [
+            0 0.00486 0.016783
+          ]
+          inertiaMatrix [
+            1.57991e-05 2.84983e-05 2.50037e-05
+            1.59248e-20 -7.27391e-21 -3.76137e-06
+          ]
+        }
+        linearVelocity 1.3204027357098756e-06 6.404284357696181e-07 8.4254821848641e-06
+        angularVelocity 8.869014955220685e-07 3.7546148124926856e-06 2.4107799636419376e-06
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 0.22313181048471917
+        axis 1 4e-06 4e-06
+        anchor -0.074087 -0.032127 0.1609
+      }
+      device [
+        RotationalMotor {
+          name "right_shoulder_pitch"
+          maxVelocity 6
+        }
+        PositionSensor {
+          name "right_shoulder_pitch_sensor"
+        }
+      ]
+      endPoint Solid {
+        translation -0.074087 -0.032127 0.1609
+        rotation -0.5773495561328282 -0.5773516952999396 0.5773495561334675 2.0943988608319266
+        children [
+          Pose {
+            translation 0 0 0.003
+            children [
+              Shape {
+                appearance USE u_base_64_material
+                geometry Box {
+                  size 0.047 0.0275 0.006
+                }
+              }
+            ]
+          }
+          HingeJoint {
+            jointParameters HingeJointParameters {
+              position -1.044168600472517e-07
+              axis -1 -3e-06 4e-06
+              anchor -0.0225 0.03 0.035
+            }
+            device [
+              RotationalMotor {
+                name "right_shoulder_roll"
+                maxVelocity 6
+              }
+              PositionSensor {
+                name "right_shoulder_roll_sensor"
+              }
+            ]
+            endPoint Solid {
+              translation -0.0225 0.03 0.035
+              rotation 0.7071052811839169 1.0369172632048306e-06 -0.707108281185236 3.1415910738340087
+              children [
+                Pose {
+                  translation 0 -0.092 -0.04
+                  rotation 0 -1 0 1.5708
+                  children [
+                    Shape {
+                      appearance USE humerus_plate_material
+                      geometry Box {
+                        size 0.003 0.07 0.03
+                      }
+                    }
+                  ]
+                }
+                Pose {
+                  translation 0 -0.054 -0.024
+                  rotation 0 -1 0 1.5708
+                  children [
+                    Shape {
+                      appearance USE humerus_plate_material
+                      geometry Box {
+                        size 0.03 0.003 0.03
+                      }
+                    }
+                  ]
+                }
+                Pose {
+                  translation 0 -0.015 -0.0235
+                  children [
+                    Shape {
+                      appearance USE mx64_material
+                      geometry Box {
+                        size 0.029 0.05 0.04
+                      }
+                    }
+                  ]
+                }
+                HingeJoint {
+                  jointParameters HingeJointParameters {
+                    position -7.727153139569509e-08
+                    axis 1 0 4e-06
+                    anchor -0.0235 -0.112 -0.0025
+                  }
+                  device [
+                    RotationalMotor {
+                      name "right_elbow"
+                      maxVelocity 6
+                    }
+                    PositionSensor {
+                      name "right_elbow_sensor"
+                    }
+                  ]
+                  endPoint Solid {
+                    translation -0.0235 -0.112 -0.0025
+                    rotation -3.863577832377013e-08 -0.9999999999999984 3.863561115504331e-08 1.5708000000000015
+                    children [
+                      Pose {
+                        translation -0.018 -0.0985 -0.0235
+                        children [
+                          Shape {
+                            appearance USE radius_plate_material
+                            geometry Box {
+                              size 0.003 0.085 0.03
+                            }
+                          }
+                        ]
+                      }
+                      Pose {
+                        translation -0.0075 -0.141 -0.0235
+                        children [
+                          Shape {
+                            appearance USE radius_plate_material
+                            geometry Cylinder {
+                              height 0.03
+                              radius 0.012
+                            }
+                          }
+                        ]
+                      }
+                      Pose {
+                        translation 0 -0.015 -0.0235
+                        children [
+                          Shape {
+                            appearance USE mx64_material
+                            geometry Box {
+                              size 0.029 0.05 0.04
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                    name "right_radius_1"
+                    boundingObject Group {
+                      children [
+                        Pose {
+                          translation -0.018 -0.0985 -0.0235
+                          children [
+                            Box {
+                              size 0.003 0.085 0.03
+                            }
+                          ]
+                        }
+                        Pose {
+                          translation -0.0075 -0.141 -0.0235
+                          children [
+                            Cylinder {
+                              height 0.03
+                              radius 0.012
+                            }
+                          ]
+                        }
+                        Pose {
+                          translation 0 -0.015 -0.0235
+                          children [
+                            Box {
+                              size 0.029 0.05 0.04
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                    physics Physics {
+                      density -1
+                      mass 0.20688
+                      centerOfMass [
+                        -0.002335 -0.03704 -0.023635
+                      ]
+                      inertiaMatrix [
+                        0.000379056 5.38522e-05 0.00036398
+                        -3.24125e-05 7.54143e-07 -9.99715e-09
+                      ]
+                    }
+                    linearVelocity 7.150939188571407e-07 4.155049908480642e-07 7.572081297084673e-06
+                    angularVelocity -3.2921459495988615e-06 3.4048392543682724e-06 2.4098836342387415e-06
+                  }
+                }
+              ]
+              name "right_humerus_1"
+              boundingObject Group {
+                children [
+                  Pose {
+                    translation 0 -0.092 -0.04
+                    rotation 0 -1 0 1.5708
+                    children [
+                      Box {
+                        size 0.003 0.07 0.03
+                      }
+                    ]
+                  }
+                  Pose {
+                    translation 0 -0.054 -0.024
+                    rotation 0 -1 0 1.5708
+                    children [
+                      Box {
+                        size 0.03 0.003 0.03
+                      }
+                    ]
+                  }
+                  Pose {
+                    translation 0 -0.015 -0.0235
+                    children [
+                      Box {
+                        size 0.029 0.05 0.04
+                      }
+                    ]
+                  }
+                ]
+              }
+              physics Physics {
+                density -1
+                mass 0.214223
+                centerOfMass [
+                  0.001044 -0.03764 -0.025366
+                ]
+                inertiaMatrix [
+                  0.000347788 6.5125e-05 0.000333224
+                  1.17167e-05 -1.66771e-06 -1.16648e-05
+                ]
+              }
+              linearVelocity 1.153312266078736e-06 8.332092775799639e-07 7.672717774351115e-06
+              angularVelocity -4.115147458993051e-06 3.5416597466070768e-06 2.409883935794493e-06
+            }
+          }
+        ]
+        name "u_shoulder_2"
+        boundingObject Pose {
+          translation 0 0 0.003
+          children [
+            Box {
+              size 0.047 0.0275 0.006
+            }
+          ]
+        }
+        physics Physics {
+          density -1
+          mass 0.042898
+          centerOfMass [
+            0 0.00486 0.016783
+          ]
+          inertiaMatrix [
+            1.57991e-05 2.84983e-05 2.50037e-05
+            6.77626e-21 -1.35525e-20 -3.76137e-06
+          ]
+        }
+        linearVelocity 1.3880530007309806e-06 1.0477649684059917e-06 7.728451302517072e-06
+        angularVelocity -3.946203217887541e-06 4.558118874572669e-06 2.410759070455737e-06
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 2.127077171191817e-06
+        axis 0 0 1
+        anchor 0 -0.037127 0.1858
+      }
+      device [
+        RotationalMotor {
+          name "head_yaw"
+          maxVelocity 6
+        }
+        PositionSensor {
+          name "head_yaw_sensor"
+        }
+      ]
+      endPoint Solid {
+        translation 0 -0.037127 0.1858
+        rotation 0 0 -1 3.141590004452528
+        children [
+          Pose {
+            translation 0 0 0.003
+            children [
+              Shape {
+                appearance USE u_base_64_material
+                geometry Box {
+                  size 0.047 0.0275 0.006
+                }
+              }
+            ]
+          }
+          Pose {
+            translation -0.025 0 0.023
+            rotation 0.5773496025226483 0.5773516025212714 0.5773496025226483 2.094399
+            children [
+              Shape {
+                appearance USE u_side_small_material
+                geometry Box {
+                  size 0.025 0.044 0.003
+                }
+              }
+            ]
+          }
+          Pose {
+            translation 0.025 0 0.023
+            rotation 0.5773496025226483 -0.5773516025212714 -0.5773496025226483 2.094399
+            children [
+              Shape {
+                appearance USE u_side_small_material
+                geometry Box {
+                  size 0.025 0.044 0.003
+                }
+              }
+            ]
+          }
+          HingeJoint {
+            jointParameters HingeJointParameters {
+              position -8.643325699608795e-08
+              axis -1 -4e-06 -4e-06
+              anchor -0.0235 0 0.04
+            }
+            device [
+              RotationalMotor {
+                name "head_pitch"
+                maxVelocity 6
+              }
+              PositionSensor {
+                name "head_pitch_sensor"
+              }
+            ]
+            endPoint Solid {
+              translation -0.0235 0 0.04
+              rotation -0.5773495858884156 -0.5773516357893907 0.5773495858886449 2.094398950097794
+              children [
+                Pose {
+                  translation -0.0375 -0.0698 -0.005
+                  rotation -1 0 0 3.14159
+                  children [
+                    Shape {
+                      appearance DEF head_plate_material PBRAppearance {
+                        baseColor 0.701961 0.682353 0.623529
+                        roughness 1
+                        metalness 0
+                      }
+                      geometry Box {
+                        size 0.008 0.05 0.003
+                      }
+                    }
+                  ]
+                }
+                Pose {
+                  translation 0 -0.0698 -0.005
+                  rotation -1 0 0 3.14159
+                  children [
+                    Shape {
+                      appearance USE head_plate_material
+                      geometry Box {
+                        size 0.008 0.05 0.003
+                      }
+                    }
+                  ]
+                }
+                Pose {
+                  translation 0.0375 -0.0698 -0.005
+                  rotation -1 0 0 3.14159
+                  children [
+                    Shape {
+                      appearance USE head_plate_material
+                      geometry Box {
+                        size 0.008 0.05 0.003
+                      }
+                    }
+                  ]
+                }
+                Pose {
+                  translation 0 -0.0468 -0.005
+                  rotation -1 0 0 3.14159
+                  children [
+                    Shape {
+                      appearance USE head_plate_material
+                      geometry Box {
+                        size 0.083 0.008 0.003
+                      }
+                    }
+                  ]
+                }
+                Pose {
+                  translation 0 -0.0698 -0.005
+                  rotation -1 0 0 3.14159
+                  children [
+                    Shape {
+                      appearance USE head_plate_material
+                      geometry Box {
+                        size 0.083 0.008 0.003
+                      }
+                    }
+                  ]
+                }
+                Pose {
+                  translation 0 -0.0928 -0.005
+                  rotation -1 0 0 3.14159
+                  children [
+                    Shape {
+                      appearance USE head_plate_material
+                      geometry Box {
+                        size 0.083 0.008 0.003
+                      }
+                    }
+                  ]
+                }
+                Pose {
+                  translation 0.004968 -0.06905 -0.0235
+                  rotation 0.5773496025226482 -0.5773496025226482 0.5773516025212713 2.094399
+                  children [
+                    Shape {
+                      appearance DEF ptgrey_camera_material PBRAppearance {
+                        baseColor 0.4 0.4 0.4
+                        roughness 1
+                        metalness 0
+                      }
+                      geometry Box {
+                        size 0.03 0.03 0.028
+                      }
+                    }
+                  ]
+                }
+                Pose {
+                  translation -0.0375 -0.0698 -0.042
+                  rotation -1 0 0 3.14159
+                  children [
+                    Shape {
+                      appearance USE head_plate_material
+                      geometry Box {
+                        size 0.008 0.05 0.003
+                      }
+                    }
+                  ]
+                }
+                Pose {
+                  translation 0 -0.0698 -0.042
+                  rotation -1 0 0 3.14159
+                  children [
+                    Shape {
+                      appearance USE head_plate_material
+                      geometry Box {
+                        size 0.008 0.05 0.003
+                      }
+                    }
+                  ]
+                }
+                Pose {
+                  translation 0.0375 -0.0698 -0.042
+                  rotation -1 0 0 3.14159
+                  children [
+                    Shape {
+                      appearance USE head_plate_material
+                      geometry Box {
+                        size 0.008 0.05 0.003
+                      }
+                    }
+                  ]
+                }
+                Pose {
+                  translation 0 -0.0468 -0.042
+                  rotation -1 0 0 3.14159
+                  children [
+                    Shape {
+                      appearance USE head_plate_material
+                      geometry Box {
+                        size 0.083 0.008 0.003
+                      }
+                    }
+                  ]
+                }
+                Pose {
+                  translation 0 -0.0698 -0.042
+                  rotation -1 0 0 3.14159
+                  children [
+                    Shape {
+                      appearance USE head_plate_material
+                      geometry Box {
+                        size 0.083 0.008 0.003
+                      }
+                    }
+                  ]
+                }
+                Pose {
+                  translation 0 -0.0928 -0.042
+                  rotation -1 0 0 3.14159
+                  children [
+                    Shape {
+                      appearance USE head_plate_material
+                      geometry Box {
+                        size 0.083 0.008 0.003
+                      }
+                    }
+                  ]
+                }
+                Pose {
+                  translation 0 -0.015 -0.0235
+                  children [
+                    Shape {
+                      appearance USE mx64_material
+                      geometry Box {
+                        size 0.029 0.05 0.04
+                      }
+                    }
+                  ]
+                }
+              ]
+              name "head_1"
+              boundingObject Group {
+                children [
+                  Pose {
+                    translation -0.0375 -0.0698 -0.005
+                    rotation -1 0 0 3.14159
+                    children [
+                      Box {
+                        size 0.008 0.05 0.003
+                      }
+                    ]
+                  }
+                  Pose {
+                    translation 0 -0.0698 -0.005
+                    rotation -1 0 0 3.14159
+                    children [
+                      Box {
+                        size 0.008 0.05 0.003
+                      }
+                    ]
+                  }
+                  Pose {
+                    translation 0.0375 -0.0698 -0.005
+                    rotation -1 0 0 3.14159
+                    children [
+                      Box {
+                        size 0.008 0.05 0.003
+                      }
+                    ]
+                  }
+                  Pose {
+                    translation 0 -0.0468 -0.005
+                    rotation -1 0 0 3.14159
+                    children [
+                      Box {
+                        size 0.083 0.008 0.003
+                      }
+                    ]
+                  }
+                  Pose {
+                    translation 0 -0.0698 -0.005
+                    rotation -1 0 0 3.14159
+                    children [
+                      Box {
+                        size 0.083 0.008 0.003
+                      }
+                    ]
+                  }
+                  Pose {
+                    translation 0 -0.0928 -0.005
+                    rotation -1 0 0 3.14159
+                    children [
+                      Box {
+                        size 0.083 0.008 0.003
+                      }
+                    ]
+                  }
+                  Pose {
+                    translation 0.004968 -0.06905 -0.0235
+                    rotation 0.5773496025226482 -0.5773496025226482 0.5773516025212713 2.094399
+                    children [
+                      Box {
+                        size 0.03 0.03 0.028
+                      }
+                    ]
+                  }
+                  Pose {
+                    translation -0.0375 -0.0698 -0.042
+                    rotation -1 0 0 3.14159
+                    children [
+                      Box {
+                        size 0.008 0.05 0.003
+                      }
+                    ]
+                  }
+                  Pose {
+                    translation 0 -0.0698 -0.042
+                    rotation -1 0 0 3.14159
+                    children [
+                      Box {
+                        size 0.008 0.05 0.003
+                      }
+                    ]
+                  }
+                  Pose {
+                    translation 0.0375 -0.0698 -0.042
+                    rotation -1 0 0 3.14159
+                    children [
+                      Box {
+                        size 0.008 0.05 0.003
+                      }
+                    ]
+                  }
+                  Pose {
+                    translation 0 -0.0468 -0.042
+                    rotation -1 0 0 3.14159
+                    children [
+                      Box {
+                        size 0.083 0.008 0.003
+                      }
+                    ]
+                  }
+                  Pose {
+                    translation 0 -0.0698 -0.042
+                    rotation -1 0 0 3.14159
+                    children [
+                      Box {
+                        size 0.083 0.008 0.003
+                      }
+                    ]
+                  }
+                  Pose {
+                    translation 0 -0.0928 -0.042
+                    rotation -1 0 0 3.14159
+                    children [
+                      Box {
+                        size 0.083 0.008 0.003
+                      }
+                    ]
+                  }
+                  Pose {
+                    translation 0 -0.015 -0.0235
+                    children [
+                      Box {
+                        size 0.029 0.05 0.04
+                      }
+                    ]
+                  }
+                ]
+              }
+              physics Physics {
+                density -1
+                mass 0.228227
+                centerOfMass [
+                  0.001274 -0.034352 -0.023721
+                ]
+                inertiaMatrix [
+                  0.000236902 8.77015e-05 0.000235668
+                  9.17476e-06 5.76668e-07 -3.39163e-07
+                ]
+              }
+              linearVelocity 1.762390378152839e-06 9.479838765552517e-07 8.066019663893476e-06
+              angularVelocity -4.1586140645053543e-07 3.971261562646242e-06 2.3660174909535846e-06
+            }
+          }
+        ]
+        name "u_neck_1"
+        boundingObject Group {
+          children [
+            Pose {
+              translation 0 0 0.003
+              children [
+                Box {
+                  size 0.047 0.0275 0.006
+                }
+              ]
+            }
+            Pose {
+              translation -0.025 0 0.023
+              rotation 0.5773496025226483 0.5773516025212714 0.5773496025226483 2.094399
+              children [
+                Box {
+                  size 0.025 0.044 0.003
+                }
+              ]
+            }
+            Pose {
+              translation 0.025 0 0.023
+              rotation 0.5773496025226483 -0.5773516025212714 -0.5773496025226483 2.094399
+              children [
+                Box {
+                  size 0.025 0.044 0.003
+                }
+              ]
+            }
+          ]
+        }
+        physics Physics {
+          density -1
+          mass 0.036209
+          centerOfMass [
+            0 0 0.012892
+          ]
+          inertiaMatrix [
+            6.41955e-06 2.38199e-05 2.02973e-05
+            4.27371e-12 3.64701e-13 4.49501e-20
+          ]
+        }
+        linearVelocity 1.5177108978960778e-06 8.994393576228315e-07 8.06949044640835e-06
+        angularVelocity -1.2331592078535113e-06 4.107090324583286e-06 2.36601851741301e-06
+      }
+    }
+  ]
+  name "Onshape"
+  boundingObject Group {
+    children [
+      Pose {
+        translation -0.031 -0.054127 0.0909
+        children [
+          Cylinder {
+            height 0.086
+            radius 0.004
+          }
+        ]
+      }
+      Pose {
+        translation -0.046375 -0.026254 0.02
+        rotation 1e-06 -1 -1e-06 3.141593
+        children [
+          Box {
+            size 0.029 0.05 0.04
+          }
+        ]
+      }
+      Pose {
+        translation 0.05 -0.017127 0.1609
+        rotation -0.7071052811840065 -1.0000003976552372e-06 -0.7071082811851994 3.141591
+        children [
+          Box {
+            size 0.029 0.05 0.04
+          }
+        ]
+      }
+      Pose {
+        translation 0.046375 -0.026254 0.02
+        rotation 1e-06 -1 -1e-06 3.141593
+        children [
+          Box {
+            size 0.029 0.05 0.04
+          }
+        ]
+      }
+      Pose {
+        translation 0 0.071323 0.1899
+        rotation 0.5773496025226482 0.5773496025226482 -0.5773516025212713 2.094399
+        children [
+          Box {
+            size 0.01 0.13 0.003
+          }
+        ]
+      }
+      Pose {
+        translation -0.06 0.071323 0.1649
+        rotation 0.5773496025226482 0.5773496025226482 -0.5773516025212713 2.094399
+        children [
+          Box {
+            size 0.04 0.01 0.003
+          }
+        ]
+      }
+      Pose {
+        translation 0.06 0.071323 0.1649
+        rotation 0.5773496025226482 0.5773496025226482 -0.5773516025212713 2.094399
+        children [
+          Box {
+            size 0.04 0.01 0.003
+          }
+        ]
+      }
+      Pose {
+        translation 0.0625 0.037873 0.0909
+        rotation -1 0 0 3.14159
+        children [
+          Cylinder {
+            height 0.086
+            radius 0.004
+          }
+        ]
+      }
+      Pose {
+        translation -0.050587 -0.017127 0.1609
+        rotation 0.7071052811840065 1.0000003976552372e-06 -0.7071082811851994 3.141591
+        children [
+          Box {
+            size 0.029 0.05 0.04
+          }
+        ]
+      }
+      Pose {
+        translation 0 -0.019127 0.1354
+        rotation 1e-06 -1 -1e-06 3.141593
+        children [
+          Box {
+            size 0.13 0.08 0.003
+          }
+        ]
+      }
+      Pose {
+        translation 0 0.010373 0.0469
+        children [
+          Box {
+            size 0.13 0.08 0.003
+          }
+        ]
+      }
+      Pose {
+        translation -0.0625 0.037873 0.0909
+        children [
+          Cylinder {
+            height 0.086
+            radius 0.004
+          }
+        ]
+      }
+      Pose {
+        translation 0 0.035873 0.10615
+        rotation 1.0000003976552372e-06 -0.7071082811851994 -0.7071052811840065 3.141591
+        children [
+          Box {
+            size 0.11 0.11 0.033
+          }
+        ]
+      }
+      Pose {
+        translation 0 0.031123 0.0015
+        children [
+          Box {
+            size 0.13 0.044 0.003
+          }
+        ]
+      }
+      Pose {
+        translation -0.03 -0.007877 0.0015
+        children [
+          Box {
+            size 0.01 0.035 0.003
+          }
+        ]
+      }
+      Pose {
+        translation 0.03 -0.007877 0.0015
+        children [
+          Box {
+            size 0.01 0.035 0.003
+          }
+        ]
+      }
+      Pose {
+        translation 0 0.059373 0.1384
+        rotation -0.7071052811840065 0.7071082811851994 -1.0000003976552372e-06 3.141591
+        children [
+          Box {
+            size 0.01 0.135 0.003
+          }
+        ]
+      }
+      Pose {
+        translation 0 -0.022127 0.1623
+        rotation 0 0 -1 3.14159
+        children [
+          Box {
+            size 0.029 0.05 0.04
+          }
+        ]
+      }
+      Pose {
+        translation 0.031 -0.054127 0.0914
+        children [
+          Cylinder {
+            height 0.086
+            radius 0.004
+          }
+        ]
+      }
+    ]
+  }
+  physics Physics {
+    density -1
+    mass 1.75912
+    centerOfMass [
+      0.000186 0.00053 0.092243
+    ]
+    inertiaMatrix [
+      0.00823896 0.00915867 0.00511156
+      2.57494e-06 1.9734e-05 -0.000169433
+    ]
+  }
+  linearVelocity 1.1700390019389472e-06 7.531682797993789e-07 8.142906349520947e-06
+  angularVelocity -1.2331771568711624e-06 4.107077490482221e-06 2.4107584135048546e-06
+}

@@ -27,7 +27,7 @@ Robot {
       }
       geometry DEF peito_visual Mesh {
         url [
-          "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/peito_visual.stl"
+          "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/peito_visual.stl"
         ]
       }
     }
@@ -56,7 +56,7 @@ Robot {
             }
             geometry DEF ombro_visual Mesh {
               url [
-                "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/ombro_visual.stl"
+                "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/ombro_visual.stl"
               ]
             }
           }
@@ -86,7 +86,7 @@ Robot {
                   }
                   geometry DEF braco_visual Mesh {
                     url [
-                      "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/braco_visual.stl"
+                      "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/braco_visual.stl"
                     ]
                   }
                 }
@@ -116,7 +116,7 @@ Robot {
                         }
                         geometry DEF mao_visual Mesh {
                           url [
-                            "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/mao_visual.stl"
+                            "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/mao_visual.stl"
                           ]
                         }
                       }
@@ -130,7 +130,7 @@ Robot {
                           children [
                             DEF mao Mesh {
                               url [
-                                "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/mao.stl"
+                                "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/mao.stl"
                               ]
                             }
                           ]
@@ -141,7 +141,7 @@ Robot {
                           children [
                             DEF apoio_mao Mesh {
                               url [
-                                "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/apoio_mao.stl"
+                                "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/apoio_mao.stl"
                               ]
                             }
                           ]
@@ -151,7 +151,7 @@ Robot {
                           children [
                             DEF xm_540 Mesh {
                               url [
-                                "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/xm_540.stl"
+                                "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/xm_540.stl"
                               ]
                             }
                           ]
@@ -188,7 +188,7 @@ Robot {
                     children [
                       DEF junta_ombro Mesh {
                         url [
-                          "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/junta_ombro.stl"
+                          "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/junta_ombro.stl"
                         ]
                       }
                     ]
@@ -199,7 +199,7 @@ Robot {
                     children [
                       DEF braco Mesh {
                         url [
-                          "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/braco.stl"
+                          "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/braco.stl"
                         ]
                       }
                     ]
@@ -246,7 +246,7 @@ Robot {
           children [
             DEF ombro Mesh {
               url [
-                "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/ombro.stl"
+                "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/ombro.stl"
               ]
             }
           ]
@@ -290,7 +290,7 @@ Robot {
             }
             geometry DEF ombro_2_visual Mesh {
               url [
-                "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/ombro_2_visual.stl"
+                "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/ombro_2_visual.stl"
               ]
             }
           }
@@ -320,7 +320,7 @@ Robot {
                   }
                   geometry DEF braco_2_visual Mesh {
                     url [
-                      "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/braco_2_visual.stl"
+                      "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/braco_2_visual.stl"
                     ]
                   }
                 }
@@ -349,7 +349,7 @@ Robot {
                         }
                         geometry DEF mao_2_visual Mesh {
                           url [
-                            "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/mao_2_visual.stl"
+                            "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/mao_2_visual.stl"
                           ]
                         }
                       }
@@ -500,7 +500,7 @@ Robot {
             }
             geometry DEF pescoco_visual Mesh {
               url [
-                "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/pescoco_visual.stl"
+                "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/pescoco_visual.stl"
               ]
             }
           }
@@ -530,7 +530,7 @@ Robot {
                   }
                   geometry DEF capacete_visual Mesh {
                     url [
-                      "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/capacete_visual.stl"
+                      "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/capacete_visual.stl"
                     ]
                   }
                 }
@@ -544,7 +544,7 @@ Robot {
                     children [
                       DEF webcam Mesh {
                         url [
-                          "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/webcam.stl"
+                          "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/webcam.stl"
                         ]
                       }
                     ]
@@ -554,7 +554,7 @@ Robot {
                     children [
                       DEF capacete Mesh {
                         url [
-                          "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/capacete.stl"
+                          "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/capacete.stl"
                         ]
                       }
                     ]
@@ -565,7 +565,7 @@ Robot {
                     children [
                       DEF tampa_capacete Mesh {
                         url [
-                          "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/tampa_capacete.stl"
+                          "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/tampa_capacete.stl"
                         ]
                       }
                     ]
@@ -595,7 +595,7 @@ Robot {
               children [
                 DEF xm_430 Mesh {
                   url [
-                    "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/xm_430.stl"
+                    "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/xm_430.stl"
                   ]
                 }
               ]
@@ -606,7 +606,7 @@ Robot {
               children [
                 DEF pescoco Mesh {
                   url [
-                    "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/pescoco.stl"
+                    "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/pescoco.stl"
                   ]
                 }
               ]
@@ -653,7 +653,7 @@ Robot {
             }
             geometry DEF conector_calcanhar_visual Mesh {
               url [
-                "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/conector_calcanhar_visual.stl"
+                "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/conector_calcanhar_visual.stl"
               ]
             }
           }
@@ -682,7 +682,7 @@ Robot {
                   }
                   geometry DEF motores_duplos_visual Mesh {
                     url [
-                      "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/motores_duplos_visual.stl"
+                      "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/motores_duplos_visual.stl"
                     ]
                   }
                 }
@@ -712,7 +712,7 @@ Robot {
                         }
                         geometry DEF joelho_visual Mesh {
                           url [
-                            "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/joelho_visual.stl"
+                            "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/joelho_visual.stl"
                           ]
                         }
                       }
@@ -741,7 +741,7 @@ Robot {
                               }
                               geometry DEF canela_visual Mesh {
                                 url [
-                                  "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/canela_visual.stl"
+                                  "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/canela_visual.stl"
                                 ]
                               }
                             }
@@ -770,7 +770,7 @@ Robot {
                                     }
                                     geometry DEF motores_duplos_2_visual Mesh {
                                       url [
-                                        "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/motores_duplos_2_visual.stl"
+                                        "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/motores_duplos_2_visual.stl"
                                       ]
                                     }
                                   }
@@ -800,7 +800,7 @@ Robot {
                                           }
                                           geometry DEF pe_direito_visual Mesh {
                                             url [
-                                              "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/pe_direito_visual.stl"
+                                              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/pe_direito_visual.stl"
                                             ]
                                           }
                                         }
@@ -814,7 +814,7 @@ Robot {
                                             children [
                                               DEF conector_calcanhar Mesh {
                                                 url [
-                                                  "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/conector_calcanhar.stl"
+                                                  "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/conector_calcanhar.stl"
                                                 ]
                                               }
                                             ]
@@ -825,7 +825,7 @@ Robot {
                                             children [
                                               DEF pe Mesh {
                                                 url [
-                                                  "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/pe.stl"
+                                                  "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/pe.stl"
                                                 ]
                                               }
                                             ]
@@ -861,7 +861,7 @@ Robot {
                                       children [
                                         DEF rolamento Mesh {
                                           url [
-                                            "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/rolamento.stl"
+                                            "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/rolamento.stl"
                                           ]
                                         }
                                       ]
@@ -872,7 +872,7 @@ Robot {
                                       children [
                                         DEF peca_rolamento Mesh {
                                           url [
-                                            "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/peca_rolamento.stl"
+                                            "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/peca_rolamento.stl"
                                           ]
                                         }
                                       ]
@@ -890,7 +890,7 @@ Robot {
                                       children [
                                         DEF rolamento_motor Mesh {
                                           url [
-                                            "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/rolamento_motor.stl"
+                                            "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/rolamento_motor.stl"
                                           ]
                                         }
                                       ]
@@ -901,7 +901,7 @@ Robot {
                                       children [
                                         DEF junta_motores Mesh {
                                           url [
-                                            "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/junta_motores.stl"
+                                            "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/junta_motores.stl"
                                           ]
                                         }
                                       ]
@@ -929,7 +929,7 @@ Robot {
                             children [
                               DEF canela Mesh {
                                 url [
-                                  "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/canela.stl"
+                                  "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/canela.stl"
                                 ]
                               }
                             ]
@@ -964,7 +964,7 @@ Robot {
                           children [
                             DEF coxa Mesh {
                               url [
-                                "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/coxa.stl"
+                                "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/coxa.stl"
                               ]
                             }
                           ]
@@ -1093,7 +1093,7 @@ Robot {
             }
             geometry DEF conector_calcanhar_2_visual Mesh {
               url [
-                "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/conector_calcanhar_2_visual.stl"
+                "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/conector_calcanhar_2_visual.stl"
               ]
             }
           }
@@ -1122,7 +1122,7 @@ Robot {
                   }
                   geometry DEF motores_duplos_3_visual Mesh {
                     url [
-                      "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/motores_duplos_3_visual.stl"
+                      "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/motores_duplos_3_visual.stl"
                     ]
                   }
                 }
@@ -1152,7 +1152,7 @@ Robot {
                         }
                         geometry DEF joelho_2_visual Mesh {
                           url [
-                            "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/joelho_2_visual.stl"
+                            "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/joelho_2_visual.stl"
                           ]
                         }
                       }
@@ -1182,7 +1182,7 @@ Robot {
                               }
                               geometry DEF canela_2_visual Mesh {
                                 url [
-                                  "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/canela_2_visual.stl"
+                                  "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/canela_2_visual.stl"
                                 ]
                               }
                             }
@@ -1212,7 +1212,7 @@ Robot {
                                     }
                                     geometry DEF motores_duplos_4_visual Mesh {
                                       url [
-                                        "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/motores_duplos_4_visual.stl"
+                                        "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/motores_duplos_4_visual.stl"
                                       ]
                                     }
                                   }
@@ -1242,7 +1242,7 @@ Robot {
                                           }
                                           geometry DEF pe_esquerdo_visual Mesh {
                                             url [
-                                              "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/pe_esquerdo_visual.stl"
+                                              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/pe_esquerdo_visual.stl"
                                             ]
                                           }
                                         }
@@ -1492,7 +1492,7 @@ Robot {
         children [
           DEF tampa_peito Mesh {
             url [
-              "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/tampa_peito.stl"
+              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/tampa_peito.stl"
             ]
           }
         ]
@@ -1517,7 +1517,7 @@ Robot {
         children [
           DEF tampa_bateria Mesh {
             url [
-              "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/tampa_bateria.stl"
+              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/tampa_bateria.stl"
             ]
           }
         ]
@@ -1527,7 +1527,7 @@ Robot {
         children [
           DEF peito_esquerda Mesh {
             url [
-              "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/peito_esquerda.stl"
+              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/peito_esquerda.stl"
             ]
           }
         ]
@@ -1538,7 +1538,7 @@ Robot {
         children [
           DEF peito_base Mesh {
             url [
-              "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/peito_base.stl"
+              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/peito_base.stl"
             ]
           }
         ]
@@ -1556,7 +1556,7 @@ Robot {
         children [
           DEF hub Mesh {
             url [
-              "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/hub.stl"
+              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/hub.stl"
             ]
           }
         ]
@@ -1566,7 +1566,7 @@ Robot {
         children [
           DEF peito_direita Mesh {
             url [
-              "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/peito_direita.stl"
+              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/peito_direita.stl"
             ]
           }
         ]
@@ -1577,7 +1577,7 @@ Robot {
         children [
           DEF placa_eletrica Mesh {
             url [
-              "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/placa_eletrica.stl"
+              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/placa_eletrica.stl"
             ]
           }
         ]
@@ -1595,7 +1595,7 @@ Robot {
         children [
           DEF bateria1 Mesh {
             url [
-              "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/bateria1.stl"
+              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/bateria1.stl"
             ]
           }
         ]
@@ -1606,7 +1606,7 @@ Robot {
         children [
           DEF suporte_interno Mesh {
             url [
-              "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/suporte_interno.stl"
+              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/suporte_interno.stl"
             ]
           }
         ]
@@ -1617,7 +1617,7 @@ Robot {
         children [
           DEF bateria2 Mesh {
             url [
-              "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/bateria2.stl"
+              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/bateria2.stl"
             ]
           }
         ]
@@ -1628,7 +1628,7 @@ Robot {
         children [
           DEF porta_botao Mesh {
             url [
-              "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/porta_botao.stl"
+              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/porta_botao.stl"
             ]
           }
         ]
@@ -1638,7 +1638,7 @@ Robot {
         children [
           DEF base_baterias Mesh {
             url [
-              "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/base_baterias.stl"
+              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/base_baterias.stl"
             ]
           }
         ]
@@ -1649,7 +1649,7 @@ Robot {
         children [
           DEF nuc Mesh {
             url [
-              "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/nuc.stl"
+              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/nuc.stl"
             ]
           }
         ]
@@ -1660,7 +1660,7 @@ Robot {
         children [
           DEF imu Mesh {
             url [
-              "/home/lucas/Desktop/RoboFEI/IC/webots_prometheus/protos/imu.stl"
+              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/imu.stl"
             ]
           }
         ]

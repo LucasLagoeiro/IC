@@ -42,9 +42,9 @@ int main(int argc, char **argv) {
   Motor *motorRightKnee= robot->getMotor("right_knee");
   Motor *motorLeftKnee= robot->getMotor("left_knee");
   
-  motorRightHipPitch->setVelocity(0.1);
-  motorLeftHipPitch->setVelocity(0.1);
-  motorRightKnee->setVelocity(0.2);
+  motorRightHipPitch->setVelocity(0.3);
+  motorLeftHipPitch->setVelocity(0.3);
+  motorRightKnee->setVelocity(0.1);
   motorLeftKnee->setVelocity(0.1);
   
   PositionSensor *ps_elbowR = robot->getPositionSensor("right_elbow_sensor");
@@ -66,10 +66,10 @@ int main(int argc, char **argv) {
     motorLeftElbow->setPosition(-1.5);
     motorLeftShoulderPitch->setPosition(0.3);
     
-    /*motorRightHipPitch->setPosition(0.3);
+    motorRightHipPitch->setPosition(0.3);
     motorLeftHipPitch->setPosition(-0.3);        
     motorRightKnee->setPosition(0.5);
-    motorLeftKnee->setPosition(0.5);*/
+    motorLeftKnee->setPosition(0.5);
     
     //motorRightElbow->setPosition(-1);
   

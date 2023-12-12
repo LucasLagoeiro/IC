@@ -30,33 +30,22 @@ int main(int argc, char **argv) {
 
   // You should insert a getDevice-like function in order to get the
   // instance of a device of the robot. Something like:
-  Motor *ID_1 = robot->getMotor("right_shoulder_roll");
-  Motor *ID_2 = robot->getMotor("left_shoulder_roll");
-  Motor *ID_3 = robot->getMotor("right_shoulder_pitch");
-  Motor *ID_4 = robot->getMotor("left_shoulder_pitch");
-  Motor *ID_5 = robot->getMotor("right_elbow");
-  Motor *ID_6 = robot->getMotor("left_elbow");
-  Motor *ID_7 = robot->getMotor("right_hip_yaw");
-  Motor *ID_8 = robot->getMotor("left_hip_yaw");
-  Motor *ID_9 = robot->getMotor("right_hip_roll");
-  Motor *ID_10 = robot->getMotor("left_hip_roll");
-  Motor *ID_11 = robot->getMotor("right_hip_pitch");
-  Motor *ID_12 = robot->getMotor("left_hip_pitch");
-  Motor *ID_13 = robot->getMotor("right_knee");
-  Motor *ID_14 = robot->getMotor("left_knee");
-  Motor *ID_15 = robot->getMotor("right_ankle_pitch");
-  Motor *ID_16 = robot->getMotor("left_ankle_pitch");
-  Motor *ID_17 = robot->getMotor("right_ankle_roll");
-  Motor *ID_18 = robot->getMotor("left_ankle_roll");
-  Motor *ID_19 = robot->getMotor("head_yaw");
-  Motor *ID_20 = robot->getMotor("head_pitch");
+  Motor *motorRightShoulderPitch = robot->getMotor("right_shoulder_pitch");
+  Motor *motorRightShoulderRoll = robot->getMotor("right_shoulder_roll");
+  Motor *motorRightElbow= robot->getMotor("right_elbow");
   
-  ID_11->setVelocity(0.3);
-  ID_12->setVelocity(0.3);
-  ID_13->setVelocity(0.1);
-  ID_14->setVelocity(0.1);
-  ID_15->setVelocity(0.1);
-  ID_16->setVelocity(0.1);
+  Motor *motorLeftShoulderPitch = robot->getMotor("left_shoulder_pitch");
+  Motor *motorLeftElbow= robot->getMotor("left_elbow");
+  
+  Motor *motorRightHipPitch= robot->getMotor("right_hip_pitch");
+  Motor *motorLeftHipPitch= robot->getMotor("left_hip_pitch");
+  Motor *motorRightKnee= robot->getMotor("right_knee");
+  Motor *motorLeftKnee= robot->getMotor("left_knee");
+  
+  motorRightHipPitch->setVelocity(0.3);
+  motorLeftHipPitch->setVelocity(0.3);
+  motorRightKnee->setVelocity(0.1);
+  motorLeftKnee->setVelocity(0.1);
   
   PositionSensor *ps_elbowR = robot->getPositionSensor("right_elbow_sensor");
   ps_elbowR->enable(TIME_STEP);
@@ -71,26 +60,24 @@ int main(int argc, char **argv) {
     // Process sensor data here.
 
     // Enter here functions to send actuator commands, like:
-    ID_3->setPosition(-1.35);
-    ID_1->setPosition(-1.55);
+    motorRightShoulderPitch->setPosition(-1.35);
+    motorRightShoulderRoll->setPosition(-1.55);
     
-    ID_6->setPosition(-1.5);
-    ID_4->setPosition(0.3);
+    motorLeftElbow->setPosition(-1.5);
+    motorLeftShoulderPitch->setPosition(0.3);
     
-    ID_11->setPosition(0.3);
-    ID_12->setPosition(-0.3);        
-    ID_13->setPosition(0.5);
-    ID_14->setPosition(0.5);
-    ID_15->setPosition(-0.3);
-    ID_16->setPosition(-0.3);
+    motorRightHipPitch->setPosition(0.3);
+    motorLeftHipPitch->setPosition(-0.3);        
+    motorRightKnee->setPosition(0.5);
+    motorLeftKnee->setPosition(0.5);
     
     //motorRightElbow->setPosition(-1);
   
     int val = ps_elbowR->getValue();
     if (val == 0){
-       ID_5->setPosition(-2);}
+       motorRightElbow->setPosition(-2);}
     else if (val == -2){
-       ID_5->setPosition(-1);}
+       motorRightElbow->setPosition(-1);}
        
      std::cout << val << "\n";
        //motorRightElbow->setPosition(-2);

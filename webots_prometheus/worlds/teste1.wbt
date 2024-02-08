@@ -7,8 +7,8 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/project
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.03435563951164474 -0.027066243739184665 0.9990430964095578 4.47520831616729
-  position -0.025126633838109314 1.4204471599901403 0.5246441823888466
+  orientation -0.13425868767435653 -0.1516107884584895 0.9792797218399627 4.812829907597377
+  position -0.44098251873428745 1.962610289212023 1.1413092662563467
 }
 TexturedBackground {
 }
@@ -22,6 +22,7 @@ Robot {
   children [
     Shape {
       appearance DEF peito_material PBRAppearance {
+        baseColor 0.24 0.24 0.24
         roughness 1
         metalness 0
       }
@@ -46,7 +47,7 @@ Robot {
       ]
       endPoint Solid {
         translation -0.082 0.0714 0.148
-        rotation 0.5776568950775881 0.5771958951613216 0.5771978951609584 2.09394
+        rotation 0.5776568950775882 0.5771958951613216 0.5771978951609584 2.0939399999999995
         children [
           Shape {
             appearance DEF ombro_material PBRAppearance {
@@ -76,11 +77,11 @@ Robot {
             ]
             endPoint Solid {
               translation -0.022 0 -0.042
-              rotation -0.000397654937119029 -0.9999998418705384 -0.000397654937119029 1.570795307179586
+              rotation -0.00039765493711902924 -0.9999998418705384 -0.00039765493711902913 1.570795307179585
               children [
                 Shape {
                   appearance DEF braco_material PBRAppearance {
-                    baseColor 0.593536 0.669368 0.676264
+                    baseColor 0.24 0.24 0.24
                     roughness 1
                     metalness 0
                   }
@@ -106,7 +107,7 @@ Robot {
                   ]
                   endPoint Solid {
                     translation -0.0245 -0.141 -0.0245
-                    rotation -0.00040264393471940827 -0.9999998378701983 -0.0004026629347163277 1.5707953071795855
+                    rotation -0.00040264393471940805 -0.9999998378701983 -0.00040266293471632764 1.5707953071795855
                     children [
                       Shape {
                         appearance DEF mao_material PBRAppearance {
@@ -280,7 +281,7 @@ Robot {
       ]
       endPoint Solid {
         translation 0.086 0.0709671 0.149197
-        rotation 0.5771958946291473 -0.5771958946291473 -0.5776588945446237 2.093935307179586
+        rotation 0.5771958946291472 -0.5771958946291472 -0.5776588945446236 2.093935307179586
         children [
           Shape {
             appearance DEF ombro_2_material PBRAppearance {
@@ -309,12 +310,12 @@ Robot {
               }
             ]
             endPoint Solid {
-              translation 0.025000000000000005 0 -0.042
-              rotation 0.0003976539371195034 0.9999998418713338 -0.0003976539371195034 1.5708
+              translation 0.02499999999999995 0 -0.042
+              rotation 0.0003976539371195034 0.9999998418713338 -0.00039765393711950356 1.5708
               children [
                 Shape {
                   appearance DEF braco_2_material PBRAppearance {
-                    baseColor 0.593536 0.669368 0.676264
+                    baseColor 0.24 0.24 0.24
                     roughness 1
                     metalness 0
                   }
@@ -339,7 +340,7 @@ Robot {
                   ]
                   endPoint Solid {
                     translation 0.0252 -0.141 -0.0245
-                    rotation -1.871696371117758e-23 1 1.871696371117758e-23 1.5707959999999996
+                    rotation -3.7433927422355164e-23 1 -3.7433927422355164e-23 1.5707959999999996
                     children [
                       Shape {
                         appearance DEF mao_2_material PBRAppearance {
@@ -490,12 +491,11 @@ Robot {
       ]
       endPoint Solid {
         translation 0.002498 0.048469 0.167955
-        rotation -0.7071067811865475 0.7071067811865477 -8.766875707376866e-17 3.141593
+        rotation -0.7071067811865474 0.7071067811865478 -1.321893117072678e-16 3.141593
         children [
           Shape {
             appearance DEF pescoco_material PBRAppearance {
-              baseColor 0.144352 0.144352 0.144352
-              roughness 1
+              baseColor 0.24 0.24 0.24
               metalness 0
             }
             geometry DEF pescoco_visual Mesh {
@@ -520,11 +520,11 @@ Robot {
             ]
             endPoint Solid {
               translation -0.00075 0.019 -0.06075
-              rotation -1 -9.358481855588791e-24 0 1.570796
+              rotation -1 0 1.871696371117758e-23 1.570796
               children [
                 Shape {
                   appearance DEF capacete_material PBRAppearance {
-                    baseColor 0.787536 0.812047 0.913591
+                    baseColor 0.24 0.24 0.24
                     roughness 1
                     metalness 0
                   }
@@ -672,7 +672,7 @@ Robot {
             ]
             endPoint Solid {
               translation 0.0787 0 -0.033
-              rotation 0.5773502691896257 0.5773502691896257 0.5773502691896257 2.094395
+              rotation 0.5773502691896258 0.5773502691896256 0.5773502691896258 2.094395
               children [
                 Shape {
                   appearance DEF motores_duplos_material PBRAppearance {
@@ -702,7 +702,7 @@ Robot {
                   ]
                   endPoint Solid {
                     translation 0.025 -0.031 -0.0741
-                    rotation 0 -1 9.583085420122919e-21 1.570796
+                    rotation 1.1978856775153652e-21 -1 8.385199742607557e-21 1.5707959999999996
                     children [
                       Shape {
                         appearance DEF joelho_material PBRAppearance {
@@ -790,7 +790,7 @@ Robot {
                                     ]
                                     endPoint Solid {
                                       translation 0.0741 -0.031 -0.025
-                                      rotation -0.5773502691896258 -0.5773502691896257 0.5773502691896257 2.094395
+                                      rotation -0.5773502691896258 -0.5773502691896258 0.5773502691896258 2.0943949999999996
                                       children [
                                         Shape {
                                           appearance DEF pe_direito_material PBRAppearance {
@@ -1083,7 +1083,7 @@ Robot {
       ]
       endPoint Solid {
         translation 0.045287 0.057719 -0.046045
-        rotation 0 0 1 1.5707959999999996
+        rotation 0 0 1 1.570796
         children [
           Shape {
             appearance DEF conector_calcanhar_2_material PBRAppearance {
@@ -1112,7 +1112,7 @@ Robot {
             ]
             endPoint Solid {
               translation 0.0787 0 -0.033
-              rotation 0.5773502691896257 0.5773502691896258 0.5773502691896258 2.094395
+              rotation 0.5773502691896255 0.5773502691896258 0.577350269189626 2.0943949999999996
               children [
                 Shape {
                   appearance DEF motores_duplos_3_material PBRAppearance {
@@ -1142,7 +1142,7 @@ Robot {
                   ]
                   endPoint Solid {
                     translation 0.025 -0.031 -0.0741
-                    rotation 0.7071067811865476 1.3552527156068986e-20 -0.7071067811865475 3.141593
+                    rotation 0.7071067811865476 1.3340768919255426e-20 -0.7071067811865475 3.141593
                     children [
                       Shape {
                         appearance DEF joelho_2_material PBRAppearance {
@@ -1172,7 +1172,7 @@ Robot {
                         ]
                         endPoint Solid {
                           translation 0 0.1305 0.0495
-                          rotation 8.470329472543131e-22 -1 -5.085969271689957e-24 3.141593
+                          rotation 1.694065894508626e-21 -1 -1.1862953401586172e-23 3.141593
                           children [
                             Shape {
                               appearance DEF canela_2_material PBRAppearance {
@@ -1202,7 +1202,7 @@ Robot {
                               ]
                               endPoint Solid {
                                 translation 0 0.13 0
-                                rotation -1 -2.168404344971041e-19 1.4618282166918848e-19 3.141593
+                                rotation -1 -8.673617379884165e-19 -2.1312419268792432e-19 3.141593
                                 children [
                                   Shape {
                                     appearance DEF motores_duplos_4_material PBRAppearance {
@@ -1232,7 +1232,7 @@ Robot {
                                     ]
                                     endPoint Solid {
                                       translation 0.0741 -0.031 -0.025
-                                      rotation -0.5773502691896255 -0.5773502691896258 0.5773502691896258 2.0943949999999996
+                                      rotation -0.5773502691896254 -0.5773502691896258 0.577350269189626 2.0943949999999996
                                       children [
                                         Shape {
                                           appearance DEF pe_esquerdo_material PBRAppearance {
@@ -1672,17 +1672,6 @@ Robot {
           USE tampa_peito
         ]
       }
-    ]
-  }
-  physics Physics {
-    density -1
-    mass 12.978787
-    centerOfMass [
-      0.002344 0.081932 0.051331
-    ]
-    inertiaMatrix [
-      0.06956325 0.06916417 0.03601352
-      -1.782284e-05 -3.142994e-05 -3.043309e-05
     ]
   }
 }

@@ -7,8 +7,8 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/project
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.08037015689992018 -0.06446530495277221 0.9946782707676027 4.488433236681151
-  position -0.09149214056833702 0.662011012625825 0.3402775616336744
+  orientation -0.18789262770403492 -0.1514831133234255 0.9704376470604978 4.469411075280232
+  position 0.1308480895840775 1.6788524960299447 0.7999716449133213
 }
 TexturedBackground {
 }
@@ -16,10 +16,11 @@ TexturedBackgroundLight {
 }
 RectangleArena {
   translation 0 0 -0.02
+  floorSize 3 3
 }
 Robot {
-  translation -0.2974629429218411 -0.11464589413514814 0.3629994548771883
-  rotation -3.443304724801058e-05 -0.00042047609302553934 0.9999999110071062 2.9768805678715093
+  translation -0.29746348907736797 -0.11464623761752733 0.3629994201563468
+  rotation -3.4769839861203524e-05 -0.00042082821251384706 0.9999999108473329 2.976882016689423
   children [
     Pose {
       translation -0.031 -0.054127 0.0909
@@ -280,7 +281,7 @@ Robot {
     }
     HingeJoint {
       jointParameters HingeJointParameters {
-        position -7.545227712481408e-07
+        position -5.450902596006592e-07
         axis -3e-06 0 1
         anchor -0.046375 -0.011254 -0.0035
       }
@@ -294,8 +295,8 @@ Robot {
         }
       ]
       endPoint Solid {
-        translation -0.04637500000003609 -0.0112541 -0.0034999900000000006
-        rotation 0.7070866523730355 -0.7071269075213714 -5.191489391105695e-05 3.141485307199085
+        translation -0.04637500000001515 -0.0112541 -0.00349999
+        rotation 0.7070867264207124 -0.7071268334779026 -5.191488806845759e-05 3.1414853071877684
         children [
           Pose {
             translation -0.00494 0 0.003
@@ -346,7 +347,7 @@ Robot {
           }
           HingeJoint {
             jointParameters HingeJointParameters {
-              position 1.11621820495722e-06
+              position 1.6948064327324733e-06
               axis -1 -4e-06 -4e-06
               anchor 0.0234 0 0.04
             }
@@ -360,8 +361,8 @@ Robot {
               }
             ]
             endPoint Solid {
-              translation -0.02659999999999865 -1.9999977675417553e-07 0.04
-              rotation -0.5773498173406821 -0.5773511728894135 0.5773498173377211 2.094399644448251
+              translation -0.0265999999999986 -1.999996610365299e-07 0.04
+              rotation -0.5773499286908457 -0.5773509501910796 0.5773499286863497 2.094399978496089
               children [
                 Pose {
                   translation 0 -0.015 0.0234
@@ -392,7 +393,7 @@ Robot {
                 }
                 HingeJoint {
                   jointParameters HingeJointParameters {
-                    position 2.035814035087052e-06
+                    position 3.051072526043562e-06
                     axis 1 0 -4e-06
                     anchor -0.026 0 0.0234
                   }
@@ -406,8 +407,8 @@ Robot {
                     }
                   ]
                   endPoint Solid {
-                    translation 0.02599999999999997 8.10644871456946e-08 -0.017000099999919225
-                    rotation 2.752359385971277e-06 -0.9999999999920922 -2.870591089183358e-06 1.5707900000045645
+                    translation 0.025999999999999978 1.2208082052849186e-07 -0.01700009999981621
+                    rotation 3.2599898125084887e-06 -0.9999999999889799 -3.3782223651778204e-06 1.5707900000076087
                     children [
                       Pose {
                         translation 0 -0.0395 0.0535
@@ -469,7 +470,7 @@ Robot {
                       }
                       HingeJoint {
                         jointParameters HingeJointParameters {
-                          position 1.9245494588849394e-08
+                          position 7.322043521786342e-07
                           axis 0 -3e-06 1
                           anchor 0 -0.14 0
                         }
@@ -484,7 +485,7 @@ Robot {
                         ]
                         endPoint Solid {
                           translation 0 -0.14 0
-                          rotation 1.00962274726766e-06 -0.9999999999989905 -1.0000000016796966e-06 3.1415930000000385
+                          rotation 1.3661021761448422e-06 -0.9999999999985669 -1.0000000633886309e-06 3.1415930000014645
                           children [
                             Pose {
                               translation 0 -0.067 0.0015
@@ -514,7 +515,7 @@ Robot {
                             }
                             HingeJoint {
                               jointParameters HingeJointParameters {
-                                position -4.6573839686321974e-08
+                                position -7.893609372936556e-07
                                 axis 0 0 -1
                                 anchor 0 -0.14 0
                               }
@@ -529,7 +530,7 @@ Robot {
                               ]
                               endPoint Solid {
                                 translation 0 -0.14 0
-                                rotation 0 0 1 3.14159004657384
+                                rotation 0 0 1 3.1415907893609374
                                 children [
                                   Pose {
                                     translation 0 -0.015 -0.026
@@ -556,7 +557,7 @@ Robot {
                                   }
                                   HingeJoint {
                                     jointParameters HingeJointParameters {
-                                      position -4.695185140556496e-08
+                                      position 9.201913021163295e-07
                                       axis -1 -3e-06 4e-06
                                       anchor 0.0234 0 -0.026
                                     }
@@ -571,7 +572,7 @@ Robot {
                                     ]
                                     endPoint Solid {
                                       translation 0.0234 0 -0.026
-                                      rotation 0.7071052811839684 1.0166003527282069e-06 -0.7071082811852138 3.1415910332000347
+                                      rotation 0.7071052811847587 6.746642540020405e-07 -0.7071082811848327 3.1415903493252677
                                       children [
                                         Pose {
                                           translation -0.0435 -0.05 -0.03213
@@ -1006,7 +1007,7 @@ Robot {
     }
     HingeJoint {
       jointParameters HingeJointParameters {
-        position -1.5108461437960807e-06
+        position -1.2022757109528645e-06
         axis 3e-06 0 1
         anchor 0.046375 -0.011254 -0.0035
       }
@@ -1021,7 +1022,7 @@ Robot {
       ]
       endPoint Solid {
         translation 0.046375 -0.011254 -0.0035
-        rotation -0.7071054658428404 -0.7071080965271007 1.000000735717195e-06 3.1415910000005858
+        rotation -0.7071053567465064 -0.707108205623012 1.0000005359903978e-06 3.14159100000024
         children [
           Pose {
             translation -0.00494 0 0.003
@@ -1060,7 +1061,7 @@ Robot {
           }
           HingeJoint {
             jointParameters HingeJointParameters {
-              position 4.623482549167011e-08
+              position -7.131343925690128e-07
               axis -1 -4e-06 -4e-06
               anchor 0.0234 0 0.04
             }
@@ -1075,7 +1076,7 @@ Robot {
             ]
             endPoint Solid {
               translation 0.0234 0 0.04
-              rotation -0.5773496114206212 -0.5773515847255088 0.577349611420499 2.09439902669366
+              rotation -0.5773494652786336 -0.5773518770063595 0.577349465280526 2.0943985882721905
               children [
                 Pose {
                   translation 0 -0.015 -0.026
@@ -1102,7 +1103,7 @@ Robot {
                 }
                 HingeJoint {
                   jointParameters HingeJointParameters {
-                    position -1.1762871902423115e-06
+                    position -1.7290242357095225e-06
                     axis 1 0 4e-06
                     anchor 0.026 0 0.0234
                   }
@@ -1117,7 +1118,7 @@ Robot {
                   ]
                   endPoint Solid {
                     translation 0.026 0 0.0234
-                    rotation -5.881437872851835e-07 -0.999999999999654 5.881412425898286e-07 1.5708000000003457
+                    rotation -8.645124003085432e-07 -0.9999999999992527 8.645086598312712e-07 1.5708000000007472
                     children [
                       Pose {
                         translation 0 -0.0825 0.026
@@ -1167,7 +1168,7 @@ Robot {
                       }
                       HingeJoint {
                         jointParameters HingeJointParameters {
-                          position 1.3499372990342484e-06
+                          position 2.0202991810470707e-06
                           axis 0 0 -1
                           anchor 0 -0.14 0
                         }
@@ -1182,7 +1183,7 @@ Robot {
                         ]
                         endPoint Solid {
                           translation 0 -0.14 0
-                          rotation 0 0 -1 1.3500155988820004e-06
+                          rotation 0 0 -1 2.020193020115262e-06
                           children [
                             Pose {
                               translation 0 -0.067 -0.0015
@@ -1208,7 +1209,7 @@ Robot {
                             }
                             HingeJoint {
                               jointParameters HingeJointParameters {
-                                position -3.188497195866011e-08
+                                position -7.422614458794781e-07
                                 axis 0 -3e-06 -1
                                 anchor 0 -0.14 0
                               }
@@ -1223,7 +1224,7 @@ Robot {
                               ]
                               endPoint Solid {
                                 translation 0 -0.14 0
-                                rotation 0.9999999999999999 1.5942485979321773e-08 -2.6662491054345057e-14 3.14159
+                                rotation 0.9999999999999312 3.7113072293953613e-07 -6.209652617746431e-13 3.14159
                                 children [
                                   Pose {
                                     translation 0 -0.015 -0.026
@@ -1250,7 +1251,7 @@ Robot {
                                   }
                                   HingeJoint {
                                     jointParameters HingeJointParameters {
-                                      position 1.8853958541412658e-08
+                                      position 9.41474596793167e-07
                                       axis 1 3e-06 4e-06
                                       anchor -0.0234 0 -0.026
                                     }
@@ -1265,7 +1266,7 @@ Robot {
                                     ]
                                     endPoint Solid {
                                       translation -0.0234 0 -0.026
-                                      rotation -0.7071052811840226 -9.93334529209892e-07 -0.7071082811851928 3.1415909866682132
+                                      rotation -0.7071052811847712 -6.671394871427008e-07 -0.707108281184827 3.1415903342756777
                                       children [
                                         Pose {
                                           translation 0.0055 -0.0275 0.12247
@@ -1688,7 +1689,7 @@ Robot {
     }
     HingeJoint {
       jointParameters HingeJointParameters {
-        position -0.22583677503075203
+        position -0.2258358776324669
         axis 1 -4e-06 -4e-06
         anchor 0.0735 -0.032127 0.1609
       }
@@ -1703,7 +1704,7 @@ Robot {
       ]
       endPoint Solid {
         translation 0.0735 -0.032127 0.1609
-        rotation -0.5773496949541672 0.577351417660104 -0.5773496949528925 2.0943992772919158
+        rotation -0.5773495222482974 0.5773517630682774 -0.5773495222494034 2.0943987591793665
         children [
           Pose {
             translation 0 0 0.003
@@ -1718,7 +1719,7 @@ Robot {
           }
           HingeJoint {
             jointParameters HingeJointParameters {
-              position 2.016820316145465e-07
+              position 1.5604043858473216
               axis 1 3e-06 4e-06
               anchor 0.0225 0.03 0.035
             }
@@ -1733,7 +1734,7 @@ Robot {
             ]
             endPoint Solid {
               translation 0.0225 0.03 0.035
-              rotation -0.7071052811841776 -9.2869516551634e-07 -0.7071082811851259 3.141590857389
+              rotation -0.5793402350511726 0.5733491134031564 -0.5793407341199707 2.1004017388556826
               children [
                 Pose {
                   translation 0 -0.015 -0.0235
@@ -1776,7 +1777,7 @@ Robot {
                 }
                 HingeJoint {
                   jointParameters HingeJointParameters {
-                    position 2.2133864694633047e-09
+                    position 1.235279104090343e-07
                     axis 1 0 -4e-06
                     anchor 0.0235 -0.112 -0.001674
                   }
@@ -1791,7 +1792,7 @@ Robot {
                   ]
                   endPoint Solid {
                     translation 0.0235 -0.112 -0.001674
-                    rotation 1.1066936898163811e-09 1 1.1066890434795569e-09 1.5707999999999998
+                    rotation 6.176397505496128e-08 0.9999999999999963 6.17637084631275e-08 1.5708000000000035
                     children [
                       Pose {
                         translation 0 -0.015 -0.0235
@@ -1949,7 +1950,7 @@ Robot {
     }
     HingeJoint {
       jointParameters HingeJointParameters {
-        position 0.2231315631554797
+        position 0.22313245038439042
         axis 1 4e-06 4e-06
         anchor -0.074087 -0.032127 0.1609
       }
@@ -1964,7 +1965,7 @@ Robot {
       ]
       endPoint Solid {
         translation -0.074087 -0.032127 0.1609
-        rotation -0.5773496037317799 -0.5773516001030333 0.5773496037317631 2.0943990036273576
+        rotation -0.5773494329829452 -0.5773519415970207 0.5773494329852783 2.094398491386168
         children [
           Pose {
             translation 0 0 0.003
@@ -1972,14 +1973,14 @@ Robot {
               Shape {
                 appearance USE u_base_64_material
                 geometry Box {
-                  size 0.047 0.0275 0.006
+                  size 0.047 0.0275 0.01
                 }
               }
             ]
           }
           HingeJoint {
             jointParameters HingeJointParameters {
-              position -2.0874365969092423e-07
+              position -1.554286206458908
               axis -1 -3e-06 4e-06
               anchor -0.0225 0.03 0.035
             }
@@ -1994,7 +1995,7 @@ Robot {
             ]
             endPoint Solid {
               translation -0.0225 0.03 0.035
-              rotation 0.7071052811838264 1.0738022878199666e-06 -0.7071082811852715 3.141591147604334
+              rotation 0.5804993638863137 0.5709954927663471 -0.5805037775657464 4.179232784816507
               children [
                 Pose {
                   translation 0 -0.092 -0.04
@@ -2033,7 +2034,7 @@ Robot {
                 }
                 HingeJoint {
                   jointParameters HingeJointParameters {
-                    position -1.5435464195689974e-07
+                    position -3.3554571214347475e-08
                     axis 1 0 4e-06
                     anchor -0.0235 -0.112 -0.0025
                   }
@@ -2048,7 +2049,7 @@ Robot {
                   ]
                   endPoint Solid {
                     translation -0.0235 -0.112 -0.0025
-                    rotation -7.717734591757546e-08 -0.9999999999999941 7.717701211267323e-08 1.5708000000000057
+                    rotation -1.677729101682911e-08 -0.9999999999999999 1.6777218498143602e-08 1.5707999999999995
                     children [
                       Pose {
                         translation -0.018 -0.0985 -0.0235
@@ -2198,7 +2199,7 @@ Robot {
     }
     HingeJoint {
       jointParameters HingeJointParameters {
-        position 2.1226207715126594e-06
+        position 2.1270834297395824e-06
         axis 0 0 1
         anchor 0 -0.037127 0.1858
       }
@@ -2213,7 +2214,7 @@ Robot {
       ]
       endPoint Solid {
         translation 0 -0.037127 0.1858
-        rotation 0 0 -1 3.1415900089089277
+        rotation 0 0 -1 3.1415900044462695
         children [
           Pose {
             translation 0 0 0.003
@@ -2252,7 +2253,7 @@ Robot {
           }
           HingeJoint {
             jointParameters HingeJointParameters {
-              position 2.8460640709439112e-09
+              position -8.261695890321583e-08
               axis -1 -4e-06 -4e-06
               anchor -0.0235 0 0.04
             }
@@ -2267,7 +2268,7 @@ Robot {
             ]
             endPoint Solid {
               translation -0.0235 0 0.04
-              rotation -0.5773496030703786 -0.5773516014258215 0.5773496030703715 2.0943990016431724
+              rotation -0.5773495866228692 -0.577351634320498 0.5773495866230891 2.094398952301129
               children [
                 Pose {
                   translation -0.0375 -0.0698 -0.005

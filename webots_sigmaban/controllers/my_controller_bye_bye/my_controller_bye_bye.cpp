@@ -57,12 +57,23 @@ int main(int argc, char **argv) {
     ID_6->setPosition(-1.5);
     ID_4->setPosition(0.3);
     
+    ID_13->setPosition(0.7);
+    ID_14->setPosition(0.7);
+    
+    ID_15->setPosition(-0.5);
+    ID_16->setPosition(-0.5);
+
+
+    /*
+    ID_9->setPosition(0.2);
+    ID_10->setPosition(0.1);
     ID_11->setPosition(0.3);
     ID_12->setPosition(-0.3);        
     ID_13->setPosition(0.5);
     ID_14->setPosition(0.5);
     ID_15->setPosition(-0.3);
-    ID_16->setPosition(-0.3);
+    ID_16->setPosition(0);
+    ID_18->setPosition(0);*/
     
     //motorRightElbow->setPosition(-1);
   

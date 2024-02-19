@@ -3,12 +3,13 @@
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/robotstadium/protos/RobotstadiumSoccerField.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/balls/protos/RobocupSoccerBall.proto"
 
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.23780874464832374 0.3832213746890174 0.8925179992304064 1.2151171594889238
-  position -1.0551905516851936 -2.853848452504879 2.312124577271217
+  orientation -0.058329083191951146 0.37237739931543745 0.9262466143166503 0.3351030045005155
+  position -2.7151017089537772 -1.0057851210731594 0.8047290095058164
 }
 TexturedBackground {
 }
@@ -17,7 +18,7 @@ TexturedBackgroundLight {
 RobotstadiumSoccerField {
 }
 Robot {
-  translation 0 0 0.53
+  translation 0.18 1.8353e-07 0.42
   rotation 0 0 1 -1.5707953071795862
   children [
     Shape {
@@ -28,13 +29,13 @@ Robot {
       }
       geometry DEF peito_visual Mesh {
         url [
-          "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/peito_visual.stl"
+          "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/peito_visual.stl"
         ]
       }
     }
     HingeJoint {
       jointParameters HingeJointParameters {
-        position 2.0384630186792005e-06
+        position 0.3119099107023505
         anchor -0.083213 0.070969 0.149205
       }
       device [
@@ -48,7 +49,7 @@ Robot {
       ]
       endPoint Solid {
         translation -0.083213 0.070969 0.149205
-        rotation 0.5773506614916631 0.5773494845848208 0.5773506614915935 2.0943961769075723
+        rotation 0.6286491547000391 0.45782146442366123 0.6286491446012636 2.282914168962939
         children [
           Shape {
             appearance DEF ombro_material PBRAppearance {
@@ -58,13 +59,13 @@ Robot {
             }
             geometry DEF ombro_visual Mesh {
               url [
-                "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/ombro_visual.stl"
+                "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/ombro_visual.stl"
               ]
             }
           }
           HingeJoint {
             jointParameters HingeJointParameters {
-              position 1.1427359191153157e-06
+              position -0.23291908608764553
               axis -1 0 0
               anchor -0.02475 0 -0.042
             }
@@ -79,7 +80,7 @@ Robot {
             ]
             endPoint Solid {
               translation -0.02475 0 -0.042
-              rotation -5.713681462776971e-07 -0.9999999999996734 5.713679595575334e-07 1.5707960000003263
+              rotation 0.11541993996822796 -0.9865883050302321 -0.11541990224958681 1.58429803382682
               children [
                 Shape {
                   appearance DEF braco_material PBRAppearance {
@@ -89,13 +90,13 @@ Robot {
                   }
                   geometry DEF braco_visual Mesh {
                     url [
-                      "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/braco_visual.stl"
+                      "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/braco_visual.stl"
                     ]
                   }
                 }
                 HingeJoint {
                   jointParameters HingeJointParameters {
-                    position -5.59753423041915e-07
+                    position 1.520182312730717
                     axis -1 0 0
                     anchor -0.0245 -0.141 -0.0245
                   }
@@ -110,7 +111,7 @@ Robot {
                   ]
                   endPoint Solid {
                     translation -0.0245 -0.141 -0.0245
-                    rotation 2.798768029832389e-07 -0.9999999999999216 -2.7987671152094297e-07 1.5707960000000782
+                    rotation -0.5673604386462202 -0.5968286820415296 0.5673602532357545 2.06542359399247
                     children [
                       Shape {
                         appearance DEF mao_material PBRAppearance {
@@ -120,7 +121,7 @@ Robot {
                         }
                         geometry DEF mao_visual Mesh {
                           url [
-                            "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/mao_visual.stl"
+                            "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/mao_visual.stl"
                           ]
                         }
                       }
@@ -134,7 +135,7 @@ Robot {
                           children [
                             DEF mao Mesh {
                               url [
-                                "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/mao.stl"
+                                "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/mao.stl"
                               ]
                             }
                           ]
@@ -145,7 +146,7 @@ Robot {
                           children [
                             DEF apoio_mao Mesh {
                               url [
-                                "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/apoio_mao.stl"
+                                "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/apoio_mao.stl"
                               ]
                             }
                           ]
@@ -155,7 +156,7 @@ Robot {
                           children [
                             DEF xm_540 Mesh {
                               url [
-                                "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/xm_540.stl"
+                                "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/xm_540.stl"
                               ]
                             }
                           ]
@@ -180,8 +181,6 @@ Robot {
                         -1.064272e-12 2.598116e-12 -5.966537e-06
                       ]
                     }
-                    linearVelocity 3.4939984144494284e-06 -1.8853479460636999e-06 -9.256939663050988e-07
-                    angularVelocity -1.139236343396526e-05 -2.5879236935774874e-05 1.880757418904122e-10
                   }
                 }
               ]
@@ -194,7 +193,7 @@ Robot {
                     children [
                       DEF junta_ombro Mesh {
                         url [
-                          "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/junta_ombro.stl"
+                          "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/junta_ombro.stl"
                         ]
                       }
                     ]
@@ -205,7 +204,7 @@ Robot {
                     children [
                       DEF braco Mesh {
                         url [
-                          "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/braco.stl"
+                          "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/braco.stl"
                         ]
                       }
                     ]
@@ -243,8 +242,6 @@ Robot {
                   9.2006e-14 6.52732e-11 -1.882433e-06
                 ]
               }
-              linearVelocity 3.5646510547806385e-07 -2.0052551451330455e-07 -7.564473723924854e-07
-              angularVelocity -1.1396704904094147e-05 -2.0276125289487905e-05 2.603182994041893e-10
             }
           }
         ]
@@ -254,7 +251,7 @@ Robot {
           children [
             DEF ombro Mesh {
               url [
-                "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/ombro.stl"
+                "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/ombro.stl"
               ]
             }
           ]
@@ -270,13 +267,11 @@ Robot {
             -1.30586e-41 8.830912e-37 -2.825173e-10
           ]
         }
-        linearVelocity -3.94735527117863e-09 2.136185935017838e-09 -3.741249785439328e-07
-        angularVelocity -1.5046800296399653e-08 -2.028541126674193e-05 2.0759616941820697e-10
       }
     }
     HingeJoint {
       jointParameters HingeJointParameters {
-        position 2.0336411503457032e-06
+        position -0.3217827643125185
         axis -1 0 0
         anchor 0.087787 0.070969 0.149205
       }
@@ -291,7 +286,7 @@ Robot {
       ]
       endPoint Solid {
         translation 0.087787 0.070969 0.149205
-        rotation -0.577350660563696 -0.5773494864407589 0.5773506605636265 2.0943961741236636
+        rotation -0.5047492284250925 -0.7003259392146419 0.5047492399869498 1.9197031939044218
         children [
           Shape {
             appearance DEF ombro_2_material PBRAppearance {
@@ -301,13 +296,13 @@ Robot {
             }
             geometry DEF ombro_2_visual Mesh {
               url [
-                "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/ombro_2_visual.stl"
+                "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/ombro_2_visual.stl"
               ]
             }
           }
           HingeJoint {
             jointParameters HingeJointParameters {
-              position -1.1427229598126587e-06
+              position 0.21991094640452874
               axis -1 0 0
               anchor -0.02675 0 -0.042
             }
@@ -322,7 +317,7 @@ Robot {
             ]
             endPoint Solid {
               translation -0.02675 0 -0.042
-              rotation -0.7071067811865394 -4.0401357695052945e-07 0.7071067811864404 3.141592191972846
+              rotation -0.704961957657904 0.07782833437456659 0.7049619767218772 3.296936519150965
               children [
                 Shape {
                   appearance DEF braco_2_material PBRAppearance {
@@ -332,13 +327,13 @@ Robot {
                   }
                   geometry DEF braco_2_visual Mesh {
                     url [
-                      "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/braco_2_visual.stl"
+                      "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/braco_2_visual.stl"
                     ]
                   }
                 }
                 HingeJoint {
                   jointParameters HingeJointParameters {
-                    position 5.597538553454543e-07
+                    position -1.3769180942190247
                     anchor 0.0245 -0.141 -0.0245
                   }
                   device [
@@ -352,7 +347,7 @@ Robot {
                   ]
                   endPoint Solid {
                     translation 0.0245 -0.141 -0.0245
-                    rotation 2.798770191350791e-07 0.9999999999999216 2.798769276727125e-07 1.5707960000000782
+                    rotation -0.5362653020514707 0.6517969312530484 -0.5362651268027355 1.9863175463744205
                     children [
                       Shape {
                         appearance DEF mao_2_material PBRAppearance {
@@ -362,7 +357,7 @@ Robot {
                         }
                         geometry DEF mao_2_visual Mesh {
                           url [
-                            "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/mao_2_visual.stl"
+                            "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/mao_2_visual.stl"
                           ]
                         }
                       }
@@ -410,8 +405,6 @@ Robot {
                         -1.064268e-12 2.598116e-12 -5.966537e-06
                       ]
                     }
-                    linearVelocity -3.054342987123179e-06 1.8853753097268634e-06 -8.774894267351031e-07
-                    angularVelocity 1.1392539979550134e-05 1.3706206427560372e-05 6.419053332989543e-11
                   }
                 }
               ]
@@ -465,8 +458,6 @@ Robot {
                   9.200554e-14 6.52732e-11 -1.882433e-06
                 ]
               }
-              linearVelocity -3.3959470946374405e-07 2.0052779500716778e-07 -6.746286792612309e-07
-              angularVelocity 1.1396870095593115e-05 1.9309532497447196e-05 1.5324650985771214e-10
             }
           }
         ]
@@ -488,13 +479,11 @@ Robot {
             1.828204e-41 -1.236328e-36 -2.825173e-10
           ]
         }
-        linearVelocity 3.6978048156408274e-09 -2.1361862942605133e-09 -3.74265216510298e-07
-        angularVelocity 1.505397135714585e-08 1.930145340905583e-05 2.0073114207794462e-10
       }
     }
     HingeJoint {
       jointParameters HingeJointParameters {
-        position 7.179681891803513e-08
+        position 0.02356229142161179
         axis 0 0 -1
         anchor 0.002498 0.048469 0.167955
       }
@@ -509,7 +498,7 @@ Robot {
       ]
       endPoint Solid {
         translation 0.002498 0.048469 0.167955
-        rotation -0.7071067558025383 0.7071068065705559 6.2177877190031165e-15 3.141593
+        rotation -0.6987273748547735 0.7153880454889898 2.040507356989557e-09 3.14159299997596
         children [
           Shape {
             appearance DEF pescoco_material PBRAppearance {
@@ -519,13 +508,13 @@ Robot {
             }
             geometry DEF pescoco_visual Mesh {
               url [
-                "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/pescoco_visual.stl"
+                "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/pescoco_visual.stl"
               ]
             }
           }
           HingeJoint {
             jointParameters HingeJointParameters {
-              position -2.6059790148025286e-07
+              position -0.5603478121970772
               axis 0 1 0
               anchor -0.00075 0.019 -0.06075
             }
@@ -540,7 +529,7 @@ Robot {
             ]
             endPoint Solid {
               translation -0.00075 0.019 -0.06075
-              rotation -0.999999999999983 -1.3029899332116405e-07 -1.3029895074012495e-07 1.570796000000017
+              rotation -0.9262469255804713 -0.2665208052660951 -0.2665207181684703 1.6473355808449004
               children [
                 Shape {
                   appearance DEF capacete_material PBRAppearance {
@@ -550,7 +539,7 @@ Robot {
                   }
                   geometry DEF capacete_visual Mesh {
                     url [
-                      "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/capacete_visual.stl"
+                      "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/capacete_visual.stl"
                     ]
                   }
                 }
@@ -564,7 +553,7 @@ Robot {
                     children [
                       DEF webcam Mesh {
                         url [
-                          "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/webcam.stl"
+                          "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/webcam.stl"
                         ]
                       }
                     ]
@@ -574,7 +563,7 @@ Robot {
                     children [
                       DEF capacete Mesh {
                         url [
-                          "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/capacete.stl"
+                          "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/capacete.stl"
                         ]
                       }
                     ]
@@ -585,7 +574,7 @@ Robot {
                     children [
                       DEF tampa_capacete Mesh {
                         url [
-                          "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/tampa_capacete.stl"
+                          "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/tampa_capacete.stl"
                         ]
                       }
                     ]
@@ -603,8 +592,6 @@ Robot {
                   4.382665e-07 5.023613e-08 1.739618e-08
                 ]
               }
-              linearVelocity -1.2919173760928828e-07 4.3618530184565194e-09 -3.181162383061707e-07
-              angularVelocity 1.9486542881386333e-09 -3.116235787181979e-06 -7.187031025623257e-07
             }
           }
         ]
@@ -617,7 +604,7 @@ Robot {
               children [
                 DEF xm_430 Mesh {
                   url [
-                    "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/xm_430.stl"
+                    "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/xm_430.stl"
                   ]
                 }
               ]
@@ -628,7 +615,7 @@ Robot {
               children [
                 DEF pescoco Mesh {
                   url [
-                    "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/pescoco.stl"
+                    "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/pescoco.stl"
                   ]
                 }
               ]
@@ -646,13 +633,11 @@ Robot {
             -6.590875e-10 4.735301e-08 8.18567e-07
           ]
         }
-        linearVelocity 4.828198720890692e-10 -5.42948238469784e-10 -1.9614514875159896e-07
-        angularVelocity -1.0130032299358021e-11 -5.42080728618378e-10 -7.18703896915762e-07
       }
     }
     HingeJoint {
       jointParameters HingeJointParameters {
-        position -3.114791478930502e-06
+        position 0.047122290882850804
         axis 0 0 1
         anchor -0.040713 0.057719 -0.046045
       }
@@ -667,7 +652,7 @@ Robot {
       ]
       endPoint Solid {
         translation -0.040713 0.057719 -0.046045
-        rotation 0 0 1 1.5707928852085211
+        rotation 0 0 0.9999999999999999 1.6179182908828504
         children [
           Shape {
             appearance DEF conector_calcanhar_material PBRAppearance {
@@ -677,13 +662,13 @@ Robot {
             }
             geometry DEF conector_calcanhar_visual Mesh {
               url [
-                "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/conector_calcanhar_visual.stl"
+                "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/conector_calcanhar_visual.stl"
               ]
             }
           }
           HingeJoint {
             jointParameters HingeJointParameters {
-              position -7.916080816262733e-06
+              position 0.058668722557051425
               anchor 0.0787 0 -0.033
             }
             device [
@@ -697,7 +682,7 @@ Robot {
             ]
             endPoint Solid {
               translation 0.0787 0 -0.033
-              rotation 0.5773487457329524 0.5773533160906427 0.5773487457332226 2.0943904296546396
+              rotation 0.5883141686245397 0.5547728186603206 0.5883141666416843 2.1285921972331967
               children [
                 Shape {
                   appearance DEF motores_duplos_material PBRAppearance {
@@ -707,13 +692,13 @@ Robot {
                   }
                   geometry DEF motores_duplos_visual Mesh {
                     url [
-                      "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/motores_duplos_visual.stl"
+                      "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/motores_duplos_visual.stl"
                     ]
                   }
                 }
                 HingeJoint {
                   jointParameters HingeJointParameters {
-                    position -2.239000349154185e-06
+                    position -0.4475528841704976
                     axis -1 0 0
                     anchor 0.025 -0.031 -0.0741
                   }
@@ -728,7 +713,7 @@ Robot {
                   ]
                   endPoint Solid {
                     translation 0.025 -0.031 -0.0741
-                    rotation 1.1195005404231608e-06 -0.9999999999987468 -1.1195001745761571e-06 1.5707960000012533
+                    rotation 0.21664328853278353 -0.9519093453387151 -0.216643217734874 1.6200615338352058
                     children [
                       Shape {
                         appearance DEF joelho_material PBRAppearance {
@@ -738,13 +723,13 @@ Robot {
                         }
                         geometry DEF joelho_visual Mesh {
                           url [
-                            "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/joelho_visual.stl"
+                            "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/joelho_visual.stl"
                           ]
                         }
                       }
                       HingeJoint {
                         jointParameters HingeJointParameters {
-                          position -1.693871542585157e-06
+                          position 0.7814381943926495
                           axis 0 0 1
                           anchor 0 -0.1305 0.0005
                         }
@@ -759,7 +744,7 @@ Robot {
                         ]
                         endPoint Solid {
                           translation 0 -0.1305 0.0005
-                          rotation 0 0 -0.9999999999999999 1.6937580392817553e-06
+                          rotation 0 0 1 0.7814381943926495
                           children [
                             Shape {
                               appearance DEF canela_material PBRAppearance {
@@ -769,13 +754,13 @@ Robot {
                               }
                               geometry DEF canela_visual Mesh {
                                 url [
-                                  "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/canela_visual.stl"
+                                  "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/canela_visual.stl"
                                 ]
                               }
                             }
                             HingeJoint {
                               jointParameters HingeJointParameters {
-                                position -1.4375673379336088e-06
+                                position -0.3256341813728517
                                 axis 0 0 1
                                 anchor 0 -0.13 0.05
                               }
@@ -790,7 +775,7 @@ Robot {
                               ]
                               endPoint Solid {
                                 translation 0 -0.13 0.05
-                                rotation 0 0 -0.9999999999999999 1.4376338833800073e-06
+                                rotation 0 0 -1 0.32563418137285194
                                 children [
                                   Shape {
                                     appearance DEF motores_duplos_2_material PBRAppearance {
@@ -800,13 +785,13 @@ Robot {
                                     }
                                     geometry DEF motores_duplos_2_visual Mesh {
                                       url [
-                                        "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/motores_duplos_2_visual.stl"
+                                        "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/motores_duplos_2_visual.stl"
                                       ]
                                     }
                                   }
                                   HingeJoint {
                                     jointParameters HingeJointParameters {
-                                      position -5.597861250095093e-07
+                                      position 0.03927047070676078
                                       axis -1 0 0
                                       anchor 0.0741 -0.031 -0.025
                                     }
@@ -821,7 +806,7 @@ Robot {
                                     ]
                                     endPoint Solid {
                                       translation 0.0741 -0.031 -0.025
-                                      rotation -0.5773501614586929 -0.5773504846514121 0.577350161458712 2.0943946768073602
+                                      rotation -0.584760772944872 -0.5622363190039702 0.5847607716132998 2.1172142823929265
                                       children [
                                         Shape {
                                           appearance DEF pe_direito_material PBRAppearance {
@@ -831,7 +816,7 @@ Robot {
                                           }
                                           geometry DEF pe_direito_visual Mesh {
                                             url [
-                                              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/pe_direito_visual.stl"
+                                              "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/pe_direito_visual.stl"
                                             ]
                                           }
                                         }
@@ -845,7 +830,7 @@ Robot {
                                             children [
                                               DEF conector_calcanhar Mesh {
                                                 url [
-                                                  "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/conector_calcanhar.stl"
+                                                  "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/conector_calcanhar.stl"
                                                 ]
                                               }
                                             ]
@@ -856,7 +841,7 @@ Robot {
                                             children [
                                               DEF pe Mesh {
                                                 url [
-                                                  "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/pe.stl"
+                                                  "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/pe.stl"
                                                 ]
                                               }
                                             ]
@@ -874,8 +859,6 @@ Robot {
                                           4.672117e-06 2.009087e-05 -3.23004e-05
                                         ]
                                       }
-                                      linearVelocity 1.29127449198845e-06 -2.7541463808388037e-05 -4.032360510268695e-06
-                                      angularVelocity -7.39287117699164e-05 -1.0472270399043587e-06 -3.1177187827428154e-05
                                     }
                                   }
                                 ]
@@ -894,7 +877,7 @@ Robot {
                                       children [
                                         DEF rolamento Mesh {
                                           url [
-                                            "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/rolamento.stl"
+                                            "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/rolamento.stl"
                                           ]
                                         }
                                       ]
@@ -905,7 +888,7 @@ Robot {
                                       children [
                                         DEF peca_rolamento Mesh {
                                           url [
-                                            "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/peca_rolamento.stl"
+                                            "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/peca_rolamento.stl"
                                           ]
                                         }
                                       ]
@@ -923,7 +906,7 @@ Robot {
                                       children [
                                         DEF rolamento_motor Mesh {
                                           url [
-                                            "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/rolamento_motor.stl"
+                                            "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/rolamento_motor.stl"
                                           ]
                                         }
                                       ]
@@ -934,7 +917,7 @@ Robot {
                                       children [
                                         DEF junta_motores Mesh {
                                           url [
-                                            "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/junta_motores.stl"
+                                            "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/junta_motores.stl"
                                           ]
                                         }
                                       ]
@@ -952,8 +935,6 @@ Robot {
                                     -9.715833e-06 2.01501e-05 -1.585238e-06
                                   ]
                                 }
-                                linearVelocity 1.104034892307422e-06 -2.4822673267846104e-05 -3.6121857088692444e-06
-                                angularVelocity -7.909741525240514e-05 -1.0432315672404297e-06 -3.117659431675849e-05
                               }
                             }
                           ]
@@ -964,7 +945,7 @@ Robot {
                             children [
                               DEF canela Mesh {
                                 url [
-                                  "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/canela.stl"
+                                  "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/canela.stl"
                                 ]
                               }
                             ]
@@ -980,8 +961,6 @@ Robot {
                               4.235297e-27 1.095901e-13 -1.739556e-11
                             ]
                           }
-                          linearVelocity 1.5603613620897403e-06 -1.7748431706562364e-05 -3.2572158622022495e-06
-                          angularVelocity -7.908821973533054e-05 6.814246056610003e-06 -3.117822601812848e-05
                         }
                       }
                     ]
@@ -1001,7 +980,7 @@ Robot {
                           children [
                             DEF coxa Mesh {
                               url [
-                                "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/coxa.stl"
+                                "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/coxa.stl"
                               ]
                             }
                           ]
@@ -1019,8 +998,6 @@ Robot {
                         2.13929e-12 -2.577287e-12 -8.727699e-06
                       ]
                     }
-                    linearVelocity 1.5461893139845939e-06 -1.0182214228317188e-05 -2.865047495517102e-06
-                    angularVelocity -7.910979492105393e-05 -1.5915851611301744e-05 -3.1179383314669327e-05
                   }
                 }
               ]
@@ -1081,8 +1058,6 @@ Robot {
                   1.585238e-06 2.01501e-05 9.715833e-06
                 ]
               }
-              linearVelocity -1.2656540686594092e-08 -1.9307051914516505e-06 -2.187610451969085e-06
-              angularVelocity -7.914673130518597e-05 -2.7310753606454768e-08 -3.118038630745168e-05
             }
           }
         ]
@@ -1105,13 +1080,11 @@ Robot {
             3.806312e-13 -3.620273e-07 -2.157674e-13
           ]
         }
-        linearVelocity -1.5377540584997488e-08 -6.868233713642469e-07 -1.087972861678033e-06
-        angularVelocity 2.4868632703223334e-08 2.8410833616542377e-08 -3.117610268687528e-05
       }
     }
     HingeJoint {
       jointParameters HingeJointParameters {
-        position -3.1148745633566036e-06
+        position -0.007860614891774809
         axis 0 0 1
         anchor 0.045287 0.057719 -0.046045
       }
@@ -1126,7 +1099,7 @@ Robot {
       ]
       endPoint Solid {
         translation 0.045287 0.057719 -0.046045
-        rotation 0 0 1 1.5707928851254365
+        rotation 0 0 1 1.5629353851082244
         children [
           Shape {
             appearance DEF conector_calcanhar_2_material PBRAppearance {
@@ -1136,13 +1109,13 @@ Robot {
             }
             geometry DEF conector_calcanhar_2_visual Mesh {
               url [
-                "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/conector_calcanhar_2_visual.stl"
+                "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/conector_calcanhar_2_visual.stl"
               ]
             }
           }
           HingeJoint {
             jointParameters HingeJointParameters {
-              position 7.916019522125482e-06
+              position -0.018712719754821333
               anchor 0.0787 0 -0.033
             }
             device [
@@ -1156,7 +1129,7 @@ Robot {
             ]
             endPoint Solid {
               translation 0.0787 0 -0.033
-              rotation 0.5773517926224433 0.5773472223122009 0.5773517926221732 2.094399570322032
+              rotation 0.5737151692181539 0.5845526567237875 0.5737151698588308 2.083625111773071
               children [
                 Shape {
                   appearance DEF motores_duplos_3_material PBRAppearance {
@@ -1166,13 +1139,13 @@ Robot {
                   }
                   geometry DEF motores_duplos_3_visual Mesh {
                     url [
-                      "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/motores_duplos_3_visual.stl"
+                      "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/motores_duplos_3_visual.stl"
                     ]
                   }
                 }
                 HingeJoint {
                   jointParameters HingeJointParameters {
-                    position -2.2628511141385186e-06
+                    position -0.4322173688630185
                     axis -1 0 0
                     anchor 0.025 -0.031 -0.0741
                   }
@@ -1187,7 +1160,7 @@ Robot {
                   ]
                   endPoint Solid {
                     translation 0.025 -0.031 -0.0741
-                    rotation 0.7071067811862234 8.000386838116365e-07 -0.7071067811864193 3.1415946000773673
+                    rotation 0.6987377007742779 0.15339882177959227 -0.6987377383491669 3.4460176078584706
                     children [
                       Shape {
                         appearance DEF joelho_2_material PBRAppearance {
@@ -1197,13 +1170,13 @@ Robot {
                         }
                         geometry DEF joelho_2_visual Mesh {
                           url [
-                            "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/joelho_2_visual.stl"
+                            "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/joelho_2_visual.stl"
                           ]
                         }
                       }
                       HingeJoint {
                         jointParameters HingeJointParameters {
-                          position -1.482374150237795e-06
+                          position -0.7788897038461555
                           axis 0 0 -1
                           anchor 0 0.1305 0.0495
                         }
@@ -1218,7 +1191,7 @@ Robot {
                         ]
                         endPoint Solid {
                           translation 0 0.1305 0.0495
-                          rotation 7.411870751188297e-07 -0.9999999999997254 -1.2837738391777272e-13 3.141593
+                          rotation 0.3796748950786109 -0.9251199781904191 -6.576162937843364e-08 3.141592974060796
                           children [
                             Shape {
                               appearance DEF canela_2_material PBRAppearance {
@@ -1228,13 +1201,13 @@ Robot {
                               }
                               geometry DEF canela_2_visual Mesh {
                                 url [
-                                  "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/canela_2_visual.stl"
+                                  "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/canela_2_visual.stl"
                                 ]
                               }
                             }
                             HingeJoint {
                               jointParameters HingeJointParameters {
-                                position 1.3437812714959794e-06
+                                position -0.3328164211063523
                                 axis 0 0 -1
                                 anchor 0 0.13 0
                               }
@@ -1249,7 +1222,7 @@ Robot {
                               ]
                               endPoint Solid {
                                 translation 0 0.13 0
-                                rotation -0.9999999999997744 6.718906357479393e-07 1.1637488697754313e-13 3.141593
+                                rotation -0.9861860754951783 -0.16564125240838332 -2.8689910263635238e-08 3.1415929952147152
                                 children [
                                   Shape {
                                     appearance DEF motores_duplos_4_material PBRAppearance {
@@ -1259,13 +1232,13 @@ Robot {
                                     }
                                     geometry DEF motores_duplos_4_visual Mesh {
                                       url [
-                                        "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/motores_duplos_4_visual.stl"
+                                        "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/motores_duplos_4_visual.stl"
                                       ]
                                     }
                                   }
                                   HingeJoint {
                                     jointParameters HingeJointParameters {
-                                      position 5.59785476065363e-07
+                                      position 7.684702071558939e-06
                                       axis -1 0 0
                                       anchor 0.0741 -0.031 -0.025
                                     }
@@ -1280,7 +1253,7 @@ Robot {
                                     ]
                                     endPoint Solid {
                                       translation 0.0741 -0.031 -0.025
-                                      rotation -0.5773503769203735 -0.5773500537280892 0.5773503769203544 2.0943953231923254
+                                      rotation -0.5773517481057213 -0.577347311346332 0.577351748105459 2.094399436770493
                                       children [
                                         Shape {
                                           appearance DEF pe_esquerdo_material PBRAppearance {
@@ -1290,7 +1263,7 @@ Robot {
                                           }
                                           geometry DEF pe_esquerdo_visual Mesh {
                                             url [
-                                              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/pe_esquerdo_visual.stl"
+                                              "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/pe_esquerdo_visual.stl"
                                             ]
                                           }
                                         }
@@ -1325,8 +1298,6 @@ Robot {
                                           -4.672117e-06 2.009087e-05 3.23004e-05
                                         ]
                                       }
-                                      linearVelocity 6.776643308450475e-06 2.712618131426647e-05 -3.953025244103197e-06
-                                      angularVelocity 7.39470630015028e-05 -2.9681277094961738e-05 -3.117714119058257e-05
                                     }
                                   }
                                 ]
@@ -1387,8 +1358,6 @@ Robot {
                                     -9.715833e-06 2.01501e-05 -1.585238e-06
                                   ]
                                 }
-                                linearVelocity 5.554297193363224e-06 2.3077236312132598e-05 -3.0152627866185827e-06
-                                angularVelocity 7.911574984454325e-05 -2.967727356949107e-05 -3.117779166787325e-05
                               }
                             }
                           ]
@@ -1411,8 +1380,6 @@ Robot {
                               2.345912e-49 -1.095901e-13 -1.739556e-11
                             ]
                           }
-                          linearVelocity 3.579026121138085e-06 1.7493700708467845e-05 -3.255305692740464e-06
-                          angularVelocity 7.91273421087465e-05 -2.371746745803174e-05 -3.117708767332099e-05
                         }
                       }
                     ]
@@ -1445,8 +1412,6 @@ Robot {
                         -2.13929e-12 2.577287e-12 -8.727699e-06
                       ]
                     }
-                    linearVelocity 1.5159757910089908e-06 9.919835306392124e-06 -2.863529375642695e-06
-                    angularVelocity 7.914793250349335e-05 -1.608197951726494e-05 -3.1176411470660795e-05
                   }
                 }
               ]
@@ -1507,8 +1472,6 @@ Robot {
                   1.585238e-06 2.01501e-05 9.715833e-06
                 ]
               }
-              linearVelocity -2.2028509586839074e-08 1.628978222878686e-07 -2.0946555038939256e-06
-              angularVelocity 7.914925530212143e-05 -2.4219663998891704e-08 -3.117485116418359e-05
             }
           }
         ]
@@ -1531,8 +1494,6 @@ Robot {
             3.806312e-13 -3.620273e-07 -2.157674e-13
           ]
         }
-        linearVelocity -2.002246486025843e-08 -8.453218780523183e-07 -1.0879280615680368e-06
-        angularVelocity -2.3517215393543482e-08 2.997324389830709e-08 -3.11790579446193e-05
       }
     }
   ]
@@ -1552,7 +1513,7 @@ Robot {
         children [
           DEF tampa_peito Mesh {
             url [
-              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/tampa_peito.stl"
+              "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/tampa_peito.stl"
             ]
           }
         ]
@@ -1577,7 +1538,7 @@ Robot {
         children [
           DEF tampa_bateria Mesh {
             url [
-              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/tampa_bateria.stl"
+              "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/tampa_bateria.stl"
             ]
           }
         ]
@@ -1587,7 +1548,7 @@ Robot {
         children [
           DEF peito_esquerda Mesh {
             url [
-              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/peito_esquerda.stl"
+              "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/peito_esquerda.stl"
             ]
           }
         ]
@@ -1598,7 +1559,7 @@ Robot {
         children [
           DEF peito_base Mesh {
             url [
-              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/peito_base.stl"
+              "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/peito_base.stl"
             ]
           }
         ]
@@ -1616,7 +1577,7 @@ Robot {
         children [
           DEF hub Mesh {
             url [
-              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/hub.stl"
+              "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/hub.stl"
             ]
           }
         ]
@@ -1626,7 +1587,7 @@ Robot {
         children [
           DEF peito_direita Mesh {
             url [
-              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/peito_direita.stl"
+              "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/peito_direita.stl"
             ]
           }
         ]
@@ -1637,7 +1598,7 @@ Robot {
         children [
           DEF placa_eletrica Mesh {
             url [
-              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/placa_eletrica.stl"
+              "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/placa_eletrica.stl"
             ]
           }
         ]
@@ -1655,7 +1616,7 @@ Robot {
         children [
           DEF bateria1 Mesh {
             url [
-              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/bateria1.stl"
+              "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/bateria1.stl"
             ]
           }
         ]
@@ -1666,7 +1627,7 @@ Robot {
         children [
           DEF suporte_interno Mesh {
             url [
-              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/suporte_interno.stl"
+              "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/suporte_interno.stl"
             ]
           }
         ]
@@ -1677,7 +1638,7 @@ Robot {
         children [
           DEF bateria2 Mesh {
             url [
-              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/bateria2.stl"
+              "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/bateria2.stl"
             ]
           }
         ]
@@ -1688,7 +1649,7 @@ Robot {
         children [
           DEF porta_botao Mesh {
             url [
-              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/porta_botao.stl"
+              "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/porta_botao.stl"
             ]
           }
         ]
@@ -1698,7 +1659,7 @@ Robot {
         children [
           DEF base_baterias Mesh {
             url [
-              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/base_baterias.stl"
+              "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/base_baterias.stl"
             ]
           }
         ]
@@ -1709,7 +1670,7 @@ Robot {
         children [
           DEF nuc Mesh {
             url [
-              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/nuc.stl"
+              "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/nuc.stl"
             ]
           }
         ]
@@ -1720,7 +1681,7 @@ Robot {
         children [
           DEF imu Mesh {
             url [
-              "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/imu.stl"
+              "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/imu.stl"
             ]
           }
         ]
@@ -1734,4 +1695,6 @@ Robot {
       }
     ]
   }
+}
+RobocupSoccerBall {
 }

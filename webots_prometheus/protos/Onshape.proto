@@ -2,7 +2,7 @@
 # license: Apache License 2.0
 # license url: http://www.apache.org/licenses/LICENSE-2.0
 # This is a proto file for Webots for the Onshape
-# Extracted from: /home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/robot.urdf
+# Extracted from: /home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/robot.urdf
 
 PROTO Onshape [
   field  SFVec3f     translation     0 0 0
@@ -33,7 +33,7 @@ PROTO Onshape [
           metalness 0
         }
         geometry DEF peito_visual Mesh {
-          url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/peito_visual.stl"
+          url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/peito_visual.stl"
         }
       }
       HingeJoint {
@@ -62,7 +62,7 @@ PROTO Onshape [
                 metalness 0
               }
               geometry DEF ombro_visual Mesh {
-                url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/ombro_visual.stl"
+                url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/ombro_visual.stl"
               }
             }
             HingeJoint {
@@ -91,7 +91,7 @@ PROTO Onshape [
                       metalness 0
                     }
                     geometry DEF braco_visual Mesh {
-                      url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/braco_visual.stl"
+                      url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/braco_visual.stl"
                     }
                   }
                   HingeJoint {
@@ -120,7 +120,7 @@ PROTO Onshape [
                             metalness 0
                           }
                           geometry DEF mao_visual Mesh {
-                            url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/mao_visual.stl"
+                            url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/mao_visual.stl"
                           }
                         }
                       ]
@@ -132,7 +132,7 @@ PROTO Onshape [
                             rotation -0.707107 0.707107 -0.000000 3.141593
                             children [
                               DEF mao Mesh {
-                                url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/mao.stl"
+                                url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/mao.stl"
                               }
                             ]
                           }
@@ -141,7 +141,7 @@ PROTO Onshape [
                             rotation 0.000000 -0.000000 -1.000000 1.570796
                             children [
                               DEF apoio_mao Mesh {
-                                url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/apoio_mao.stl"
+                                url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/apoio_mao.stl"
                               }
                             ]
                           }
@@ -149,7 +149,7 @@ PROTO Onshape [
                             translation 0.000000 0.000000 -0.024500
                             children [
                               DEF xm_540 Mesh {
-                                url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/xm_540.stl"
+                                url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/xm_540.stl"
                               }
                             ]
                           }
@@ -182,7 +182,7 @@ PROTO Onshape [
                       rotation 0.000000 -1.000000 0.000000 1.570796
                       children [
                         DEF junta_ombro Mesh {
-                          url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/junta_ombro.stl"
+                          url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/junta_ombro.stl"
                         }
                       ]
                     }
@@ -191,7 +191,7 @@ PROTO Onshape [
                       rotation 0.000000 -1.000000 0.000000 1.570796
                       children [
                         DEF braco Mesh {
-                          url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/braco.stl"
+                          url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/braco.stl"
                         }
                       ]
                     }
@@ -234,7 +234,7 @@ PROTO Onshape [
             rotation 0.577350 0.577350 -0.577350 2.094395
             children [
               DEF ombro Mesh {
-                url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/ombro.stl"
+                url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/ombro.stl"
               }
             ]
           }
@@ -275,7 +275,7 @@ PROTO Onshape [
                 metalness 0
               }
               geometry DEF ombro_2_visual Mesh {
-                url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/ombro_2_visual.stl"
+                url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/ombro_2_visual.stl"
               }
             }
             HingeJoint {
@@ -304,7 +304,7 @@ PROTO Onshape [
                       metalness 0
                     }
                     geometry DEF braco_2_visual Mesh {
-                      url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/braco_2_visual.stl"
+                      url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/braco_2_visual.stl"
                     }
                   }
                   HingeJoint {
@@ -333,7 +333,7 @@ PROTO Onshape [
                             metalness 0
                           }
                           geometry DEF mao_2_visual Mesh {
-                            url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/mao_2_visual.stl"
+                            url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/mao_2_visual.stl"
                           }
                         }
                       ]
@@ -476,7 +476,7 @@ PROTO Onshape [
                 metalness 0
               }
               geometry DEF pescoco_visual Mesh {
-                url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/pescoco_visual.stl"
+                url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/pescoco_visual.stl"
               }
             }
             HingeJoint {
@@ -505,7 +505,7 @@ PROTO Onshape [
                       metalness 0
                     }
                     geometry DEF capacete_visual Mesh {
-                      url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/capacete_visual.stl"
+                      url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/capacete_visual.stl"
                     }
                   }
                 ]
@@ -517,7 +517,7 @@ PROTO Onshape [
                       rotation -0.000000 -1.000000 -0.000000 1.570796
                       children [
                         DEF webcam Mesh {
-                          url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/webcam.stl"
+                          url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/webcam.stl"
                         }
                       ]
                     }
@@ -525,7 +525,7 @@ PROTO Onshape [
                       translation 0.006657 0.005657 -0.000500
                       children [
                         DEF capacete Mesh {
-                          url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/capacete.stl"
+                          url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/capacete.stl"
                         }
                       ]
                     }
@@ -534,7 +534,7 @@ PROTO Onshape [
                       rotation -1.000000 0.000000 -0.000000 3.141593
                       children [
                         DEF tampa_capacete Mesh {
-                          url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/tampa_capacete.stl"
+                          url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/tampa_capacete.stl"
                         }
                       ]
                     }
@@ -560,7 +560,7 @@ PROTO Onshape [
                 rotation -1.000000 -0.000000 0.000000 1.570796
                 children [
                   DEF xm_430 Mesh {
-                    url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/xm_430.stl"
+                    url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/xm_430.stl"
                   }
                 ]
               }
@@ -569,7 +569,7 @@ PROTO Onshape [
                 rotation -1.000000 0.000000 -0.000000 1.570796
                 children [
                   DEF pescoco Mesh {
-                    url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/pescoco.stl"
+                    url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/pescoco.stl"
                   }
                 ]
               }
@@ -612,7 +612,7 @@ PROTO Onshape [
                 metalness 0
               }
               geometry DEF conector_calcanhar_visual Mesh {
-                url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/conector_calcanhar_visual.stl"
+                url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/conector_calcanhar_visual.stl"
               }
             }
             HingeJoint {
@@ -641,7 +641,7 @@ PROTO Onshape [
                       metalness 0
                     }
                     geometry DEF motores_duplos_visual Mesh {
-                      url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/motores_duplos_visual.stl"
+                      url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/motores_duplos_visual.stl"
                     }
                   }
                   HingeJoint {
@@ -670,7 +670,7 @@ PROTO Onshape [
                             metalness 0
                           }
                           geometry DEF joelho_visual Mesh {
-                            url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/joelho_visual.stl"
+                            url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/joelho_visual.stl"
                           }
                         }
                         HingeJoint {
@@ -698,7 +698,7 @@ PROTO Onshape [
                                   metalness 0
                                 }
                                 geometry DEF canela_visual Mesh {
-                                  url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/canela_visual.stl"
+                                  url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/canela_visual.stl"
                                 }
                               }
                               HingeJoint {
@@ -726,7 +726,7 @@ PROTO Onshape [
                                         metalness 0
                                       }
                                       geometry DEF motores_duplos_2_visual Mesh {
-                                        url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/motores_duplos_2_visual.stl"
+                                        url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/motores_duplos_2_visual.stl"
                                       }
                                     }
                                     HingeJoint {
@@ -755,7 +755,7 @@ PROTO Onshape [
                                               metalness 0
                                             }
                                             geometry DEF pe_direito_visual Mesh {
-                                              url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/pe_direito_visual.stl"
+                                              url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/pe_direito_visual.stl"
                                             }
                                           }
                                         ]
@@ -767,7 +767,7 @@ PROTO Onshape [
                                               rotation 0.577350 0.577350 -0.577350 2.094395
                                               children [
                                                 DEF conector_calcanhar Mesh {
-                                                  url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/conector_calcanhar.stl"
+                                                  url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/conector_calcanhar.stl"
                                                 }
                                               ]
                                             }
@@ -776,7 +776,7 @@ PROTO Onshape [
                                               rotation -0.707107 0.000000 0.707107 3.141593
                                               children [
                                                 DEF pe Mesh {
-                                                  url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/pe.stl"
+                                                  url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/pe.stl"
                                                 }
                                               ]
                                             }
@@ -808,7 +808,7 @@ PROTO Onshape [
                                         rotation -0.577350 0.577350 0.577350 2.094395
                                         children [
                                           DEF rolamento Mesh {
-                                            url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/rolamento.stl"
+                                            url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/rolamento.stl"
                                           }
                                         ]
                                       }
@@ -817,7 +817,7 @@ PROTO Onshape [
                                         rotation -0.577350 0.577350 0.577350 2.094395
                                         children [
                                           DEF peca_rolamento Mesh {
-                                            url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/peca_rolamento.stl"
+                                            url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/peca_rolamento.stl"
                                           }
                                         ]
                                       }
@@ -833,7 +833,7 @@ PROTO Onshape [
                                         rotation -0.577350 0.577350 0.577350 2.094395
                                         children [
                                           DEF rolamento_motor Mesh {
-                                            url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/rolamento_motor.stl"
+                                            url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/rolamento_motor.stl"
                                           }
                                         ]
                                       }
@@ -842,7 +842,7 @@ PROTO Onshape [
                                         rotation -0.000000 1.000000 0.000000 1.570796
                                         children [
                                           DEF junta_motores Mesh {
-                                            url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/junta_motores.stl"
+                                            url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/junta_motores.stl"
                                           }
                                         ]
                                       }
@@ -866,7 +866,7 @@ PROTO Onshape [
                               rotation -0.577350 -0.577350 -0.577350 2.094395
                               children [
                                 DEF canela Mesh {
-                                  url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/canela.stl"
+                                  url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/canela.stl"
                                 }
                               ]
                             }
@@ -897,7 +897,7 @@ PROTO Onshape [
                             rotation -1.000000 0.000000 0.000000 1.570796
                             children [
                               DEF coxa Mesh {
-                                url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/coxa.stl"
+                                url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/coxa.stl"
                               }
                             ]
                           }
@@ -1018,7 +1018,7 @@ PROTO Onshape [
                 metalness 0
               }
               geometry DEF conector_calcanhar_2_visual Mesh {
-                url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/conector_calcanhar_2_visual.stl"
+                url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/conector_calcanhar_2_visual.stl"
               }
             }
             HingeJoint {
@@ -1047,7 +1047,7 @@ PROTO Onshape [
                       metalness 0
                     }
                     geometry DEF motores_duplos_3_visual Mesh {
-                      url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/motores_duplos_3_visual.stl"
+                      url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/motores_duplos_3_visual.stl"
                     }
                   }
                   HingeJoint {
@@ -1076,7 +1076,7 @@ PROTO Onshape [
                             metalness 0
                           }
                           geometry DEF joelho_2_visual Mesh {
-                            url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/joelho_2_visual.stl"
+                            url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/joelho_2_visual.stl"
                           }
                         }
                         HingeJoint {
@@ -1105,7 +1105,7 @@ PROTO Onshape [
                                   metalness 0
                                 }
                                 geometry DEF canela_2_visual Mesh {
-                                  url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/canela_2_visual.stl"
+                                  url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/canela_2_visual.stl"
                                 }
                               }
                               HingeJoint {
@@ -1134,7 +1134,7 @@ PROTO Onshape [
                                         metalness 0
                                       }
                                       geometry DEF motores_duplos_4_visual Mesh {
-                                        url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/motores_duplos_4_visual.stl"
+                                        url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/motores_duplos_4_visual.stl"
                                       }
                                     }
                                     HingeJoint {
@@ -1163,7 +1163,7 @@ PROTO Onshape [
                                               metalness 0
                                             }
                                             geometry DEF pe_esquerdo_visual Mesh {
-                                              url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/pe_esquerdo_visual.stl"
+                                              url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/pe_esquerdo_visual.stl"
                                             }
                                           }
                                         ]
@@ -1399,7 +1399,7 @@ PROTO Onshape [
           rotation -0.000000 -1.000000 0.000000 3.141593
           children [
             DEF tampa_peito Mesh {
-              url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/tampa_peito.stl"
+              url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/tampa_peito.stl"
             }
           ]
         }
@@ -1422,7 +1422,7 @@ PROTO Onshape [
           rotation -0.577350 0.577350 -0.577350 2.094395
           children [
             DEF tampa_bateria Mesh {
-              url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/tampa_bateria.stl"
+              url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/tampa_bateria.stl"
             }
           ]
         }
@@ -1430,7 +1430,7 @@ PROTO Onshape [
           translation -0.052713 0.087219 0.067455
           children [
             DEF peito_esquerda Mesh {
-              url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/peito_esquerda.stl"
+              url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/peito_esquerda.stl"
             }
           ]
         }
@@ -1439,7 +1439,7 @@ PROTO Onshape [
           rotation 0.000000 0.000000 1.000000 3.141593
           children [
             DEF peito_base Mesh {
-              url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/peito_base.stl"
+              url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/peito_base.stl"
             }
           ]
         }
@@ -1455,7 +1455,7 @@ PROTO Onshape [
           rotation 0.577350 -0.577350 -0.577350 2.094395
           children [
             DEF hub Mesh {
-              url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/hub.stl"
+              url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/hub.stl"
             }
           ]
         }
@@ -1463,7 +1463,7 @@ PROTO Onshape [
           translation -0.082713 0.087219 0.067455
           children [
             DEF peito_direita Mesh {
-              url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/peito_direita.stl"
+              url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/peito_direita.stl"
             }
           ]
         }
@@ -1472,7 +1472,7 @@ PROTO Onshape [
           rotation 0.000000 0.707107 0.707107 3.141593
           children [
             DEF placa_eletrica Mesh {
-              url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/placa_eletrica.stl"
+              url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/placa_eletrica.stl"
             }
           ]
         }
@@ -1488,7 +1488,7 @@ PROTO Onshape [
           rotation -0.577350 -0.577350 0.577350 2.094395
           children [
             DEF bateria1 Mesh {
-              url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/bateria1.stl"
+              url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/bateria1.stl"
             }
           ]
         }
@@ -1497,7 +1497,7 @@ PROTO Onshape [
           rotation 0.000000 0.707107 0.707107 3.141593
           children [
             DEF suporte_interno Mesh {
-              url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/suporte_interno.stl"
+              url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/suporte_interno.stl"
             }
           ]
         }
@@ -1506,7 +1506,7 @@ PROTO Onshape [
           rotation -0.000000 -0.707107 0.707107 3.141593
           children [
             DEF bateria2 Mesh {
-              url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/bateria2.stl"
+              url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/bateria2.stl"
             }
           ]
         }
@@ -1515,7 +1515,7 @@ PROTO Onshape [
           rotation -1.000000 0.000000 -0.000000 3.141593
           children [
             DEF porta_botao Mesh {
-              url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/porta_botao.stl"
+              url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/porta_botao.stl"
             }
           ]
         }
@@ -1523,7 +1523,7 @@ PROTO Onshape [
           translation 0.002287 0.029000 -0.045545
           children [
             DEF base_baterias Mesh {
-              url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/base_baterias.stl"
+              url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/base_baterias.stl"
             }
           ]
         }
@@ -1532,7 +1532,7 @@ PROTO Onshape [
           rotation -1.000000 0.000000 -0.000000 1.570796
           children [
             DEF nuc Mesh {
-              url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/nuc.stl"
+              url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/nuc.stl"
             }
           ]
         }
@@ -1541,7 +1541,7 @@ PROTO Onshape [
           rotation 1.000000 -0.000000 -0.000000 1.570796
           children [
             DEF imu Mesh {
-              url "/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/imu.stl"
+              url "/home/lucas/Desktop/RoboFEI/Testing/IC-Prometheus-Webots/webots_prometheus/protos/imu.stl"
             }
           ]
         }

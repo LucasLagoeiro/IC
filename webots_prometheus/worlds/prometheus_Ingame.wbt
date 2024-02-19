@@ -1,0 +1,38 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/robotstadium/protos/RobotstadiumSoccerField.proto"
+EXTERNPROTO "../protos/Onshape.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.0907512277901672 0.21812969548480116 0.971691129218686 0.8090939396532681
+  position -8.714616130886316 -11.493101598961083 3.8222581048601763
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RobotstadiumSoccerField {
+}
+Onshape {
+  translation 4.36 0.03 0.44
+  rotation 0 0 1 -1.5707953071795862
+}
+Onshape {
+  translation 1.02 -0.34 0.44
+  rotation 0 0 1 -1.5707953071795862
+  name "Onshape(1)"
+}
+Onshape {
+  translation 2.97 -0.02 0.44
+  rotation 0 0 1 -1.5707953071795862
+  name "Onshape(2)"
+}
+Onshape {
+  translation 1.11 0.43 0.44
+  rotation 0 0 1 -1.5707953071795862
+  name "Onshape(3)"
+}

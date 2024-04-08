@@ -11,6 +11,7 @@ setup.py
 launch/robot_launch.py
 my_package/__init__.py
 my_package/my_robot_driver.py
+my_package/obstacle_avoider.py
 resource/my_package
 resource/my_robot.urdf
 test/test_copyright.py

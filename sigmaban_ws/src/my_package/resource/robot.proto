@@ -1,0 +1,140 @@
+#VRML_SIM R2023b utf8
+# license: Apache License 2.0
+# license url: http://www.apache.org/licenses/LICENSE-2.0
+# This is a proto file for Webots for the robot
+# Extracted from: /home/lucas/Desktop/RoboFEI/IC/sigmaban_ws/src/my_package/resource/robot.urdf
+
+PROTO robot [
+  field  SFVec3f     translation     0 0 0
+  field  SFRotation  rotation        0 0 1 0
+  field  SFString    name            "robot"  # Is `Robot.name`.
+  field  SFString    controller      "void"   # Is `Robot.controller`.
+  field  MFString    controllerArgs  []       # Is `Robot.controllerArgs`.
+  field  SFString    customData      ""       # Is `Robot.customData`.
+  field  SFBool      supervisor      FALSE    # Is `Robot.supervisor`.
+  field  SFBool      synchronization TRUE     # Is `Robot.synchronization`.
+  field  SFBool      selfCollision   FALSE    # Is `Robot.selfCollision`.
+]
+{
+  Robot {
+    translation IS translation
+    rotation IS rotation
+    controller IS controller
+    controllerArgs IS controllerArgs
+    customData IS customData
+    supervisor IS supervisor
+    synchronization IS synchronization
+    selfCollision IS selfCollision
+    children [
+      Shape {
+        appearance DEF body_material PBRAppearance {
+          baseColor 0.800000 0.800000 0.800000
+          roughness 1.000000
+          metalness 0
+        }
+        geometry DEF body Mesh {
+          url "as/Desktop/RoboFEI/IC/sigmaban_ws/src/my_package/resource/body.stl"
+        }
+      }
+      HingeJoint {
+        jointParameters HingeJointParameters {
+          axis -1.000000 0.000000 0.000000
+          anchor -0.020000 0.032500 0.025000
+        }
+        device [
+          RotationalMotor {
+            name "wheel1_speed"
+            maxVelocity 20.0
+            maxTorque 1.0
+          }
+          PositionSensor {
+            name "wheel1_speed_sensor"
+          }
+        ]
+        endPoint Solid {
+          translation -0.020000 0.032500 0.025000
+          children [
+            Pose {
+              translation 0.020000 -0.032500 -0.025000
+              children [
+                Shape {
+                  appearance DEF wheel_material PBRAppearance {
+                    baseColor 0.262745 0.282353 0.301961
+                    roughness 1.000000
+                    metalness 0
+                  }
+                  geometry DEF wheel Mesh {
+                    url "as/Desktop/RoboFEI/IC/sigmaban_ws/src/my_package/resource/wheel.stl"
+                  }
+                }
+              ]
+            }
+          ]
+          name "wheel_1"
+          boundingObject USE wheel
+          physics Physics {
+            density -1
+            mass 0.335419
+            centerOfMass [ 0.004000 0.000000 -0.000000 ]
+            inertiaMatrix [
+              3.452980e-04 1.743670e-04 1.743670e-04
+              0.000000e+00 0.000000e+00 0.000000e+00
+            ]
+          }
+        }
+      }
+      HingeJoint {
+        jointParameters HingeJointParameters {
+          axis -1.000000 -0.000000 -0.000000
+          anchor 0.095000 0.032500 0.025000
+        }
+        device [
+          RotationalMotor {
+            name "wheel2_speed"
+            maxVelocity 20.0
+            maxTorque 1.0
+          }
+          PositionSensor {
+            name "wheel2_speed_sensor"
+          }
+        ]
+        endPoint Solid {
+          translation 0.095000 0.032500 0.025000
+          children [
+            Pose {
+              translation 0.012000 -0.032500 -0.025000
+              children [
+                Shape {
+                  appearance USE wheel_material
+                  geometry USE wheel
+                }
+              ]
+            }
+          ]
+          name "wheel_2"
+          boundingObject USE wheel
+          physics Physics {
+            density -1
+            mass 0.335419
+            centerOfMass [ -0.004000 0.000000 -0.000000 ]
+            inertiaMatrix [
+              3.452980e-04 1.743670e-04 1.743670e-04
+              0.000000e+00 0.000000e+00 0.000000e+00
+            ]
+          }
+        }
+      }
+    ]
+    name IS name
+    boundingObject USE body
+    physics Physics {
+      density -1
+      mass 2.238740
+      centerOfMass [ 0.037500 0.025384 0.022524 ]
+      inertiaMatrix [
+        2.060230e-03 1.506910e-03 2.543540e-03
+        4.484970e-10 6.470060e-11 -2.876100e-04
+      ]
+    }
+  }
+}

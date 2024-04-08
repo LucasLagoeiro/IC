@@ -26,9 +26,15 @@ def generate_launch_description():
         ]
     )
 
+    obstacle_avoider = Node(
+        package='my_package',
+        executable='obstacle_avoider',
+    )
+
     return LaunchDescription([
         webots,
         my_robot_driver,
+        obstacle_avoider,
         launch.actions.RegisterEventHandler(
             event_handler=launch.event_handlers.OnProcessExit(
                 target_action=webots,

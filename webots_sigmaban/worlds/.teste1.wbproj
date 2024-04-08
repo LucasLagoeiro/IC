@@ -5,5 +5,5 @@ sceneTreePerspectives: 000000ff00000001000000030000001c00000291000000fa010000000
 maximizedDockId: -1
 centralWidgetVisible: 1
 orthographicViewHeight: 1
-textFiles: 0 "../webots_sigmaban/controllers/my_controller_bye_bye/my_controller_bye_bye.cpp"
+textFiles: 0 "controllers/my_controller_bye_bye/my_controller_bye_bye.cpp"
 consoles: Console:All:All

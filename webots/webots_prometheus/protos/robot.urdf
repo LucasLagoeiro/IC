@@ -3,127 +3,127 @@
 <collision>
 <origin xyz="-0.05871307909939271763 0.070968932598709399961 0.1492050532993468015" rpy="-3.1415926535897922278 1.570796326794896558 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/xm_540.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/xm_540.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.087286920900609313301 0.013218932598709230708 0.00045505329934679081272" rpy="-3.141592653589793116 -2.2716361824015281974e-46 3.1415926535897922278" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/tampa_peito.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/tampa_peito.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="-0.040713079099392604498 0.057718932598709679627 -0.021544946700653676286" rpy="3.141592653589793116 -0 -1.1518563880486006996e-15" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/xm_540.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/xm_540.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.045286920900607416374 0.057718932598709582482 -0.021544946700653676286" rpy="3.141592653589793116 -0 -1.1518563880486006996e-15" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/xm_540.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/xm_540.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.05375226121003121027 0.17650008166456132574 -0.0035449467006532890678" rpy="-1.570796326794896558 2.9828802978669302201e-30 -1.5707963267948976682" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/tampa_bateria.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/tampa_bateria.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="-0.052713079099392642912 0.087218932598709414394 0.067455053299346798279" rpy="0 -0 -1.1518563880485997135e-15" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/peito_esquerda.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/peito_esquerda.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="-0.0097130790993926532928 0.097218932598709367765 0.0024550532993467925891" rpy="0 -0 3.1415926535897922278" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/peito_base.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/peito_base.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.063286920900607085416 0.070968932598708706072 0.1492050532993468015" rpy="3.1415926535897922278 -1.570796326794896558 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/xm_540.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/xm_540.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="-0.047213079099393470695 0.1027764958413182883 0.10395505329934680294" rpy="1.570796326794896558 -0 -1.5707963267948981123" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/hub.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/hub.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="-0.082713079099392711191 0.087218932598709456028 0.067455053299346798279" rpy="0 -0 -1.1518563880485997135e-15" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/peito_direita.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/peito_direita.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.067286920900610683316 0.15021893259870966464 0.0074550532993467935605" rpy="1.570796326794896558 -0 3.1415926535897922278" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/placa_eletrica.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/placa_eletrica.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.0024976055933644755735 0.04846893259870786036 0.14895505329934680128" rpy="-1.751623080406019005e-46 3.9443045261048978777e-31 3.1415926535897922278" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/xm_430.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/xm_430.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.027752261210030680638 7.1338626707329044763e-08 0.00045505329934586793983" rpy="-1.57079632679489678 -5.287124778289570822e-16 1.5707963267948958919" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/bateria1.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/bateria1.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.06478692090060764186 0.15221893259870966642 0.0024550532993467925891" rpy="1.570796326794896558 -0 3.1415926535897922278" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/suporte_interno.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/suporte_interno.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.040252261210030823579 0.16900007133862676723 -0.012544946700654032584" rpy="-1.5707963267948970021 4.9303806576313204995e-32 3.1415926535897926719" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/bateria2.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/bateria2.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.0024976055933645310847 0.090968932598709598136 0.1684550532993468186" rpy="-3.141592653589793116 -3.9443045261048970019e-31 -1.1518563880485999107e-15" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/porta_botao.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/porta_botao.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.0022869209006070798096 0.028999894189808826661 -0.045544946700654190264" rpy="0 -0 -1.1518563880486006996e-15" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/base_baterias.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/base_baterias.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="-0.054213079099393129967 0.14021893259871054394 0.10245505329934681549" rpy="-1.570796326794896558 -0 -1.151856388048599319e-15" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/nuc.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/nuc.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="-0.011713079099392849358 0.034318932598709425696 0.12145505329934680461" rpy="1.570796326794896558 -0 -1.151856388048599319e-15" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/imu.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/imu.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="-0.08271307909939265568 0.16121893259870942461 0.00045505329934679081272" rpy="3.141592653589793116 -0 -1.151856388048599319e-15" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/tampa_peito.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/tampa_peito.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/peito_visual.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/peito_visual.stl"/>
 </geometry>
 <material name="peito_material">
 <color rgba="0.68387953367725107245 0.70178833025141817981 0.70674936177082392508 1.0"/>
@@ -140,13 +140,13 @@
 <collision>
 <origin xyz="0 0 0" rpy="1.570796326794896558 1.570796326794896558 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/ombro.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/ombro.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/ombro_visual.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/ombro_visual.stl"/>
 </geometry>
 <material name="ombro_material">
 <color rgba="0.59607843137254901134 0.66666666666666662966 0.68627450980392157298 1.0"/>
@@ -163,37 +163,37 @@
 <collision>
 <origin xyz="0.02449999999999989686 -0.040999999999999980904 -0.036499999999999838129" rpy="2.305560366117391401e-31 -1.5707963267948950037 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/junta_ombro.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/junta_ombro.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.026499999999999912514 -0.15600000000000294187 -0.024500000000000160538" rpy="2.3055603661173454209e-31 -1.5707963267948950037 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/braco.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/braco.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="-0.02649999999999994027 -0.15600000000000052713 -0.024499999999999994005" rpy="-2.305560366117382205e-31 1.5707963267948950037 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/braco.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/braco.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="-0.016750000000000042633 -0.040999999999999980904 -0.036499999999999824252" rpy="2.305560366117391401e-31 -1.5707963267948950037 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/junta_ombro.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/junta_ombro.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0 2.7755575615628913511e-17 -0.024500000000000007883" rpy="5.2148256955714644604e-33 5.5466782398486063304e-32 2.3125582660859357997e-47" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/xm_540.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/xm_540.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/braco_visual.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/braco_visual.stl"/>
 </geometry>
 <material name="braco_material">
 <color rgba="0.59353596788062767953 0.66936803412683310022 0.67626355980448127347 1.0"/>
@@ -210,31 +210,31 @@
 <collision>
 <origin xyz="0.021999999999998791356 -0.05199999999999857514 -0.043499999999999969247" rpy="-3.1415926535897926719 2.2204460492509860778e-16 -1.57079632679489678" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/mao.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/mao.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="-0.018749999999999933387 -0.0010000000000001544112 -0.011499999999999982458" rpy="6.8001160258290749354e-16 4.4408920985013647327e-16 -1.5707963267948970021" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/apoio_mao.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/apoio_mao.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0 1.7347234759768070944e-18 -0.024499999999999994005" rpy="4.3790577010338032917e-46 -1.3130497711208888496e-46 -1.2325951643998714612e-32" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/xm_540.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/xm_540.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.016750000000000000999 -0.0010000000000001500744 -0.011499999999999982458" rpy="4.0245584642661816122e-16 4.4408920985013647327e-16 -1.5707963267948970021" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/apoio_mao.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/apoio_mao.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/mao_visual.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/mao_visual.stl"/>
 </geometry>
 <material name="mao_material">
 <color rgba="0.61161673668447202878 0.67503344645000973312 0.69264919916265921263 1.0"/>
@@ -278,13 +278,13 @@
 <collision>
 <origin xyz="0 0 0" rpy="1.570796326794896558 1.570796326794896558 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/ombro.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/ombro.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/ombro_2_visual.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/ombro_2_visual.stl"/>
 </geometry>
 <material name="ombro_2_material">
 <color rgba="0.59607843137254901134 0.66666666666666662966 0.68627450980392157298 1.0"/>
@@ -301,37 +301,37 @@
 <collision>
 <origin xyz="0.024499999999999966249 -0.041000000000000022538 -0.036500000000000011602" rpy="4.5760095478640576732e-30 -1.5707963267948954478 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/junta_ombro.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/junta_ombro.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0 -2.7755575615628913511e-17 -0.024500000000000000944" rpy="0 -1.0728691367486880699e-45 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/xm_540.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/xm_540.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="-0.016750000000000028755 -0.041000000000000022538 -0.036499999999999997724" rpy="4.5760095478640576732e-30 -1.5707963267948954478 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/junta_ombro.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/junta_ombro.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.026499999999999968026 -0.15600000000000002753 -0.024500000000000000944" rpy="4.5760095478640576732e-30 -1.5707963267948954478 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/braco.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/braco.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="-0.026500000000000023537 -0.15600000000000002753 -0.024499999999999987066" rpy="-4.5760095478640576732e-30 1.5707963267948954478 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/braco.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/braco.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/braco_2_visual.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/braco_2_visual.stl"/>
 </geometry>
 <material name="braco_2_material">
 <color rgba="0.59353596788062779055 0.66936803412683310022 0.67626355980448127347 1.0"/>
@@ -348,31 +348,31 @@
 <collision>
 <origin xyz="-0.018750000000000002776 -0.00099999999999999915345 -0.011499999999999982458" rpy="-2.9143354396410334534e-16 -3.4117848964819861242e-31 -1.57079632679489678" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/apoio_mao.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/apoio_mao.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0 0 -0.024499999999999994005" rpy="0 2.4766958585966570217e-79 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/xm_540.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/xm_540.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.021999999999999977907 -0.051999999999999997613 -0.04350000000000001088" rpy="3.141592653589793116 -2.2204460492503130808e-16 -1.570796326794896558" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/mao.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/mao.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.016750000000000000999 -0.00099999999999999915345 -0.011499999999999982458" rpy="-2.9143354396410354256e-16 -1.507040181483012055e-31 -1.57079632679489678" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/apoio_mao.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/apoio_mao.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/mao_2_visual.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/mao_2_visual.stl"/>
 </geometry>
 <material name="mao_2_material">
 <color rgba="0.61161673668447213981 0.67503344645000984414 0.69264919916265921263 1.0"/>
@@ -416,19 +416,19 @@
 <collision>
 <origin xyz="-0.00075000000000027822189 4.3715031594615538779e-16 -0.060750000000000026201" rpy="-1.5707963267948961139 6.0120630559449576717e-43 1.61778115328625307e-30" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/xm_430.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/xm_430.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="-0.014999999999999999445 0.018999999999999996059 0" rpy="-1.57079632679489678 5.9805338404975210437e-43 -5.8548270307308601735e-32" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/pescoco.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/pescoco.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/pescoco_visual.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/pescoco_visual.stl"/>
 </geometry>
 <material name="pescoco_material">
 <color rgba="0.14435239157831999957 0.14435239157831999957 0.14435239157831999957 1.0"/>
@@ -445,25 +445,25 @@
 <collision>
 <origin xyz="0.019656854249492386466 0.027656854249735213225 -0.069500000000112194254" rpy="-3.2612801348316188126e-16 -1.5707963267948961139 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/webcam.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/webcam.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.0066568542494923818587 0.0056568542494924156649 -0.00050000000000000391354" rpy="4.8914972337439671927e-32 2.6483813265306052138e-31 1.7996832386746615491e-42" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/capacete.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/capacete.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.029656854249492405756 0.057656854249492378583 -0.040499999999999911071" rpy="-3.141592653589793116 -6.9066335183999637695e-30 -3.2612801348316666373e-16" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/tampa_capacete.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/tampa_capacete.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/capacete_visual.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/capacete_visual.stl"/>
 </geometry>
 <material name="capacete_material">
 <color rgba="0.78753642266394952021 0.81204712300446646456 0.91359145298660804357 1.0"/>
@@ -498,13 +498,13 @@
 <collision>
 <origin xyz="0.021200000000000010503 0.020199999999999995737 6.9388939039072283776e-17" rpy="-1.570796326794896558 9.8180834410827397489e-16 -5.8548270308394389092e-32" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/conector_calcanhar.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/conector_calcanhar.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/conector_calcanhar_visual.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/conector_calcanhar_visual.stl"/>
 </geometry>
 <material name="conector_calcanhar_material">
 <color rgba="0.5999999999999999778 0.5999999999999999778 0.5999999999999999778 1.0"/>
@@ -521,43 +521,43 @@
 <collision>
 <origin xyz="0 0 -0.024499999999999994005" rpy="0 1.5967302245940058154e-44 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/xm_540.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/xm_540.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.00056958788169217400288 5.8009153036664429237e-15 -0.1091000000000145187" rpy="-1.5707963267949667241 -1.5265566588620662802e-15 -3.1415926535897926719" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/peca_rolamento.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/peca_rolamento.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.02499958788169530377 -0.040799999999997949018 -0.10380000000001646243" rpy="-1.570796326794966058 1.5265566588349011154e-16 -3.141592653589793116" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/rolamento_motor.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/rolamento_motor.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.00056958788169217400288 5.8009153036664429237e-15 -0.1091000000000145187" rpy="-1.5707963267949667241 -1.5265566588620662802e-15 -3.1415926535897926719" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/rolamento.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/rolamento.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.022499587881693886016 0.013750000000003315126 -0.057350000000004688894" rpy="-1.4033219031261978671e-13 -1.3739009929786178058e-15 -3.1415926535897926719" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/junta_motores.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/junta_motores.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.00049958788169166684634 -0.03099999999999866751 -0.074100000000010629586" rpy="-3.1415926535897926719 -1.5707963267948263919 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/xm_540.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/xm_540.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/motores_duplos_visual.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/motores_duplos_visual.stl"/>
 </geometry>
 <material name="motores_duplos_material">
 <color rgba="0.64257980803402015013 0.70374722674620260321 0.72073817638847570421 1.0"/>
@@ -574,19 +574,19 @@
 <collision>
 <origin xyz="2.7755575615628913511e-17 -0.13050000000000000488 0.02500000000000036221" rpy="-3.141592653589793116 -2.7433973045855473867e-25 -3.1554436208840606741e-28" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/xm_540.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/xm_540.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="-0.01674999999999999406 -0.085749999999999979017 0.052000000000000004552" rpy="-1.57079632679489678 1.2114017459008409767e-33 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/coxa.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/coxa.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/joelho_visual.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/joelho_visual.stl"/>
 </geometry>
 <material name="joelho_material">
 <color rgba="0.59607843137254901134 0.66666666666666662966 0.686274509803921684 1.0"/>
@@ -603,13 +603,13 @@
 <collision>
 <origin xyz="-0.01674999999999999406 -0.14649999999999999134 -0.0019999999999999878986" rpy="-1.570796326794896558 -1.570796326794896336 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/canela.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/canela.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/canela_visual.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/canela_visual.stl"/>
 </geometry>
 <material name="canela_material">
 <color rgba="0.59607843137254901134 0.66666666666666662966 0.68627450980392157298 1.0"/>
@@ -626,43 +626,43 @@
 <collision>
 <origin xyz="0 -5.5511151231257827021e-17 -0.024500000000000000944" rpy="0 2.0630197250388806459e-32 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/xm_540.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/xm_540.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="-0.035000000000000149047 -0.030999999999999805489 -0.024429999999999403582" rpy="-1.57079632679489678 1.570796326794896558 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/rolamento.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/rolamento.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="-0.035000000000000093536 -0.030999999999999805489 -0.024429999999999403582" rpy="-1.57079632679489678 1.570796326794896558 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/peca_rolamento.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/peca_rolamento.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.049600000000000053768 -0.030999999999999916511 -0.024999587881691681668" rpy="-3.141592653589793116 -1.5707963267948952257 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/xm_540.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/xm_540.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="-0.029700000000000052747 0.0098000000000006970424 1.2576745200831851434e-15" rpy="-1.5707963267948961139 1.5707963267948950037 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/rolamento_motor.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/rolamento_motor.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.016750000000000007938 -0.044749999999999956479 -0.0025000000000000074246" rpy="-2.2204460492503130808e-16 1.570796326794896558 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/junta_motores.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/junta_motores.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/motores_duplos_2_visual.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/motores_duplos_2_visual.stl"/>
 </geometry>
 <material name="motores_duplos_2_material">
 <color rgba="0.64257980803402026115 0.70374722674620271423 0.72073817638847581524 1.0"/>
@@ -679,19 +679,19 @@
 <collision>
 <origin xyz="-0.03300000000000002931 -0.020200000000000002676 0.057500000000000037192" rpy="1.570796326794896558 1.570796326794896558 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/conector_calcanhar.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/conector_calcanhar.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="-0.032999999999999973799 0.063799999999999967848 0.20099999999999990097" rpy="-3.141592653589793116 1.5707963267948956698 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/pe.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/pe.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/pe_direito_visual.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/pe_direito_visual.stl"/>
 </geometry>
 <material name="pe_direito_material">
 <color rgba="0.59857936161457225843 0.62415085255227276129 0.63125404447941191322 1.0"/>
@@ -762,13 +762,13 @@
 <collision>
 <origin xyz="0.021199999999999996625 0.020199999999999995737 6.9388939039072283776e-17" rpy="-1.570796326794896558 9.8180834410827397489e-16 2.2958771383604823743e-59" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/conector_calcanhar.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/conector_calcanhar.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/conector_calcanhar_2_visual.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/conector_calcanhar_2_visual.stl"/>
 </geometry>
 <material name="conector_calcanhar_2_material">
 <color rgba="0.5999999999999999778 0.5999999999999999778 0.5999999999999999778 1.0"/>
@@ -785,43 +785,43 @@
 <collision>
 <origin xyz="0.022499587881691693325 0.013750000000000012212 -0.057350000000000081468" rpy="-1.9721522630525295135e-31 -1.373900992973587437e-15 -3.1415926535897926719" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/junta_motores.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/junta_motores.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.02499958788169286128 -0.040800000000000669065 -0.10380000000000008664" rpy="-1.5707963267948958919 1.5265566588597465361e-16 -3.141592653589793116" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/rolamento_motor.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/rolamento_motor.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0 0 -0.024499999999999994005" rpy="0 1.2278891385847272539e-42 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/xm_540.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/xm_540.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.00056958788169212543062 -1.3877787807814456755e-16 -0.10910000000000011355" rpy="-1.570796326794896558 -1.5265566588595212178e-15 -3.1415926535897926719" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/peca_rolamento.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/peca_rolamento.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.00049958788169164602966 -0.031000000000000027534 -0.074100000000000054712" rpy="-3.1415926535897926719 -1.5707963267948952257 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/xm_540.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/xm_540.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.00056958788169212543062 -1.3877787807814456755e-16 -0.10910000000000011355" rpy="-1.570796326794896558 -1.5265566588595212178e-15 -3.1415926535897926719" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/rolamento.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/rolamento.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/motores_duplos_3_visual.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/motores_duplos_3_visual.stl"/>
 </geometry>
 <material name="motores_duplos_3_material">
 <color rgba="0.64257980803401992809 0.70374722674620249219 0.72073817638847559319 1.0"/>
@@ -838,19 +838,19 @@
 <collision>
 <origin xyz="-0.016750000000000000999 0.08575000000000002065 -0.0019999999999999878986" rpy="1.57079632679489678 3.4794671856311128542e-31 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/coxa.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/coxa.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="-4.1633363423443370266e-17 0.13050000000000003264 0.024999999999999650974" rpy="8.2536103740211979106e-16 -3.1554436208840468713e-30 7.5976373918324197656e-16" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/xm_540.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/xm_540.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/joelho_2_visual.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/joelho_2_visual.stl"/>
 </geometry>
 <material name="joelho_2_material">
 <color rgba="0.59607843137254901134 0.66666666666666662966 0.686274509803921684 1.0"/>
@@ -867,13 +867,13 @@
 <collision>
 <origin xyz="-0.01674999999999999406 0.14649999999999999134 0.052000000000000004552" rpy="1.570796326794896558 1.570796326794896558 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/canela.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/canela.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/canela_2_visual.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/canela_2_visual.stl"/>
 </geometry>
 <material name="canela_2_material">
 <color rgba="0.59607843137254901134 0.66666666666666662966 0.68627450980392157298 1.0"/>
@@ -890,43 +890,43 @@
 <collision>
 <origin xyz="0.049600000000000081524 -0.030999999999999972022 -0.024999587881691757996" rpy="-3.141592653589793116 -1.5707963267948947816 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/xm_540.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/xm_540.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="-0.035000000000000128231 -0.030999999999999916511 -0.024429999999999466032" rpy="-1.57079632679489678 1.570796326794896558 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/rolamento.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/rolamento.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0 0 -0.024500000000000007883" rpy="1.1673429762403341069e-32 -3.005266365595118625e-31 -9.1960211721316120279e-46" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/xm_540.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/xm_540.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="-0.029700000000000080502 0.0098000000000006970424 1.1518563880485999107e-15" rpy="-1.5707963267948961139 1.5707963267948947816 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/rolamento_motor.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/rolamento_motor.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="0.01674999999999999406 -0.044750000000000067502 -0.0025000000000000577316" rpy="1.1102230246251469262e-16 1.570796326794896336 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/junta_motores.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/junta_motores.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="-0.035000000000000128231 -0.030999999999999916511 -0.024429999999999466032" rpy="-1.57079632679489678 1.570796326794896558 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/peca_rolamento.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/peca_rolamento.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/motores_duplos_4_visual.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/motores_duplos_4_visual.stl"/>
 </geometry>
 <material name="motores_duplos_4_material">
 <color rgba="0.64257980803401992809 0.70374722674620260321 0.72073817638847548217 1.0"/>
@@ -943,19 +943,19 @@
 <collision>
 <origin xyz="-0.03599999999999980993 -0.063799999999999870703 0.20099999999999987321" rpy="2.514494135391981856e-29 1.5707963267948956698 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/pe.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/pe.stl"/>
 </geometry>
 </collision>
 <collision>
 <origin xyz="-0.032999999999999973799 -0.020199999999999995737 0.057499999999999995559" rpy="1.570796326794896558 1.570796326794896558 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/conector_calcanhar.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/conector_calcanhar.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="/home/llagoeiro/Desktop/IC/IC-Prometheus-Webots/webots_prometheus/protos/pe_esquerdo_visual.stl"/>
+<mesh filename="/home/lucas/Desktop/RoboFEI/IC/webots/webots_prometheus/pe_esquerdo_visual.stl"/>
 </geometry>
 <material name="pe_esquerdo_material">
 <color rgba="0.59857936161457225843 0.62415085255227276129 0.63125404447941191322 1.0"/>

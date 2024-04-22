@@ -1,0 +1,25 @@
+running develop
+running egg_info
+writing my_package.egg-info/PKG-INFO
+writing dependency_links to my_package.egg-info/dependency_links.txt
+writing entry points to my_package.egg-info/entry_points.txt
+writing requirements to my_package.egg-info/requires.txt
+writing top-level names to my_package.egg-info/top_level.txt
+reading manifest file 'my_package.egg-info/SOURCES.txt'
+writing manifest file 'my_package.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/install/my_package/lib/python3.8/site-packages/site.py
+Creating /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/install/my_package/lib/python3.8/site-packages/my-package.egg-link (link to .)
+Installing my_robot_driver script to /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/install/my_package/lib/my_package
+Installing obstacle_avoider script to /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/install/my_package/lib/my_package
+
+Installed /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/build/my_package
+running symlink_data
+symbolically linking /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/build/my_package/resource/my_package -> /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/install/my_package/share/ament_index/resource_index/packages
+symbolically linking /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/build/my_package/launch/robot_launch.py -> /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/install/my_package/share/my_package/launch
+symbolically linking /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/build/my_package/worlds/my_world.wbt -> /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/install/my_package/share/my_package/worlds
+symbolically linking /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/build/my_package/resource/my_robot.urdf -> /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/install/my_package/share/my_package/resource
+symbolically linking /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/build/my_package/protos/robot.urdf -> /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/install/my_package/share/my_package/protos
+symbolically linking /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/build/my_package/protos/body.stl -> /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/install/my_package/share/my_package/protos
+symbolically linking /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/build/my_package/protos/wheel.stl -> /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/install/my_package/share/my_package/protos
+symbolically linking /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/build/my_package/package.xml -> /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/install/my_package/share/my_package

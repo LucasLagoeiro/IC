@@ -1,0 +1,23 @@
+[0.923s] Invoking command in '/home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/src/my_package': PYTHONPATH=/home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/build/my_package/prefix_override:/home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/build/my_package/build install --record /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/build/my_package/install.log --install-scripts $base/lib/my_package --single-version-externally-managed install_data
+[1.229s] running egg_info
+[1.229s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[1.230s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[1.230s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[1.231s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[1.231s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[1.284s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.286s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.286s] running build
+[1.286s] running build_py
+[1.286s] running install
+[1.287s] running install_lib
+[1.289s] running install_data
+[1.289s] copying launch/robot_launch.py -> /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/install/my_package/share/my_package/launch
+[1.290s] running install_egg_info
+[1.292s] removing '/home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info' (and everything under it)
+[1.292s] Copying ../../build/my_package/my_package.egg-info to /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info
+[1.293s] running install_scripts
+[1.315s] Installing my_robot_driver script to /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/install/my_package/lib/my_package
+[1.316s] Installing obstacle_avoider script to /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/install/my_package/lib/my_package
+[1.316s] writing list of installed files to '/home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/build/my_package/install.log'
+[1.344s] Invoked command in '/home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/src/my_package' returned '0': PYTHONPATH=/home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/build/my_package/prefix_override:/home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/build/my_package/build install --record /home/lucas/Desktop/RoboFEI/IC/ros2/sigmaban_ws/build/my_package/install.log --install-scripts $base/lib/my_package --single-version-externally-managed install_data

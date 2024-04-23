@@ -138,11 +138,13 @@ void Walk::run() {
     while ((key = mKeyboard->getKey()) >= 0) {
       switch (key) {
         case ' ':  // Space bar
+          cout << "I press space bar" << endl;   
           if (isWalking) {
             mGaitManager->stop();
             isWalking = false;
             wait(200);
           } else {
+            cout << "I will walk " << endl; 
             mGaitManager->start();
             isWalking = true;
             wait(200);
@@ -156,9 +158,11 @@ void Walk::run() {
           break;
         case Keyboard::RIGHT:
           mGaitManager->setAAmplitude(-0.5);
+          cout << "Going right" << endl; 
           break;
         case Keyboard::LEFT:
           mGaitManager->setAAmplitude(0.5);
+          cout << "Going left" << endl; 
           break;
       }
     }

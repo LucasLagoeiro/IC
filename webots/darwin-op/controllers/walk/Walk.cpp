@@ -121,8 +121,8 @@ void Walk::run() {
   myStep();
 
   // play the hello motion
-  mMotionManager->playPage(9);  // init position
-  wait(200);
+  // mMotionManager->playPage(9);  // init position
+  // wait(200);
 
   // main loop
   bool isWalking = false;
@@ -130,8 +130,8 @@ void Walk::run() {
   while (true) {
     checkIfFallen();
 
-    mGaitManager->setXAmplitude(0.0);
-    mGaitManager->setAAmplitude(0.0);
+    mGaitManager->setXAmplitude(1.0);
+    mGaitManager->setAAmplitude(1.0);
 
     // get keyboard key
     int key = 0;

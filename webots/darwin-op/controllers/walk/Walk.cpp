@@ -130,8 +130,8 @@ void Walk::run() {
   while (true) {
     checkIfFallen();
 
-    mGaitManager->setXAmplitude(1.0);
-    mGaitManager->setAAmplitude(1.0);
+    mGaitManager->setXAmplitude(0.0);
+    mGaitManager->setAAmplitude(0.0);
 
     // get keyboard key
     int key = 0;

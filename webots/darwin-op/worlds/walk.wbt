@@ -2,8 +2,6 @@
 
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/Floor.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Parquetry.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/robotstadium/protos/RobotstadiumSoccerField.proto"
 
 WorldInfo {
@@ -15,19 +13,12 @@ WorldInfo {
   basicTimeStep 16
 }
 Viewpoint {
-  orientation 0.17153230680382467 0.1713767381476661 -0.9701580702877366 1.6019948726188367
-  position -2.2142684457163284 5.924837150297133 1.9213345359937695
+  orientation 0.23127082478601813 0.11601056934885957 -0.9659479040829004 2.239184663186029
+  position 2.039370989609429 5.605325733452622 3.496662961315179
 }
 TexturedBackground {
 }
 TexturedBackgroundLight {
-}
-Floor {
-  translation 0 0 -1
-  size 1000 1000
-  tileSize 1 1
-  appearance Parquetry {
-  }
 }
 Robot {
   translation -2.14308 -0.00374754 0.291606
@@ -314,8 +305,8 @@ Robot {
         }
       ]
       endPoint Solid {
-        translation -0.05109123797057741 -0.01169861527252892 -0.004665818442735448
-        rotation 0.7071056682084746 0.7071078941558697 3.1461172375235544e-06 3.1415861625807344
+        translation -0.05109123797221227 -0.011698615255187042 -0.004665818442735448
+        rotation 0.7071056695085134 0.707107892855835 3.146117231556597e-06 3.1415861625807238
         children [
           Pose {
             translation -0.00494 0 0.003
@@ -541,7 +532,7 @@ Robot {
                                 RotationalMotor {
                                   name "AnkleR"
                                   maxVelocity 6
-                                  minPosition -1.0921670037248092
+                                  minPosition -1.0921670201732048
                                   maxPosition 1.09
                                 }
                                 PositionSensor {
@@ -592,7 +583,7 @@ Robot {
                                     ]
                                     endPoint Solid {
                                       translation 0.0234 0 -0.026
-                                      rotation 0.7070715253818496 -0.00977348332886459 -0.7070744918449577 3.122042582765513
+                                      rotation 0.7070715253818499 -0.009773483328864605 -0.7070744918449571 3.122042582765513
                                       children [
                                         Pose {
                                           translation -0.0435 -0.05 -0.03213
@@ -1001,8 +992,8 @@ Robot {
         }
       ]
       endPoint Solid {
-        translation 0.0420712760338373 -0.011660179414339812 -0.004659641490324717
-        rotation 0.7071054240671723 0.7071081383026204 -9.93283478211759e-07 3.1415909742719195
+        translation 0.042071276035329105 -0.01166017943014594 -0.004659641490324717
+        rotation 0.7071054227686873 0.7071081396011007 -9.932834766698668e-07 3.141590974271914
         children [
           Pose {
             translation -0.00494 0 0.003
@@ -1661,7 +1652,7 @@ Robot {
               }
             ]
             endPoint Solid {
-              translation 0.012708000000000948 0.013859300118161815 0.0297627996358296
+              translation 0.0127080000000009 0.013859300118161721 0.02976279963582957
               rotation 0.7050287686967168 -0.2861842317120532 0.6488705732496836 2.988710710343222
               children [
                 Pose {
@@ -2145,8 +2136,8 @@ Robot {
         }
       ]
       endPoint Solid {
-        translation -0.004744033031473855 -0.03727355567157529 0.18551154376249646
-        rotation -1.0173962733945434e-07 2.3439528472635013e-08 -0.9999999999999946 3.090273497990218
+        translation -0.004744033031473839 -0.03727355567157529 0.18551154376249646
+        rotation -1.0173962733945432e-07 2.343952847263501e-08 -0.9999999999999944 3.090273497990218
         children [
           Pose {
             translation 0 0 0.003

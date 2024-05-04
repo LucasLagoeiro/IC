@@ -36,7 +36,7 @@ There are two versions of the world available: one with Prometheus in a game (wi
 </p>
 
 <p align="center">
-  <img src="imgs/PrometheusInGame.png" width="1000" height="500"/>
+  <img src="imgs/PrometheusInGame.png" width="800" height="500"/>
 </p>
 
 <p align="center">
@@ -44,7 +44,7 @@ There are two versions of the world available: one with Prometheus in a game (wi
 </p>
 
 <p align="center">
-  <img src="imgs/PrometheusAlone.png" width="1000" height="500"/>
+  <img src="imgs/PrometheusAlone.png" width="800" height="500"/>
 </p>
 
 For Sigmaban, access the following directory
@@ -63,7 +63,7 @@ There, you'll find the world of Sigmaban with the implemented walking algorithm.
 </p>
 
 <p align="center">
-  <img src="imgs/Sigmaban.png"  width="1000" height="500">
+  <img src="imgs/Sigmaban.png"  width="800" height="500">
 </p>
 
 Obs: The control of the walking is
